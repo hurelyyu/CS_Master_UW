@@ -21,8 +21,8 @@ from lxml import objectify
 
 #testpath = '/Users/yaqunyu/UW_2016_Winter/TCSS555dataset/Public_Test/'
 try:
-    testpath = sys.argv[1]
-    outputpath = sys.argv[2]
+    testpath = sys.argv[2]
+    outputpath = sys.argv[4]
     print "Test Data is at " + testpath
     print "Output Folder is: " + outputpath
 except IndexError as e:
