@@ -56,7 +56,7 @@ X = age_image.drop(['agegroup'], axis=1)
 data = X.as_matrix(columns=X.columns[1:])
 
 ################################################################################################################################################
-#Construct Matrix of partial image information from oxford.csv by Select k best from Sklearn module
+#Select k best from Sklearn module
 ################################################################################################################################################
 # top k features for oxford get back the best result
 from sklearn.feature_selection import SelectKBest
@@ -143,18 +143,50 @@ n_samples = X_train.shape[0]
 scores = cross_validation.cross_val_score(clf2, X_train, Y_train, cv=5)
 print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
 # 0.59
-########################################################################
-## fitting the model OneVsRestClassifier and top k best features
+###############################################################################
+#SVD
+from sklearn import linear_model
+from sklearn.decomposition import TruncatedSVD
+from sklearn import linear_model
 from sklearn.multiclass import OneVsRestClassifier
-from sklearn.svm import SVC
-selector = SelectKBest(f_classif, k=5)
-X_new= selector.fit_transform(data, label)
+from sklearn.svm import LinearSVC
+import numpy as np
+from sklearn import datasets
+
+n_components = 5 
+pca = TruncatedSVD(n_components=n_components)
+# data = pca.fit_transform(X)
 X_train, X_test, Y_train, Y_test = train_test_split(X_new,label,test_size=0.3,random_state=0)
-classif = OneVsRestClassifier(SVC(kernel='linear'))
-clf = classif.fit(X_train, Y_train)
-n_samples = X_train.shape[0]
-scores = cross_validation.cross_val_score(clf, X_train, Y_train, cv=3)
+###after several experiments linear svc gave the best result:
+clf = OneVsRestClassifier(LinearSVC(random_state=0))
+clf2 = clf.fit(X_train, Y_train)
+#cv = cross_validation.ShuffleSplit(n_samples, n_iter=5,test_size = 0.3, random_state = 0)
+scores=cross_validation.cross_val_score(clf2, X_train, Y_train, cv=3)
 print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
+# 54% array([ 0.47755544,  0.59859155,  0.53821138]) cv=3
+# 0.42 (+/- 0.42) array([ 0.59009009,  0.59062218,  0.58972047,  0.09584087,  0.25497288]) cv=5
+###############################################################################
+#unsupervised SVM
+from sklearn import svm
+clf = svm.SVC()
+data = X_new.as_matrix(columns=X_new.columns[1:])
+label = age_image["agegroup"].tolist()
+X_train, X_test, Y_train, Y_test = train_test_split(data,label,test_size=0.3,random_state=0)
+clf2 = clf.fit(X_train, Y_train)
+scores=cross_validation.cross_val_score(clf2, X_train, Y_train, cv=5)
+print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
+#non select key best, for all features svm 0.59 test_size=0.25, random_state=42 array([ 0.59046283,  0.59046283,  0.59046283,  0.59058989,  0.59100492])
+###############################################################################
+########################################################################
+#Bernoulli Naive Bayes
+from sklearn.naive_bayes import BernoulliNB
+clf = BernoulliNB()
+X_train, X_test, Y_train, Y_test = train_test_split(X_new,label,test_size=0.3,random_state=42)
+clf2 = clf.fit(X_train, Y_train)
+n_samples = X_train.shape[0]
+scores = cross_validation.cross_val_score(clf2, X_train, Y_train, cv=5)
+print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
+
 
 ################################################################################################################################################
 #Construct Matrix of partial image information from oxford.csv by Maually Select features related close to age
