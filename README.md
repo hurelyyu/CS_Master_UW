@@ -4,3 +4,6 @@ With the appearance of the social network, more and more people like to share th
 
 Algorithm in use:
 KNN, SVD, SVM, PCA, Neural Network, Naive Bayes
+
+Library in use:
+OpenCV, Oxfore, LIWC, NLTK, Sklearn
