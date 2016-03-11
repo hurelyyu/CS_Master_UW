@@ -16,19 +16,20 @@ from random import shuffle
 from numpy import array
 import sys
 
-# textpath = "/Users/XinheLovesMom/Google Drive/TCSS555/Train/Text"
+textpath = "/Users/XinheLovesMom/Google Drive/TCSS555/Train/Text/"
 # outputpath = "/Users/XinhelovesMom/Google Drive/TCSS555/Public Test/Results/"
 
 try:
     testpath = sys.argv[2]
     outputpath = sys.argv[4]
+    testpath = testpath + "/text/"
     print "Test Data is at " + testpath
     print "Output Folder is: " + outputpath
 except IndexError as e:
     print "ERROR: input paths are required: 1: path to test data 2: output path"
     sys.exit()
 
-textpath = "/data/training/text/"
+#textpath = "/data/training/text/"
 textfiles = [f for f in listdir(textpath) if isfile(join(textpath, f))]
 ############## test dataset ##################
 # testpath = "/Users/XinhelovesMom/Google Drive/TCSS555/Public Test/Text"
@@ -52,7 +53,7 @@ texttb = extText(textfiles,textpath)
 ################# testing dataset:########################
 testtb = extText(testfiles,testpath)
 #####################################################
-mypath = textpath.replace("Text","Profile/")+"Profile.csv"
+mypath = textpath.replace("Text","Profile")+"Profile.csv"
 o = open(mypath,'rU')
 profiletb = csv.DictReader(o)
 
@@ -233,90 +234,59 @@ def tokenize(text):
             tokens.append(w)
     return tokens
 
-## 80000 most frequentiest terms
-vec = TfidfVectorizer(encoding="latin-1",tokenizer = tokenize,token_pattern=r'(?u)\b\w\w+\b|^[_\W]+$',lowercase=False,max_features=50000)
+## 15000 most frequentiest terms
+vec = TfidfVectorizer(encoding="latin-1",tokenizer = tokenize,token_pattern=r'(?u)\b\w\w+\b|^[_\W]+$',lowercase=False,max_features=15000,max_df=0.7,min_df=2,use_idf=True,ngram_range=(1,3))
 # remove the spaces
 docs2 = [doc.replace("\t","").replace("\n","") for doc in docs]
 X = vec.fit_transform(docs2)
 ## chi2 method to select best 5000 terms
-selector = SelectKBest(chi2,k=5000)
-allvec_new = selector.fit_transform(X.toarray(),label)
+#selector = SelectKBest(chi2,k=5000)
+#allvec_new = selector.fit_transform(X.toarray(),label)
 
 ### gaussian naive bayes
-from sklearn.naive_bayes import GaussianNB
-gnb = GaussianNB()
+#from sklearn.naive_bayes import GaussianNB
+#gnb = GaussianNB()
 # gnb.fit(allvec_new[:6650], label[:6650])
-gnb.fit(allvec_new, label)
+#gnb.fit(allvec_new, label)
+
+## feature selection:
+from sklearn import linear_model
+from sklearn.decomposition import TruncatedSVD
+n_components = 180
+pca = TruncatedSVD(n_components=n_components)
+data = pca.fit_transform(X)
+
+## fitting the model
+from sklearn import linear_model
+from sklearn.multiclass import OneVsRestClassifier
+from sklearn.svm import LinearSVC
+import numpy as np
+from sklearn import datasets
+
+clf = LinearSVC(random_state=0)
+clf.fit(data, label)
+
 X_test = vec.transform(testdocs)
-X_test = selector.transform(X_test)
+testdata = pca.transform(X_test)
+
 ################### test data get output and writeout files ###################
-pred = gnb.predict(X_test.toarray())
+pred = clf.predict(testdata)
+print "# of components: "+n_components 
 outdf = pd.DataFrame({"userid":testuids,"gender":pred.tolist()})
-####
-# print("Gender is: "+str(pred.tolist()))
-#####################################
-
-# pred = gnb.predict(allvec_new[6650:])
-
-# print(np.mean(pred == label[6650:]))
-# # 0.78877192982456146
-# ## select 8000 terms
-# selector = SelectKBest(chi2,k=8000)
-# allvec_new = selector.fit_transform(X.toarray(),label)
-# gnb.fit(allvec_new[:6650], label[:6650])
-# pred = gnb.predict(allvec_new[6650:])
-# print(np.mean(pred == label[6650:]))
-# # 0.804210526316
-# ## select 10000 'best' terms
-# selector = SelectKBest(chi2,k=10000)
-# allvec_new = selector.fit_transform(X.toarray(),label)
-# gnb.fit(allvec_new[:6650], label[:6650])
-# pred = gnb.predict(allvec_new[6650:])
-# print(np.mean(pred == label[6650:]))
-# # 0.821052631579
-
-##### 5 folds cross validation #####
-def genderClassify(model,label,top,X):
-    selector = SelectKBest(chi2,k=top)
-    allvec_new = selector.fit_transform(X.toarray(),label)
-    scores = cross_validation.cross_val_score(model, allvec_new, label, cv=5)
-    print "Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2) 
-    print str(scores.tolist()) 
-
-### 5 folds cv of gaussian naive bayes 
-# genderClassify(gnb,label,10000,X)
-# Accuracy: 0.83 (+/- 0.01)  *** best result so far
-# [0.8311415044713308, 0.8327196212519726, 0.8221052631578948, 0.8183254344391785, 0.8251711427066877]
-## no difference when keep increase the #of selected terms in dtm
-# >>> genderClassify(gnb,label,12000,X)
-# Accuracy: 0.83 (+/- 0.01)
-# [0.8348237769594951, 0.8342977380326144, 0.8242105263157895, 0.8204318062137967, 0.8293838862559242]
-# >>> genderClassify(gnb,label,15000,X)
-# Accuracy: 0.83 (+/- 0.01)
-# [0.8374539715938979, 0.8390320883745397, 0.8236842105263158, 0.8230647709320695, 0.832016850974197]
 
 
 ############## text mining classify age group ######################
-mypath = textpath.replace("Text","Profile/")+"Profile.csv"
-o = open(mypath,'rU')
-profiletb = csv.DictReader(o)
-
-proftb = {}
-for row in profiletb:
-    proftb[row.get("userid")] = [row.get("gender"),row.get("age")]
-
-proftb = [(key,value) for key,value in proftb.items()]
 ## age:
-ages = [(key,value[1]) for key,value in proftb]
+ages = [(value[0],value[2]) for value in profl]
 agetb = pd.DataFrame(ages)
 agetb.columns = ["usrid","age"]
 
 ## change to age group:
 ages = agetb["age"].tolist()
 def groupAge(age):
-    age = int(age)
-    if age >= 18 and age <= 24:
-        return "18-24"
+    age = float(age)
+    if age <= 24:
+        return "xx-24"
     elif age >= 25 and age <= 34:
         return "25-34"
     elif age >= 35 and age <= 49:
@@ -334,79 +304,38 @@ agetext = age_text[["agegroup","text"]]
 label = agetext["agegroup"].tolist()
 
 ### multiple labels learning:
-from sklearn.multiclass import OneVsRestClassifier
-from sklearn.svm import LinearSVC
-import numpy as np
-from sklearn import cross_validation
-from sklearn import datasets
-from sklearn import svm
+
 
 ## function
-def AgeClassifier(freq1,best2,docs,label,model):
-  vec = TfidfVectorizer(encoding="latin-1",tokenizer = tokenize,token_pattern=r'(?u)\b\w\w+\b|^[_\W]+$',lowercase=False,max_features=freq1)
-  selector = SelectKBest(chi2,k=best2)
-  X = vec.fit_transform(docs)
-  allvec_new = selector.fit_transform(X.toarray(),label)
-  scores = cross_validation.cross_val_score(model, allvec_new, label, cv=5)
-  print "Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2) 
+#def AgeClassifier(freq1,best2,docs,label,model):
+#  vec = TfidfVectorizer(encoding="latin-1",tokenizer = tokenize,token_pattern=r'(?u)\b\w\w+\b|^[_\W]+$',lowercase=False,max_features=freq1)
+#  selector = SelectKBest(chi2,k=best2)
+#  X = vec.fit_transform(docs)
+#  allvec_new = selector.fit_transform(X.toarray(),label)
+#  scores = cross_validation.cross_val_score(model, allvec_new, label, cv=5)
+#  print "Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2) 
 
 ### after several experiments linear svc gave the best result:
 clf = OneVsRestClassifier(LinearSVC(random_state=0))
 #### prepare training set and testing set:
-vec = TfidfVectorizer(encoding="latin-1",tokenizer = tokenize,token_pattern=r'(?u)\b\w\w+\b|^[_\W]+$',lowercase=False,max_features=50000)
-selector = SelectKBest(chi2,k=5000)
-X = vec.fit_transform(docs2)
+vec = TfidfVectorizer(encoding="latin-1",tokenizer = tokenize,token_pattern=r'(?u)\b\w\w+\b|^[_\W]+$',lowercase=False,max_features=nfeatures,max_df=0.7,min_df=2,use_idf=True,ngram_range=(1,3))
+#******************************************TRAINING AND TESTING SEPERATE*****************************************************
 ## chi2 method to select best 5000 terms
-allvec_new = selector.fit_transform(X.toarray(),label)
-#### preparing the testing dataset 
-X_test = vec.transform(testdocs)
-X_test = selector.transform(X_test)
+#allvec_new = selector.fit_transform(X.toarray(),label)
+#### preparing the testing dataset
+#X_test = vec.transform(testdocs)
+#X_test = selector.transform(X_test)
 ### fitting the model:
 # clf.fit(allvec_new[:6650], label[:6650])
-clf.fit(allvec_new, label)
+clf.fit(data, label)
 ### getting the predicted values: 
-pred = clf.predict(X_test.toarray())
+pred = clf.predict(testdata)
 outdf["agegroup"] = pred.tolist()
 
 print "Gender and Age Group Classification Process finished"
-
-#### write the table to csv file contains gender and agegroup associated with userid
-# outdf.to_csv(outputpath+"predicted_gender_agegroup.csv", cols = ("userid","gender","agegroup"), encoding='utf-8',index=False)
-# print "predicted_gender_agegroup.csv is generated. Process finished"
-
-# ## store the 
-# texttb.to_csv("texttb.csv",cols=("userid","text"),index=False)
-# print("texttb.csv file generated. stores the cleaned text data for each user")
-## get the text cleaned docs
-# If the number of features is much greater than the number of samples, the method is likely to give poor performances.
-# SVMs do not directly provide probability estimates, these are calculated using an expensive five-fold cross-validation (see Scores and probabilities, below).
-# less features supposed to give better results: since we only have 6650 samples
-# AgeClassifier(20000,10000,docs2,label,clf)
-# Accuracy: 0.63 (+/- 0.02)
-# AgeClassifier(50000,5000,docs2,label,clf)  ## best for now
-# Accuracy: 0.64 (+/- 0.01)
-# AgeClassifier(50000,20000,docs2,label,clf)
-# Accuracy: 0.63 (+/- 0.02)
-# AgeClassifier(50000,12000,docs2,label,clf)
-# Accuracy: 0.64 (+/- 0.02)
-# AgeClassifier(50000,4000,docs2,label,clf)
-# Accuracy: 0.62 (+/- 0.01)
-# AgeClassifier(50000,5000,docs2,label,clf)
-# Accuracy: 0.63 (+/- 0.01)
-# AgeClassifier(50000,8000,docs2,label,clf) *** best
-# Accuracy: 0.64 (+/- 0.01)
-
-### gaussian naive bayes:
-# AgeClassifier(50000,8000,docs2,label,gnb)
-# # Accuracy: 0.61 (+/- 0.02)
-# AgeClassifier(50000,5000,docs2,label,gnb)
-# # Accuracy: 0.61 (+/- 0.01)
-# AgeClassifier(50000,12000,docs2,label,gnb)
-# Accuracy: 0.59 (+/- 0.02)
-
-
-###################################### personality #########################
-mypath = textpath.replace("Text","Profile/")+"Profile.csv"
+#
+####################################### personality #########################
+mypath = textpath.replace("Text","Profile")+"Profile.csv"
 o = open(mypath,'rU')
 profiletb = csv.DictReader(o)
 
@@ -426,9 +355,9 @@ person_text = pertb.merge(texttb,on="usrid")
 def f_regression(X,Y):
    import sklearn
    return sklearn.feature_selection.f_regression(X,Y,center=False) 
-
-### get the vec
-### inputs: train_tb and test_tb and 20000
+#
+#### get the vec
+#### inputs: train_tb and test_tb and 20000
 def getTextVecTest(best1,train_tb,testtb):
     docs = train_tb["text"]
     textl = docs.tolist()
@@ -450,8 +379,6 @@ def getTextVecTest(best1,train_tb,testtb):
 X,X_test = getTextVecTest(20000,person_text,testtb)
 
 ## fitting the model:
-from sklearn import linear_model
-from sklearn.decomposition import TruncatedSVD
 regression = linear_model.LinearRegression()
 
 ## 50 dimensions from pca
