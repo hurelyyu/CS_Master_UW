@@ -48,13 +48,6 @@ for index, row in genderdf.iterrows():
     gendermatrix[index].append(str(gender))
 
 # for userid, faceRectangle_width,faceRectangle_height,faceRectangle_left, faceRectangle_top,facialHair_sideburns,facialHair_beard in reader:
-#     useri_arr.append(userid)
-#     faceRectangle_width[userid]=faceRectangle_width
-#     faceRectangle_height[userid]=faceRectangle_height
-#     faceRectangle_left[userid]=faceRectangle_left
-#     faceRectangle_top[userid]=faceRectangle_top
-#     facialHair_beard[userid]=facialHair_beard    
-#     facialHair_sideburns[userid]=facialHair_sideburns
 
 matrix = [[]*7916*7 for x in xrange(len(df))]
 #matrix = [[]*7916*7 for x in xrange(10)]
@@ -93,7 +86,6 @@ if 'userid' in gender_image.columns:
     1
 else:
     0
-
 
 ########################################################################
 #create face infor numpy array facearr
@@ -220,27 +212,27 @@ print "Successful write to files"
 #  max_iter=-1, probability=False, random_state=None, shrinking=True,
 #  tol=0.001, verbose=False)
 ###############################################################################
-# Quantitative evaluation of the model quality on the test set
-# print("Predicting people's gender on the test set")
-# true = 0
-# false = 0
-# t0 = time()
-# y_pred = clf.predict(X_test_pca)
-# print("done in %0.3fs" % (time() - t0))
-# y_pred
-# y_test
-# for j in range(-1,len(y_test)):
-#     if (y_pred[j] == y_test[j]):
-#         true = true +1
-#     else:
-#         false = false +1
+#Quantitative evaluation of the model quality on the test set
+print("Predicting people's gender on the test set")
+true = 0
+false = 0
+t0 = time()
+y_pred = clf.predict(X_test_pca)
+print("done in %0.3fs" % (time() - t0))
+y_pred
+y_test
+for j in range(-1,len(y_test)):
+    if (y_pred[j] == y_test[j]):
+        true = true +1
+    else:
+        false = false +1
 
-# print "true : " ,true 
-# print "false : " , false 
-# total = true + false 
-# print total
-# accuracy = float(true) / float(total)
-# print "accuracy: ", accuracy
+print "true : " ,true 
+print "false : " , false 
+total = true + false 
+print total
+accuracy = float(true) / float(total)
+print "accuracy: ", accuracy
 
 # #####crossed Validation######################################################
 n_samples = X_train_pca.shape[0]
@@ -249,20 +241,6 @@ scores=cross_validation.cross_val_score(clf, X_train_pca, y_train, cv=5)
 print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
 # 60%
 
-#range(0,5501), n_components=200, 30x30, 0.25, 0.68 random_state=42
-#range(0,5501), n_components=300, 100x100, 0.25 0.66 random_state=5
-#range(0,5501), n_components=300, 100x100, 0.3 0.65778316172 random_state=5
-#range(0,6501), n_components=300, 30x30, 0.3 0.678113787801 random_state=5
-#range(0,6501), n_components=300, 30x30, 0.25 0.686346863469 random_state=5
-#range(0,9500), n_components=200, 30x30, 0.25 0.709175084175 random_state=5
-#range(0,9500), n_components=600, 30x30, 0.25 0.645622895623 random_state=5
-#range(0,9500), n_components=200, 30x30, 0.25 0.712121212121 random_state=42
-
-
-
-
-
-##age 
 
 
 
