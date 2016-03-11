@@ -9,13 +9,6 @@ from nltk.stem import PorterStemmer
 from nltk.tokenize import SpaceTokenizer
 from nltk.corpus import stopwords
 from functools import partial
-from sklearn import linear_model
-
-
-from sklearn.decomposition import TruncatedSVD
-from sklearn.multiclass import OneVsRestClassifier
-from sklearn.svm import LinearSVC
-from sklearn import datasets
 
 import re
 import string
@@ -94,6 +87,7 @@ data = X.as_matrix(columns=X.columns[1:])
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import f_classif
+from sklearn.feature_selection import chi2
 
 # top 3 features for oxford get back the best result
 selector = SelectKBest(f_classif, k=3)
@@ -173,7 +167,7 @@ X_train, X_test, y_train, y_test = train_test_split(
      X, y, test_size=0, random_state=42)
 n_components = X_train.shape[0]
 t0 = time()
-neigh = KNeighborsClassifier(n_neighbors=90)
+neigh = KNeighborsClassifier(n_neighbors=10)
 clf = neigh.fit(X_train, y_train)
 # print("Best estimator found by grid search:") #Best estimator found by grid search:
 # print(clf.best_estimator_) 
@@ -218,242 +212,6 @@ print "Gender Classification Process Finished"
 #################################################################
 ############### age group classification using text #############
 #################################################################
-## age:
-#age Predict
-from time import time
-import random
-import numpy as np
-from sklearn import cross_validation
-from sklearn.cross_validation import train_test_split
-from sklearn.decomposition import RandomizedPCA
-from sklearn.feature_extraction import image
-from sklearn.grid_search import GridSearchCV
-from sklearn.svm import SVC
-from sklearn.metrics import classification_report
-from sklearn.metrics import confusion_matrix
-import os
-from PIL import Image
-import pandas as pd
-from sklearn.feature_selection import f_regression
-from sklearn.feature_selection import SelectKBest
-from sklearn.datasets import samples_generator
-from sklearn import svm
-
-# Age: A XX-24
-# Age: B 25-34
-# Age: C 35-49
-# Age: D 50-xx
-########################################################################
-#train image in Oxford process
-agematrix = [[] for x in xrange(9500)]
-age_dic = {}
-useri_arr = [] 
-
-agetraindf = pd.read_csv('/data/training/profile/profile.csv',sep=',')
-for index, row in agetraindf.iterrows():
-    userid = row['userid']
-    age = row['age']
-    agematrix[index].append(userid)
-    agematrix[index].append(str(age))
-
-ageDF = pd.DataFrame(agematrix)
-ageDF.columns=['userid','age']
-ages = ageDF['age'].tolist()
-agegroups = []
-for age in ages:
-    age = int(float(age))
-    if age <= 24:
-        agegroups.append("XX-24")
-    elif age >= 25 and age <= 34:
-        agegroups.append("25-34")
-    elif age >= 35 and age <= 49:
-        agegroups.append("35-49")
-    else:
-        agegroups.append("50-xx")
-
-ageDF["age"]=agegroups
-ageDF.columns = ["userid","agegroup"]
-
-facialHair_mustache = {}
-facialHair_beard = {}
-facialHair_sideburns = {}
-faceRectangle_top = {}
-ip=0
-index_arr=[]
-oxfordtest_path = '/data/training/oxford.csv'
-df = pd.read_csv(oxfordtest_path,sep=',')
-matrix = [[] for x in xrange(len(df))]
-#Index([u'underLipBottom_x', u'underLipBottom_y', u'facialHair_mustache'], dtype='object')
-for index, row in df.iterrows():
-    print ip
-    userid = row['userId']
-    facialHair_mustache = row['facialHair_mustache']
-    faceRectangle_top = row['faceRectangle_top']
-    facialHair_beard = row['facialHair_beard']
-    facialHair_sideburns = row['facialHair_sideburns']
-    matrix[index].append(userid)
-    matrix[index].append(str(facialHair_mustache))
-    matrix[index].append(str(faceRectangle_top))
-    matrix[index].append(str(facialHair_beard))
-    matrix[index].append(str(facialHair_sideburns))
-    ip = ip+1
-    index_arr.append(index)
-
-
-faceDF = pd.DataFrame(matrix)
-faceDF.columns=['userid','fhmu','ft','fhbeard','fhsideburns']
-age_image = pd.merge(ageDF,faceDF,on="userid")
-facearr = age_image.as_matrix(columns=['fhmu','ft','fhbeard','fhsideburns'])
-print facearr
-agenp= age_image.as_matrix(columns=['agegroup'])
-X=facearr
-n_features = facearr.shape[1]
-print n_features
-y = agenp.ravel()
-
-########################################################################
-#fit model knn
-from sklearn import cross_validation
-from sklearn.neighbors import KNeighborsClassifier
-X_train, X_test, Y_train, Y_test = train_test_split(X, y,test_size=0,random_state=0)
-neigh = KNeighborsClassifier(n_neighbors=84)
-clf = neigh.fit(X_train, Y_train)
-#******************************************TRAINING AND TESTING SEPERATE*****************************************************
-########################################################################
-#test image process
-print "finished fitting model for age-group classification"
-
-testdf = pd.read_csv(testpath+'profile/profile.csv',sep=',')
-useridmatrix = [[] for x in xrange(len(testdf))]
-for index, row in testdf.iterrows():
-    useridmatrix[index].append(userid)
-
-ageDF = pd.DataFrame(useridmatrix)
-ageDF.columns=['userid']
-
-facialHair_mustache = {}
-facialHair_beard = {}
-facialHair_sideburns = {}
-faceRectangle_top = {}
-ip=0
-index_arr=[]
-oxfordtest_path = testpath+'oxford.csv'
-print oxfordtest_path
-agetestdf = pd.read_csv(oxfordtest_path,sep=',')
-print len(agetestdf)
-matrix = [[] for x in xrange(len(agetestdf))]
-for index, row in agetestdf.iterrows():
-    print ip
-    userid = row['userId']
-    facialHair_mustache = row['facialHair_mustache']
-    faceRectangle_top = row['faceRectangle_top']
-    facialHair_beard = row['facialHair_beard']
-    facialHair_sideburns = row['facialHair_sideburns']
-    matrix[index].append(userid)
-    matrix[index].append(str(facialHair_mustache))
-    matrix[index].append(str(faceRectangle_top))
-    matrix[index].append(str(facialHair_beard))
-    matrix[index].append(str(facialHair_sideburns))
-    ip = ip+1
-    index_arr.append(index)
-
-faceDF = pd.DataFrame(matrix)
-faceDF.columns=['userid','fhmu','ft','fhbeard','fhsideburns']
-print faceDF
-facearrtest = faceDF.as_matrix(columns=['fhmu','ft','fhbeard','fhsideburns'])
-print facearrtest
-print type(facearrtest)
-n_features = facearrtest.shape[1]
-print n_features
-y_pred = neigh.predict(facearrtest)
-
-#
-####################################### for no face  ##############################
-##training 
-training_profile = path + 'profile/profile.csv'
-image_folder = '/data/training/image/'
-df = pd.read_csv(training_profile,sep=',')
-df2 = pd.DataFrame
-tempdf = pd.DataFrame
-matrix = [[]*900 for x in xrange(9500)]
-#the output csv file
-ip=0
-for index, row in df.iterrows():
-    print ip
-    userid = row['userid']
-    age = row['age']
-    #print userid
-    im = Image.open(image_folder + userid + ".jpg").resize((30,30))
-    im=im.convert('L') #makes it greyscale
-    t=list(im.getdata())
-    for i in range(len(t)):      #transfer to string value in order to put csv
-        t[i] = str(t[i])
-    matrix[index].append(userid)
-    matrix[index]  += t
-    if age <= 24:
-        matrix[index].append(str('XX-24')) 
-    elif age >= 25 and age <= 34:
-        matrix[index].append(str('25-34'))
-    elif age >= 35 and age <= 49:
-        matrix[index].append(str('35-49'))
-    else:
-        matrix[index].append(str('50-xx'))
-    ip = ip+1
-
-facedf = pd.DataFrame(matrix)  
-faceDF=facedf.rename(columns = {901:'agegroup',0:'userid'})
-agenp= faceDF.as_matrix(columns=['agegroup'])
-facearr = faceDF.iloc[:,2:901]
-faceinfonone = facearr.as_matrix()
-y = agenp.ravel()
-X = faceinfo
-
-########################################################################
-#fit model knn
-from sklearn import cross_validation
-from sklearn.neighbors import KNeighborsClassifier
-X_train, X_test, Y_train, Y_test = train_test_split(X, y,test_size=0,random_state=42)
-neigh2 = KNeighborsClassifier(n_neighbors=5) #84
-clf = neigh2.fit(X_train, Y_train)
-########################################################################
-#test age image 
-nofaceageusrid_arr = [i for i in testuids if i not in test_ox_usrids]
-print nofaceageusrid_arr
-agetestuseri_arr = [] 
-for userid in nofaceageusrid_arr:
-     agetestuseri_arr.append(userid)
-
-ip=0
-nofaceageimg_arr = []
-for key in range(0,len(agetestuseri_arr)):
-    userid = agetestuseri_arr[key]
-    print ip
-    image = Image.open(testpath+"/image/"+userid+".jpg").convert('L')    
-    image = np.array(image)
-    image1 = cv2.resize(image,(30,30))
-    image2 = image1.flatten()
-    #print image2
-    nofaceageimg_arr.append(image2)
-    ip = ip+1
-
-X_test = np.array(nofaceageimg_arr)
-age_pred2 = neigh2.predict(X_test).tolist()
-print("done in %0.3fs" % (time() - t0))   
-#########################################################
-testids = test_ox_usrids+nofaceusrid_arr
-#print testids
-agepred = y_pred.tolist()+age_pred2
-#print imagepred
-print "Age Classification Process Finished"
-
-outdfage = pd.DataFrame({"userid":testids,"agegroup":agepred})
-outdf = pd.merge(outdf,outdfage,on="userid")
-
-print "Gender and Age Group Classification Process finished"
-#
-####################################### personality ##############################
-#################################################################
-#genderate texttb
 import numpy as np
 from nltk.probability import FreqDist
 from nltk.classify import SklearnClassifier
@@ -468,14 +226,14 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 ### data preparation: ####
 import io
 def extText(textfiles,textpath):
-    texttb = {}
-    for tf in textfiles:
-        uid = tf.replace(".txt","")
-        f = io.open(textpath+"/"+tf,'r',encoding='latin-1')
-        txt = f.read()
-        texttb[uid] = txt
-        f.close()
-    return texttb
+	texttb = {}
+	for tf in textfiles:
+		uid = tf.replace(".txt","")
+		f = io.open(textpath+"/"+tf,'r',encoding='latin-1')
+		txt = f.read()
+		texttb[uid] = txt
+		f.close()
+	return texttb
 
 texttb = extText(textfiles,textpath)
 ################# testing dataset:########################
@@ -575,6 +333,60 @@ texttb = pd.DataFrame(texttbl4)
 texttb.columns = ["usrid","text"]
 testtb = pd.DataFrame(testtbl4)
 testtb.columns = ["usrid","text"]
+
+#############################################################################
+from sklearn import linear_model
+from sklearn.decomposition import TruncatedSVD
+from sklearn import linear_model
+from sklearn.multiclass import OneVsRestClassifier
+from sklearn.svm import LinearSVC
+import numpy as np
+from sklearn import datasets
+
+############## text mining classify age group ######################
+## age:
+ages = [(value[0],value[2]) for value in profl]
+agetb = pd.DataFrame(ages)
+agetb.columns = ["userid","age"]
+
+## change to age group:
+ages = agetb["age"].tolist()
+def groupAge(age):
+    age = float(age)
+    if age <= 24:
+        return "xx-24"
+    elif age >= 25 and age <= 34:
+        return "25-34"
+    elif age >= 35 and age <= 49:
+        return "35-49"
+    else:
+        return "50-xx"
+
+####
+agegroups = [groupAge(age) for age in ages]
+
+agetb["age"] = agegroups
+agetb.columns = ["usrid","agegroup"]
+age_text = agetb.merge(texttb,on="usrid")
+agetext = age_text[["agegroup","text"]]
+label = agetext["agegroup"].tolist()
+
+## data preparation
+X = agetext["text"]
+X = X.tolist()
+## accumulate all terms 
+docs = []
+for doc in X:
+    docs.append(" ".join(doc))
+
+###########test set docs ################
+X_test = testtb["text"]
+X_test = X_test.tolist()
+
+testdocs = []
+for doc in X_test:
+    testdocs.append(" ".join(doc)) 
+
 #########################################   
 ## tokenize function used in vectorizer:
 def tokenize(text):
@@ -606,9 +418,41 @@ def tokenize(text):
         if w=="!" or w=="?" or len(w)>1:
             tokens.append(w)
     return tokens
-###############################################################################
-## testtb finished
 
+## 50000 most frequentiest terms 56%  30000 55% max_df=0.85
+vec = TfidfVectorizer(encoding="latin-1",tokenizer = tokenize,token_pattern=r'(?u)\b\w\w+\b|^[_\W]+$',lowercase=False,max_features=80000,max_df=0.9,min_df=2,use_idf=True,ngram_range=(1,2))
+# remove the spaces
+docs2 = [doc.replace("\t","").replace("\n","") for doc in docs]
+X = vec.fit_transform(docs2)
+
+######## pca reduce dimensions #######
+from sklearn.preprocessing import Normalizer
+lsa = TruncatedSVD(20, algorithm = 'arpack')
+normalizer = Normalizer(copy=False)
+X = lsa.fit_transform(X)
+data = normalizer.fit_transform(X)
+
+### after several experiments linear svc gave the best result:
+from sklearn.svm import SVC
+clf = OneVsRestClassifier(SVC(kernel='linear'))
+#### prepare training set and testing set:
+#******************************************TRAINING AND TESTING SEPERATE*****************************************************
+clf.fit(data, label)
+print "finished fitting model for age-group classification"
+
+#### prepare the test data text datasets #######
+X_test = vec.transform(testdocs)
+testdata = lsa.transform(X_test)
+testdata = normalizer.transform(testdata)
+### getting the predicted values: 
+pred = clf.predict(testdata)
+outdfage = pd.DataFrame({"userid": testuids, "agegroup": pred.tolist()})
+#outdf["agegroup"] = pred.tolist()
+outdf = pd.merge(outdf,outdfage,on="userid")
+
+print "Gender and Age Group Classification Process finished"
+#
+####################################### personality ##############################
 profile_path = path + "profile/profile.csv"
 o = open(profile_path,'rU')
 profiletb = csv.DictReader(o)
@@ -622,72 +466,47 @@ for row in profiletb:
 
 perl = [(key,value[0],value[1],value[2],value[3],value[4]) for key,value in pertb.items()]
 pertb = pd.DataFrame(perl)
-pertb.columns = ["usrid","ope","con","ext","agr","neu"]
-person_text = pertb.merge(texttb,on="usrid")
+pertb.columns = ["userid","ope","con","ext","agr","neu"]
 
-## function to help with selecting the best features
-def f_regression(X,Y):
-   import sklearn
-   return sklearn.feature_selection.f_regression(X,Y,center=False) 
+## prepare data
+liwcpath = path + "LIWC.csv"
+testliwcpath = testpath + "LIWC.csv"
+liwctb = pd.read_csv(liwcpath)
+liwctb = liwctb.rename(columns={"userId":"userid"})
+testliwctb = pd.read_csv(testliwcpath)
+testliwctb = testliwctb.rename(columns={"userId":"userid"})
 
-#### get the vec
-#### inputs: train_tb and test_tb and 20000
-def getTextVecTest(best1,train_tb,testtb):
-    docs = train_tb["text"]
-    textl = docs.tolist()
-    X_test = testtb["text"]
-    X_test = X_test.tolist()
-    docs = []
-    for doc in textl:
-        docs.append(" ".join(doc))
-    testdocs = []
-    for doc in X_test:
-        testdocs.append(" ".join(doc))
-    docs2 = [doc.replace("\t","").replace("\n","") for doc in docs]
-    ## vec and tokenize function
-    vec = TfidfVectorizer(encoding="latin-1",tokenizer = tokenize,token_pattern=r'(?u)\b\w\w+\b|^[_\W]+$',lowercase=False,max_features=best1)
-    X = vec.fit_transform(docs2)
-    X_test = vec.transform(testdocs)
-    return (X,X_test)
+## training data prepared
+person_text = pertb.merge(liwctb,on="userid")
+## test data set ids:
+userids = testliwctb["userid"]
 
-X,X_test = getTextVecTest(20000,person_text,testtb)
-
-## fitting the model:
-regression = linear_model.LinearRegression()
-
-## 50 dimensions from pca
-pca = TruncatedSVD(n_components=50)
-data = pca.fit_transform(X)
-###########test set docs ################
-# X_test = testtb["text"]
-# X_test = X_test.tolist()
-
-# testdocs = []
-# for doc in X_test:
-#     testdocs.append(" ".join(doc)) 
-
-#########################################   
-X_test = pca.transform(X_test)
-
-##### use bayesian ridge regression #####
+##### use linear regression #####
 from sklearn import linear_model
-clf = linear_model.BayesianRidge()
-dp2 = pd.DataFrame({"userid":testuids})
+regression = linear_model.LinearRegression()
+persontext = person_text.iloc[:,1:]
+texttb = persontext.iloc[:,5:]
+testtexttb = testliwctb.iloc[:,1:]
+
+
+## accumulate the results
+dp2 = pd.DataFrame({"userid":userids})
+
 for i in range(5):
-  colname = person_text.columns[i+1]
+  colname = persontext.columns[i]
   print "personality: "+colname 
-  real = [float(n) for n in person_text[colname]]
-  clf.fit(data,real)
-  pred = clf.predict(X_test)
+  real = [float(n) for n in persontext[colname]]
+  regression.fit(texttb.values,real)
+  pred = regression.predict(testtexttb.values)
   dp2[colname] = pred.tolist()
 
-print "Bayesian Ridge Regression for Personality Prediction Process Finished!!" 
+print "Linear Regression for Personality Prediction Process Finished!!" 
 # dp2.to_csv(outputpath+"baysianRidge_regression_predicted_personality.csv.csv", cols = ("usrid","ope","con","ext","agr","neu"), encoding='utf-8',index=False)
 # print "baysianRidge_regression_predicted_personality.csv file is generated." 
 
 ## merging two dataframe
 dp3 = pd.merge(outdf,dp2,on="userid")
-print dp3
+
 ## remove duplicate
 dp3 = dp3.drop_duplicates('userid', take_last=True)
 ## function to xml format
