@@ -35,8 +35,8 @@ for index, row in df.iterrows():
     matrix[index].append(userid)
     matrix[index]  += t
     matrix[index].append(str(gender))
-    if age >= 18 and age <= 24:
-        matrix[index].append(str('18-24')) 
+    if age <= 24:
+        matrix[index].append(str('XX-24')) 
     elif age >= 25 and age <= 34:
         matrix[index].append(str('25-34'))
     elif age >= 35 and age <= 49:
