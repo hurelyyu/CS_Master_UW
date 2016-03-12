@@ -29,13 +29,10 @@ stemmer = SnowballStemmer("english")
 # define a tokenizer and stemmer which returns the set of stems in the text that it is passed
 def  tokenize(text):
     filtered_tokens = []
-    # filter "!", "..." and "?" punctuation
-    pattern_punctuation = re.compile("[.][.][.]|[!]|[?]")
     # filter ":)", ":(", ":/", ":|", ":D", ":O" and ":-)" emotion
     pattern_emotion1 = re.compile("[:][)]|[:][(]|[:][/]|[:][|]|[:][D]|[:][O]|[:][-][)]")
     # filter "^_^", "-_-", "><", ">.<", "o_o" and "<3" emotion
-    pattern_emotion2 = re.compile("[\^][_][\^]|[-][_][-]|[>][<]|[>][.][<]|[o][_][o]|[<][3]")  
-    punctuations = list(set(re.findall(pattern_punctuation, text)))
+    pattern_emotion2 = re.compile("[\^][_][\^]|[-][_][-]|[>][<]|[>][.][<]|[o][_][o]|[<][3]") 
     emotions1 = list(set(re.findall(pattern_emotion1, text)))
     emotions2 = list(set(re.findall(pattern_emotion2, text)))
     
@@ -45,11 +42,14 @@ def  tokenize(text):
     letters = []
     for token in tokens:
         letters.extend(re.findall("[a-zA-Z]+", token))
-
-    stems = [stemmer.stem(item) for item in letters]
+    stems = []
+    for item in letters:
+        raw_stem = stemmer.stem(item)
+        # remove single-character stem
+        if len(raw_stem) > 1:
+            stems.append(raw_stem)
     stems = list(set(stems))    
         
-    filtered_tokens.extend(punctuations)
     filtered_tokens.extend(emotions1)
     filtered_tokens.extend(emotions2)
     filtered_tokens.extend(stems)  
@@ -110,7 +110,7 @@ def predict_personality(test_path):
         
         
     # extract features from training data using tfidf_vectorizer
-    tfidf_vectorizer = TfidfVectorizer(min_df=0.01, max_features=1000, 
+    tfidf_vectorizer = TfidfVectorizer(min_df=0.005, max_df=0.3, ngram_range=(1,3), 
                                        stop_words='english',use_idf=True, tokenizer=tokenize)
     trainX = tfidf_vectorizer.fit_transform(train_texts)
     print("Training data: n_samples: %d, n_features: %d" % trainX.shape)
