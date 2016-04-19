@@ -1,0 +1,183 @@
+
+	package PreflowAlgorithm;
+	import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.ListIterator; // list iterator
+import static PreflowAlgorithm.GraphInput.LoadSimpleGraph;
+    
+
+	public class PreflowAlgorithm {
+	/*initial new preflow algorithm */
+		SimpleGraph graph;
+
+	    HashSet<String> backEdges = new HashSet();
+	    DFSImpl dfsimpl;
+	    Vertex s;
+	    Vertex t;
+	    List<Edge> path = new LinkedList();
+	    
+	        public PreflowAlgorithm(SimpleGraph graph, Vertex s, Vertex t) 
+	        {
+	        	
+	        	this.graph = graph;
+	            this.s = s;
+	            this.t = t;
+
+            }
+	        public Double GetMaxFlow() {
+	            Double maxflow = 0.0;
+	            Iterator j;
+	            Push_Relable();
+	            for(j = graph.incidentEdges(s); j.hasNext();) {
+	                Edge e = (Edge) j.next();
+	                String name = (String) e.getName();
+	                if(name.contains("backwardedge")) {
+	                    System.out.print(e.getName()+" flows: ");
+	                    System.out.println(e.getData());
+	                    maxflow = maxflow + (Double) e.getData();
+	                }
+	            }
+	            return maxflow;
+	        }
+	        
+	int n; //number of vertex
+    static int e[];//residual flow of the vertex
+    static int h[]; //height of the vertex
+	static int c[][]; //capacity of the Edge
+	static int f[][]; //flow of the Edge
+	        List ex; //excess flow vertex
+	        List Edge[]; //Edge link list
+	private static boolean flag[]; //lable whether the vertex is in the flow list
+
+	        /**
+	         * Pushes some of the excess flow at vertex v down to vertex w.
+	         * @autor Yaqun Yu 
+	         * @param v     A vertex that may have excess flow.
+	         * @param w     A vertex that will receive some of the excess flow from v. 
+	         * @return              true if the excess flow at v can be pushed; otherwise, false.
+	         */
+
+	        private void push(int u, int v)
+	        { //push flow from Edge (u,v)
+
+	        	int df = Math.min(e[u], c[u][v]-f[u][v]); 
+	        	f[u][v] += df; //uv is forward Edge, increase uv by df
+	        	f[v][u] = -f[u][v]; 
+	        	e[u] -= df;
+	        	e[v] += df;
+	        }
+	        
+	        /**
+	         * Increases the height of vertex v by 1 
+	         * 
+	         * @param v     A vertex that needs its height relabeled.
+	         * @return              true if vertex v can be relabeled; otherwise, false.
+	         */
+	      public void relabel(int u) 
+	        {// re-lable height of vertex u if can not do any push 
+
+	        	h[u] = n * 2 - 1;
+	            List Edge = (List) new ArrayList();
+
+	            for(ListIterator iter = (ListIterator) graph.edges(); iter.hasNext(); )//http://www.everycoding.com/coding/17.html
+	            //iteration http://blog.csdn.net/luoweifu/article/details/42472303
+	            //http://www.cnblogs.com/yc_sunniwell/archive/2010/06/25/1764934.html compare C++
+	            {
+
+	            	if (c[u][iter.nextIndex()] > f[u][iter.nextIndex()] && h[iter.nextIndex()] < h[u]) 
+	            		h[u] = h[iter.nextIndex()];
+	            }
+	            h[u]++; //if satisfy, height of u + 1
+	        }
+
+	       public void Discharg(int u) 
+	        
+	        { // discharge the residual flow of vertex u
+	        	ListIterator iter2;
+	        	int u;
+				while (e[u]>0)
+	        	{   
+	        		if(iter2 == (ListIterator)Edge[u])
+	        		{
+	        			relabel(u);
+	        			iter2 = (ListIterator) Edge[0];
+
+	        		}
+	        		if (h[u] == h[iter2.nextIndex()] + 1 && c[u][iter2.nextIndex()] > f[u][iter2.nextIndex()])
+	        		{
+	        			
+             			push(u, iter2.nextIndex());
+	        			if (e[iter2.nextIndex()] > 0 && !flag[iter2.nextIndex()])
+	        				ex.push_back(iter2.nextIndex());
+	        		}
+	        		++ iter;
+
+	        	}  
+	 
+	        }
+	        private void Initial_PreFlow()
+	        {
+	        	ex.clear();
+	        	h[0] = n;
+	        	e[0] = 0;
+	        	flag[0] = flag[n-1] = true;
+	        	for (int u = 1; u < n; n++)
+	        	{
+	        			f[0][u] = c[0][u];
+	        			f[u][0] = -f[0][u];
+	        			e[u] = c[0][u];
+	        			if (e[u] > 0 && !flag[u])
+	        			{
+	        				ex.push_back(u);
+	        				flag[u] = true;
+
+	        			}
+
+	        	   for(int u = 0; u < n; u++)
+	        	   	for(int v = u + 1; v < n; v++)
+	        	   	{
+	        	   		if(c[u][v] > 0 || c[v][u] > 0)
+	        	   		{
+	        	   		    Edge[u].push_back(v);
+	        	   			Edge[v].push_back(u);
+	        	   		}
+	        	   	}
+	        	
+
+	        	}
+
+
+	        }
+
+	        public int Push_Relable()
+	        {
+	        	Initial_PreFlow();
+	        	while(!ex.isEmpty())
+	        	{
+	        		int u = (int) ((LinkedList) ex).getFirst();
+	        		Discharg(u);
+	        		ex.remove(0);
+	        		flag[u] = false;
+	        	}
+	        	return e[n-1];
+	        }
+
+	      public static void main(String[] args) {
+
+	      	SimpleGraph G = new SimpleGraph();
+	      	LoadSimpleGraph(G, "/Users/yyq/Desktop/preflow/Preflowalgorithm/src/PreflowAlgorithm/g1.txt");
+	      	Vertex s = (Vertex) G.vertexList.getFirst();
+	        Vertex t = (Vertex) G.vertexList.getLast();
+	        PreflowAlgorithm pfa = new PreflowAlgorithm(G, s, t);
+	        System.out.println(pfa.Push_Relable());
+	    }
+
+	        	
+	}
+
+	        
+
+

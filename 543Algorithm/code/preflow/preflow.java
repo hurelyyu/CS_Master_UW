@@ -1,0 +1,151 @@
+//timer
+package PreflowAlgorithm;
+import java.util.ListIterator; // list iterator
+
+public class PreflowAlgorithm {
+/*initial new preflow algorithm */
+       SimpleGraph graph;
+       Vertex source;
+       Vertex target;
+ 
+        public PreflowAlgorithm(SimpleGraph graph, Vertex s, Vertex t) 
+        {
+        	
+        	this.graph = graph;
+            this.s = source;
+            this.t = target;
+
+        }
+private int n; //number of vertex
+private static int e[];//residual flow of the vertex
+private static int h[]; //height of the vertex
+private static int c[][]; //capacity of the edge
+private static int f[][]; //flow of the edge
+        List<int> ex; //excess flow vertex
+        List<int> edge[]; //edge link list
+private static boolean flag[]; //lable whether the vertex is in the flow list
+
+        /**
+         * Pushes some of the excess flow at vertex v down to vertex w.
+         * @autor Yaqun Yu 
+         * @param v     A vertex that may have excess flow.
+         * @param w     A vertex that will receive some of the excess flow from v. 
+         * @return              true if the excess flow at v can be pushed; otherwise, false.
+         */
+
+        private void push(Vertex u, Vertex v)
+        { //push flow from edge (u,v)
+
+        	int df = Math.min(e[u], c[u][v]-f[u][v]); 
+        	f[u][v] += df; //uv is forward edge, increase uv by df
+        	f[v][u] = -f[u][v]; 
+        	e[u] -= df;
+        	e[v] += df;
+        }
+        
+        /**
+         * Increases the height of vertex v by 1 
+         * 
+         * @param v     A vertex that needs its height relabeled.
+         * @return              true if vertex v can be relabeled; otherwise, false.
+         */
+        private void relabel(Vertex u) 
+        {// re-lable height of vertex u if can not do any push 
+
+        	h[u] = n * 2 - 1;
+            List<int> edge[] = new ArrayList<int>();
+
+            for(ListIterator<int> iter = List.ListIterator(edge[0]); iter.has.Next(); )//http://www.everycoding.com/coding/17.html
+            //iteration http://blog.csdn.net/luoweifu/article/details/42472303
+            //http://www.cnblogs.com/yc_sunniwell/archive/2010/06/25/1764934.html compare C++
+            {
+
+            	if (c[u][iter.next.Index()] > f[u][iter.next.Index()] && h[iter.next.Index()] < h[u]) 
+            		h[u] = h[iter.next.Index()];
+            }
+            h[u]++; //if satisfy, height of u + 1
+        }
+
+        private void Discharg(int u) 
+        { // discharge the residual flow of vertex u
+        	ListIterator<Integer> listIterator = List.ListIterator(edge[0]);
+        	while (e[u]>0)
+        	{
+        		if(iter == edge[u].size())
+        		{
+        			relabel(u);
+        			iter = edge[0];
+
+        		}
+        		if (h[u] == h[iter.next.Index()] + 1 && c[u][iter.next.Index()] > f[u][iter.next.Index()])
+        		{
+        			push(u, iter.next.Index());
+        			if (e[iter.next.Index()] > 0 && !flag[iter.next.Index()])
+        				ex.push_back(iter.next.Index());
+        		}
+        		++ iter;
+
+        	}  
+ 
+        }
+        private void Initial_PreFlow()
+        {
+        	ex.clear();
+        	h[0] = n;
+        	e[0] = 0;
+        	flag[0] = flag[n-1] = true;
+        	for (int u = 1; u < n; n++)
+        	{
+        			f[0][u] = c[0][u];
+        			f[u][0] = -f[0][u];
+        			e[u] = c[0][u];
+        			if (e[u] > 0 && !flagp[u])
+        			{
+        				ex.push_back(u);
+        				flag[u] = true;
+
+        			}
+
+        	   for(int u = 0; u < n; u++)
+        	   	for(int v = u + 1; v < n; v++)
+        	   	{
+        	   		if(c[u][v] > 0 || c[v][u] > 0)
+        	   		{
+        	   			edge[u].push_back(v);
+        	   			edge[v].push_back(u);
+        	   		}
+        	   	}
+        	
+
+        	}
+
+
+        }
+
+        public int Push_Relable()
+        {
+        	Initial_PreFlow();
+        	while(!ex.empty())
+        	{
+        		int u = ex.getFirst();
+        		Discharg(u);
+        		ex.remove(0);
+        		flag[u] = false;
+        	}
+        	return e[n-1];
+        }
+
+      public static void main(String[] args) {
+
+      	SimpleGraph G = new SimpleGraph();
+      	LoadSimpleGraph(G, "");
+      	Vertex s = (Vertex) G.vertexList.getFirst();
+        Vertex t = (Vertex) G.vertexList.getLast();
+        PreflowAlgorithm pfa = new PreflowAlgorithm(G, s, t);
+        System.out.println(pfa.Push_Relable());
+    }
+
+        	
+}
+
+        
