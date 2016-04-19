@@ -1,0 +1,88 @@
+import java.io.IOException;
+import java.net.Inet6Address;
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
+import java.rmi.server.UnicastRemoteObject;
+import java.util.HashMap;
+import java.rmi.Naming;
+import java.util.*;
+
+public class RMIserver implements RMIinterface
+{
+
+	public static void main(String args[]) throws Exception{
+		//Open log
+		
+		  try{
+            String name = "RMIinterface";
+            RMIServerStoreData RSS = new RMIServerStoreData();			
+            RMIinterface stub = (RMIinterface) UnicastRemoteObject.exportObject(RSS,0);
+			   Registry registry = LocateRegistry.getRegistry(1099);
+			   registry.rebind(name, stub);
+			   //System.out.println("Server bound....");
+			   myLog.normal("Server bind......", true);
+            
+            String name2 = "RMISync";
+            RMI_two_phases_commit stub2 = (RMI_two_phases_commit)UnicastRemoteObject.toStub(RSS);
+            registry.rebind(name2, stub2);
+            myLog.normal("Sync......", true);
+            
+            ArrayList<RMI_two_phases_commit> Replicated_server = new ArrayList<RMI_two_phases_commit>();
+            int i = 0; 
+            ArrayList<String> missingServer = new ArrayList<String>(Arrays.asList(args));
+            
+            RMI_two_phases_commit tpc;
+            
+            while(!missingServer.isEmpty()){
+               System.out.println("Openserver: " + missingServer.get(0));
+               try{
+                  tpc = (RMI_two_phases_commit)Naming.lookup("//" + missingServer.get(0) + "/" + name2);
+                  if(tpc != null)
+                  {
+                	  Replicated_server.add(tpc);
+                     missingServer.remove(i);
+                     myLog.normal("" + missingServer.isEmpty(),true);
+                  
+                  }
+                     
+                  }catch(Exception e){
+                     myLog.error("Exception: Failed to connect to " + missingServer.get(0));
+		               System.out.println("Error: " + e.getMessage());
+               }
+                              
+            }
+            RSS.setReplicatedServer(Replicated_server);
+            myLog.normal("Server is ready!", true);            
+		  }
+        catch(
+            RemoteException e){
+		      myLog.error("Remote Exception");
+		      System.out.println("Remote: " + e.getMessage());
+		  }
+        catch (Exception e) {
+					myLog.error("Exception");
+		         e.printStackTrace();
+					System.exit(1);  
+		  }
+	}
+
+	@Override
+	public void put(String key, String value) throws RemoteException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String get(String key) throws RemoteException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void delete(String key) throws RemoteException {
+		// TODO Auto-generated method stub
+		
+	}
+}

@@ -1,0 +1,15 @@
+********************************************************************** 
+558 Applied Distributed Computing 
+Yaqun Yu and Xiao Liang’s Execute Summary for Project 3 Replica Server 
+********************************************************************** 
+ 
+******************** 
+Assignment Overview: 
+******************** 
+For this assignment we are asked to enable our client and server to communicate using Remote Procedure Calls (RPC), and replicate the key-value store server. In order to increase bandwidth and ensure availability, we need to replicate our key-value store at each of 5 different instances of our servers. our client should be able to contact any of the five KV replica servers and get consistent data back from any of the replicas, the client should also be able to issue PUT and DELETE operations to any of the five replicas.On these tow operation, we need to make sure that each KV stores at replica is consistent, two phase protocol is for this use.Even we assume no server will fail such that 2 phases commit will not stall, we still will need to defensively put timeout in our protocol. 
+ 
+********************* 
+Technical Impression: 
+********************* 
+The two-phase commit (2PC) protocol is an atomic commitment protocol, which is a specialized type of consensus protocol.In our implement we use RMIServerStore for our  KV stores, and RMIinterface for RMI protocol. Our 2PC protocol was implemented in RMItwophasecommit. The goal of the protocol is to atomically commit/store a new value at all of the nodes in a distributed system that store that value so that all nodes are synced to the new value, Atomicity is ensured when either all the operations associated with a program unit are executed to completion, or none are performed. Ensuring atomicity in a distributed system requires a transaction coordinator, which is responsible for the following: Starting the execution, Breaking the transaction into a number of sub-transactions, and distributing these sub-transactions to the appropriate sites for execution, Coordinating the termination of the transaction, which may result in the transaction being committed at all sites or aborted at all sites. The coordinator initiates the execution of 2PC after the last step of the transaction has been reached. When the protocol is initiated, the transaction may still be executing at some of the local sites. The protocol involves all the local sites at which the transaction executed. 
+During the implementation we find that synchronize 5 server is our biggest challenge, we overcome it by using this mechanism: first open all server, then when press enter, ask them to look for each other in order to implement the fact that anyone of them can be coordinator. 

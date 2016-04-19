@@ -1,0 +1,45 @@
+import java.io.IOException;
+import java.net.Inet4Address;
+import java.rmi.Naming;
+import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
+
+public class RMIclient2 implements Runnable {
+	private int sleeptime = 1000;
+	private RMIinterface rmiitf;
+	private int myid;
+	private String myHost;
+	
+	public RMIClient(String myHost, int id) throws Not/boundException, IOException{
+		String name = "RMIinterface";
+		myid = id;
+		myHost = java.net.InetAddress.getLocalHost().getHostName();
+		try{
+			rmiitf = (RMIinterface)Naming.lookup("//" + myHost + "/" + name);
+		}catch(Exception e){
+			myLog.error("Error: " + e.getMessage());
+		}
+		String timestamp = myLog.getTimestamp();
+		myLog.normal("Client-" + the_id +"-" + timestamp + ".log", true);
+		myLog.normal("Client " + the_id + " is running on : " 
+				+ Inet4Address.getLocalHost(), true);
+	}
+	
+	private void put(String key, String value) throws RemoteException, InterruptedException{
+		rmiitf.put(key, value);
+		myLog.normal("Client " + myid 
+				+ " has issued request: put "+ key+","+ value, true);
+		Thread.sleep(sleeptime);
+	}
+	
+	private void get(final String key) throws RemoteException, InterruptedException{
+		String v;
+		myLog.normal("Client " + myid 
+				+ " has issued request: get "+ key, true);
+		v = rmiitf.get(key);
+		myLog.normal("Client " + myid + " has got--> key = "
+				+ key+ " , value = " + v, true);
+		Thread.sleep(sleeptime);
+	}
+
+}

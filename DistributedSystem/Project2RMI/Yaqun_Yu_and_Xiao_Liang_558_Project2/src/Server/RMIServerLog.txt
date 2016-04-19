@@ -1,0 +1,133 @@
+30/01/2016 11:17:12:137  [Error]Remote Exception
+30/01/2016 11:17:41:632  [Error]Remote Exception
+30/01/2016 11:18:12:185  [Message]Server bound......
+30/01/2016 11:19:26:902  [Message]Key: hello, Value: world pair is added
+30/01/2016 11:19:26:906  [Message]Key: one, Value: 1 pair is added
+30/01/2016 11:19:26:910  [Message]Key: two, Value: 2 pair is added
+30/01/2016 11:19:26:913  [Message]Key: three, Value: 3 pair is added
+30/01/2016 11:19:26:916  [Message]Key: a, Value: aa pair is added
+30/01/2016 11:19:26:920  [Message]Key: b, Value: bb pair is added
+30/01/2016 11:19:26:923  [Message]Key: c, Value: cc pair is added
+30/01/2016 11:19:26:926  [Message]key get from system is: hello, and its value is: world
+30/01/2016 11:19:26:930  [Message]key get from system is: one, and its value is: 1
+30/01/2016 11:19:26:934  [Message]key get from system is: two, and its value is: 2
+30/01/2016 11:19:26:940  [Message]key get from system is: three, and its value is: 3
+30/01/2016 11:19:26:948  [Message]key get from system is: a, and its value is: aa
+30/01/2016 11:19:26:954  [Message]key get from system is: b, and its value is: bb
+30/01/2016 11:19:26:958  [Message]hello has been removed from set along with its value
+30/01/2016 11:19:26:962  [Message]a has been removed from set along with its value
+30/01/2016 11:19:26:972  [Message]b has been removed from set along with its value
+30/01/2016 11:19:26:975  [Error]Delete Key: 1 does not exist in KeySet
+30/01/2016 11:19:26:984  [Error]Delete Key: 2 does not exist in KeySet
+30/01/2016 11:19:26:987  [Error]Delete Key: 3 does not exist in KeySet
+30/01/2016 11:19:26:991  [Message]Key: tcss558, Value: appliedDistributedComputing pair is added
+30/01/2016 11:19:26:994  [Message]Key: teamNumberY, Value: YaqunYu pair is added
+30/01/2016 11:19:26:999  [Message]Key: ProjectNum, Value: ProjectTwo pair is added
+30/01/2016 11:19:27:003  [Message]key get from system is: tcss558, and its value is: appliedDistributedComputing
+30/01/2016 11:19:27:006  [Error]Get Key: teamNumberX does not exist in KeySet
+30/01/2016 11:19:27:010  [Message]key get from system is: teamNumberY, and its value is: YaqunYu
+30/01/2016 11:19:27:014  [Message]key get from system is: ProjectNum, and its value is: ProjectTwo
+30/01/2016 11:25:53:944  [Message]Key: hello, Value: world pair is added
+30/01/2016 11:25:53:948  [Message]Key: one, Value: 1 pair is added
+30/01/2016 11:25:53:955  [Message]Key: two, Value: 2 pair is added
+30/01/2016 11:25:53:959  [Message]Key: three, Value: 3 pair is added
+30/01/2016 11:25:53:963  [Message]Key: a, Value: aa pair is added
+30/01/2016 11:25:53:967  [Message]Key: b, Value: bb pair is added
+30/01/2016 11:25:53:971  [Message]Key: c, Value: cc pair is added
+30/01/2016 11:25:53:975  [Message]key get from system is: hello, and its value is: world
+30/01/2016 11:25:53:984  [Message]key get from system is: one, and its value is: 1
+30/01/2016 11:25:53:990  [Message]key get from system is: two, and its value is: 2
+30/01/2016 11:25:53:993  [Message]key get from system is: three, and its value is: 3
+30/01/2016 11:25:53:997  [Message]key get from system is: a, and its value is: aa
+30/01/2016 11:25:54:002  [Message]key get from system is: b, and its value is: bb
+30/01/2016 11:25:54:007  [Message]hello has been removed from set along with its value
+30/01/2016 11:25:54:011  [Message]a has been removed from set along with its value
+30/01/2016 11:25:54:017  [Message]b has been removed from set along with its value
+30/01/2016 11:25:54:025  [Error]Delete Key: 1 does not exist in KeySet
+30/01/2016 11:25:54:028  [Error]Delete Key: 2 does not exist in KeySet
+30/01/2016 11:25:54:032  [Error]Delete Key: 3 does not exist in KeySet
+30/01/2016 11:25:54:036  [Message]Key: tcss558, Value: appliedDistributedComputing pair is added
+30/01/2016 11:25:54:040  [Message]Key: teamNumberY, Value: YaqunYu pair is added
+30/01/2016 11:25:54:045  [Message]Key: ProjectNum, Value: ProjectTwo pair is added
+30/01/2016 11:25:54:048  [Message]key get from system is: tcss558, and its value is: appliedDistributedComputing
+30/01/2016 11:25:54:052  [Error]Get Key: teamNumberX does not exist in KeySet
+30/01/2016 11:25:54:056  [Message]key get from system is: teamNumberY, and its value is: YaqunYu
+30/01/2016 11:25:54:060  [Message]key get from system is: ProjectNum, and its value is: ProjectTwo
+30/01/2016 11:27:41:212  [Message]Key: hello, Value: world pair is added
+30/01/2016 11:27:41:216  [Message]Key: one, Value: 1 pair is added
+30/01/2016 11:27:41:219  [Message]Key: two, Value: 2 pair is added
+30/01/2016 11:27:41:223  [Message]Key: three, Value: 3 pair is added
+30/01/2016 11:27:41:226  [Message]Key: a, Value: aa pair is added
+30/01/2016 11:27:41:229  [Message]Key: b, Value: bb pair is added
+30/01/2016 11:27:41:232  [Message]Key: c, Value: cc pair is added
+30/01/2016 11:27:41:236  [Message]key get from system is: hello, and its value is: world
+30/01/2016 11:27:41:242  [Message]key get from system is: one, and its value is: 1
+30/01/2016 11:27:41:247  [Message]key get from system is: two, and its value is: 2
+30/01/2016 11:27:41:253  [Message]key get from system is: three, and its value is: 3
+30/01/2016 11:27:41:260  [Message]key get from system is: a, and its value is: aa
+30/01/2016 11:27:41:265  [Message]key get from system is: b, and its value is: bb
+30/01/2016 11:27:41:269  [Message]hello has been removed from set along with its value
+30/01/2016 11:27:41:273  [Message]a has been removed from set along with its value
+30/01/2016 11:27:41:279  [Message]b has been removed from set along with its value
+30/01/2016 11:27:41:283  [Error]Delete Key: 1 does not exist in KeySet
+30/01/2016 11:27:41:288  [Error]Delete Key: 2 does not exist in KeySet
+30/01/2016 11:27:41:292  [Error]Delete Key: 3 does not exist in KeySet
+30/01/2016 11:27:41:297  [Message]Key: tcss558, Value: appliedDistributedComputing pair is added
+30/01/2016 11:27:41:301  [Message]Key: teamNumberY, Value: YaqunYu pair is added
+30/01/2016 11:27:41:305  [Message]Key: ProjectNum, Value: ProjectTwo pair is added
+30/01/2016 11:27:41:308  [Message]key get from system is: tcss558, and its value is: appliedDistributedComputing
+30/01/2016 11:27:41:312  [Error]Get Key: teamNumberX does not exist in KeySet
+30/01/2016 11:27:41:315  [Message]key get from system is: teamNumberY, and its value is: YaqunYu
+30/01/2016 11:27:41:318  [Message]key get from system is: ProjectNum, and its value is: ProjectTwo
+30/01/2016 11:29:35:528  [Message]Key: hello, Value: world pair is added
+30/01/2016 11:29:35:532  [Message]Key: one, Value: 1 pair is added
+30/01/2016 11:29:35:536  [Message]Key: two, Value: 2 pair is added
+30/01/2016 11:29:35:539  [Message]Key: three, Value: 3 pair is added
+30/01/2016 11:29:35:543  [Message]Key: a, Value: aa pair is added
+30/01/2016 11:29:35:546  [Message]Key: b, Value: bb pair is added
+30/01/2016 11:29:35:549  [Message]Key: c, Value: cc pair is added
+30/01/2016 11:29:35:553  [Message]key get from system is: hello, and its value is: world
+30/01/2016 11:29:35:556  [Message]key get from system is: one, and its value is: 1
+30/01/2016 11:29:35:560  [Message]key get from system is: two, and its value is: 2
+30/01/2016 11:29:35:564  [Message]key get from system is: three, and its value is: 3
+30/01/2016 11:29:35:569  [Message]key get from system is: a, and its value is: aa
+30/01/2016 11:29:35:573  [Message]key get from system is: b, and its value is: bb
+30/01/2016 11:29:35:577  [Message]hello has been removed from set along with its value
+30/01/2016 11:29:35:581  [Message]a has been removed from set along with its value
+30/01/2016 11:29:35:589  [Message]b has been removed from set along with its value
+30/01/2016 11:29:35:592  [Error]Delete Key: 1 does not exist in KeySet
+30/01/2016 11:29:35:596  [Error]Delete Key: 2 does not exist in KeySet
+30/01/2016 11:29:35:600  [Error]Delete Key: 3 does not exist in KeySet
+30/01/2016 11:29:35:604  [Message]Key: tcss558, Value: appliedDistributedComputing pair is added
+30/01/2016 11:29:35:608  [Message]Key: teamNumberY, Value: YaqunYu pair is added
+30/01/2016 11:29:35:613  [Message]Key: ProjectNum, Value: ProjectTwo pair is added
+30/01/2016 11:29:35:617  [Message]key get from system is: tcss558, and its value is: appliedDistributedComputing
+30/01/2016 11:29:35:621  [Error]Get Key: teamNumberX does not exist in KeySet
+30/01/2016 11:29:35:625  [Message]key get from system is: teamNumberY, and its value is: YaqunYu
+30/01/2016 11:29:35:629  [Message]key get from system is: ProjectNum, and its value is: ProjectTwo
+30/01/2016 11:30:18:663  [Message]Key: hello, Value: world pair is added
+30/01/2016 11:30:18:666  [Message]Key: one, Value: 1 pair is added
+30/01/2016 11:30:18:669  [Message]Key: two, Value: 2 pair is added
+30/01/2016 11:30:18:672  [Message]Key: three, Value: 3 pair is added
+30/01/2016 11:30:18:675  [Message]Key: a, Value: aa pair is added
+30/01/2016 11:30:18:678  [Message]Key: b, Value: bb pair is added
+30/01/2016 11:30:18:681  [Message]Key: c, Value: cc pair is added
+30/01/2016 11:30:18:684  [Message]key get from system is: hello, and its value is: world
+30/01/2016 11:30:18:688  [Message]key get from system is: one, and its value is: 1
+30/01/2016 11:30:18:690  [Message]key get from system is: two, and its value is: 2
+30/01/2016 11:30:18:693  [Message]key get from system is: three, and its value is: 3
+30/01/2016 11:30:18:696  [Message]key get from system is: a, and its value is: aa
+30/01/2016 11:30:18:700  [Message]key get from system is: b, and its value is: bb
+30/01/2016 11:30:18:706  [Message]hello has been removed from set along with its value
+30/01/2016 11:30:18:709  [Message]a has been removed from set along with its value
+30/01/2016 11:30:18:714  [Message]b has been removed from set along with its value
+30/01/2016 11:30:18:718  [Error]Delete Key: 1 does not exist in KeySet
+30/01/2016 11:30:18:721  [Error]Delete Key: 2 does not exist in KeySet
+30/01/2016 11:30:18:724  [Error]Delete Key: 3 does not exist in KeySet
+30/01/2016 11:30:18:727  [Message]Key: tcss558, Value: appliedDistributedComputing pair is added
+30/01/2016 11:30:18:730  [Message]Key: teamNumberY, Value: YaqunYu pair is added
+30/01/2016 11:30:18:734  [Message]Key: ProjectNum, Value: ProjectTwo pair is added
+30/01/2016 11:30:18:738  [Message]key get from system is: tcss558, and its value is: appliedDistributedComputing
+30/01/2016 11:30:18:743  [Error]Get Key: teamNumberX does not exist in KeySet
+30/01/2016 11:30:18:747  [Message]key get from system is: teamNumberY, and its value is: YaqunYu
+30/01/2016 11:30:18:750  [Message]key get from system is: ProjectNum, and its value is: ProjectTwo

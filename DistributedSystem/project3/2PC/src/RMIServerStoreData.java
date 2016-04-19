@@ -1,0 +1,327 @@
+import java.io.IOException;
+import java.net.Inet4Address;
+import java.net.UnknownHostException;
+import java.rmi.RemoteException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.FutureTask;
+import java.util.concurrent.RunnableFuture;
+import java.util.concurrent.TimeUnit;
+
+
+public class RMIServerStoreData implements RMIinterface, RMI_two_phases_commit{
+	//private myLog log;
+	private List<RMI_two_phases_commit> Replicated_server; 
+	private HashMap<String, String> RMIServerStoreData;
+	private Map<String, String[]> requests;
+	public enum RequestType {ACK,COMMIT} 
+	
+	public RMIServerStoreData() throws IOException {
+		//super();
+		// TODO Auto-generated constructor stub
+	
+		RMIServerStoreData = new HashMap<String, String>();
+		try {
+			myLog.createLog("RMIServerLog.txt");
+			myLog.normal("RPC Server start running on : " 
+					+ Inet4Address.getLocalHost() , true);		
+			}catch (IOException e){
+			myLog.error("Error: Log creation for RMI server failed: " + e.getMessage());
+		    }
+		    requests = new HashMap<String, String[]>();	
+	}
+	//When you need a predefined list of values which do not represent some kind of numeric or textual data, you should use an enum
+	public List<RMI_two_phases_commit> getReplicated_server(){
+		return Replicated_server;
+	}
+	public void setReplicatedServer(List<RMI_two_phases_commit>Replicated_server){
+		this.Replicated_server = Replicated_server;
+	}
+	public Map<String, String[]> getRequests(){
+		return requests;
+	}
+	synchronized public void addRequest(String request_id, String...request){
+		requests.put(request_id, request);
+	}
+	synchronized public void deleteRequest(String request_id){
+		requests.remove(request_id);
+	}
+	
+	
+	@Override
+	synchronized public String get(String thekey) throws RemoteException {
+		// TODO Auto-generated method stub
+		String value = RMIServerStoreData.get(thekey);	
+		myLog.normal("Server call: get " + thekey + ", and its value is: " + value, true);
+			//String value = RMIServerStoreData.get(thekey);
+			//myLog.normal("Server call: get " + thekey + ", and its value is: " + value, true);
+			myLog.normal("key: " + thekey + ", and its value is: " + value, true);
+			return value;
+		}
+	
+	synchronized public void put(String thekey, String thevalue) throws RemoteException{
+		if(tpc(thekey, thevalue)){
+			RMIServerStoreData.put(thekey, thevalue);
+			myLog.normal("Server call: put " + thekey +", " + thevalue, true);
+		}
+		else{
+			myLog.error("Server call: failed to do two phase commit put");
+		}
+		myLog.normal(RMIServerStoreData.toString(), true);
+	}
+	
+	//Define delete operator
+	synchronized public void delete(String thekey) throws RemoteException {
+		// TODO Auto-generated method stub
+		if(tpc(thekey)){
+		if(!RMIServerStoreData.containsKey(thekey))
+			{
+			myLog.error("Delete Key: " + thekey + " does not exist in KeySet");
+		}
+		else {
+			RMIServerStoreData.remove(thekey);
+			myLog.normal("Server call: delete key "+ thekey, true);
+		}
+		if(!RMIServerStoreData.containsKey(thekey)){
+			myLog.normal("Server call: "+ thekey + " has been removed from set along with its value", true);
+			myLog.normal(RMIServerStoreData.toString(), true);
+		}else{
+			myLog.error("Delete key failed = " + thekey);
+		}
+	}else{
+		myLog.error("Can not delet the key: " + thekey + " because two face commit failed");
+	}
+		myLog.normal(RMIServerStoreData.toString(), true);
+	}	
+	
+	@Override
+	public String twopcinitial(String version) throws RemoteException{
+		return null;
+	}
+	@Override
+	public String twopcupdate(RMIServerStoreData rss) throws RemoteException{
+		return null;
+	}
+	@Override
+	public void twopcput(String key, String value) throws RemoteException{
+		RMIServerStoreData.put(key, value);
+		myLog.normal("Server call: put " + key + "," + value, true);
+	}
+	
+	public void twopcdelete(String thekey) throws RemoteException{
+			if(!RMIServerStoreData.containsKey(thekey)){
+				myLog.error(" key: " + thekey +" is not found");
+			}else{
+				RMIServerStoreData.remove(thekey);
+				myLog.normal("Server call: delete key " + thekey , true);
+			}if(!RMIServerStoreData.containsKey(thekey)){
+				myLog.normal("Delete key " + thekey + "successful", true);
+				myLog.normal(RMIServerStoreData.toString(), true);
+			}else{
+				myLog.error("Delete faile: key " +thekey);
+			}			
+		}
+	@Override
+	synchronized public boolean twopcrequest(String request_id, String...request) throws RemoteException{
+		System.out.println("Request ID: " + request_id);
+		for(String s:request){
+			System.out.println(s);
+		}
+		requests.put(request_id, request);
+		return true;
+	}
+	
+	@Override
+	public boolean twopcCommit(String request_id) throws RemoteException{
+		System.out.print("Request ID to Commit: " + request_id);
+		String[] request = requests.get(request_id);
+		if(request.length > 1){
+			twopcput(request[0], request[1]);
+			requests.remove(request_id);
+			return true;
+		}
+		else if(requests.get(request_id).length == 1){
+			twopcdelete(request[0]);
+			requests.remove(request_id);
+			return true;
+		}else
+			return false;	
+	}
+	
+	private String generateID() throws UnknownHostException{
+		
+		return Inet4Address.getLocalHost() + "-" + myLog.getTimestamp();	
+	}
+	
+	synchronized public boolean tpc(final String...args){
+		try{
+			boolean [] acks = {false, false, false, false};
+			final String request_id = generateID();
+			scheduleTask(RequestType.ACK, request_id, -1, acks, args);
+			int trials =0;
+			boolean missingACK = true;
+			while(missingACK && trials < 5){
+				missingACK = false;
+				for(int j = 0 ; j < 4 ; j++){
+					myLog.normal("ACK: index=" + j + " " + acks[j] + "", true);
+					if(acks[j] == false){
+						missingACK = true;
+						myLog.error("Missing acks should be true "+missingACK);
+						scheduleTask(RequestType.ACK, request_id, j , acks , args);
+					}
+				}
+				trials++;
+			}
+			myLog.normal("Is ACK: " +  missingACK + "missing?", true);
+			if(!missingACK){
+				acks[0] = false;
+				acks[1] = false;
+				acks[2] = false;
+				acks[3] = false;
+				scheduleTask(RequestType.COMMIT, request_id, -1 , acks , args);
+				
+				trials = 0;
+				missingACK = true;
+				while(missingACK && trials<5){
+					missingACK = false; //no ACK is missing
+					for(int j = 0; j < 4; j++){
+						myLog.normal("COMMIT: index = " + j + " " + acks[j], true);
+						if(acks[j]== false){
+							missingACK = true; //ACK missing
+							myLog.error("Ack missing: " + missingACK);
+							scheduleTask(RequestType.COMMIT, request_id, j , acks, args);
+						}
+					}
+					trials++;
+				}
+				myLog.normal("ACK is not missing? " +!missingACK, true);
+				return !missingACK;
+			}
+			else{
+				return false;
+			}
+		}catch(Exception e){
+				e.printStackTrace();
+				return false;
+			}
+	}	
+	
+	@SuppressWarnings("unchecked")
+	private void scheduleTask(RequestType therequest, final String request_id, final int index, boolean[] acks, 
+				final String...args) throws InterruptedException, ExecutionException{
+			if((therequest.equals(RequestType.ACK)) && index < 0){
+				int i = 0;
+				for(final RMI_two_phases_commit rtpc : Replicated_server){
+					RunnableFuture f = new FutureTask(new Callable<Boolean>(){
+						public Boolean call() throws RemoteException {
+							if(args.length == 2){
+								return rtpc.twopcrequest(request_id, args);
+							}
+							else{
+								return rtpc.twopcrequest(request_id, args);
+							}
+						}
+					});
+					Thread t = new Thread(f);
+					t.start();
+					
+					try{
+						acks[i] = ((Boolean)f.get(1, TimeUnit.SECONDS)).booleanValue();
+						myLog.normal("ACK is " + acks[i], true);
+					}catch (Exception e){
+						myLog.error("Timeout");
+						myLog.error(acks[i] + " " + i);
+					}
+					f.cancel(true); //if ack missing, timeout and cancel transaction
+					i++;
+				}
+			}
+			else if(therequest.equals(RequestType.ACK) && index >= 0 ){
+				@SuppressWarnings("unchecked")
+				RunnableFuture f = new FutureTask(new Callable<Boolean>(){
+					
+					public Boolean call() throws RemoteException {
+						if(args.length == 2){
+							return Replicated_server.get(index).twopcrequest(request_id, args);
+						}else{
+							return Replicated_server.get(index).twopcrequest(request_id, args);
+						}
+					}
+				});
+				new Thread(f).start();
+				
+				try{
+					acks[index] = ((Boolean) f.get(1, TimeUnit.SECONDS)).booleanValue();
+					myLog.normal("Late ACK: " + acks[index], true);
+				}catch(Exception e){
+					myLog.error("Timeout");
+					myLog.error("" + acks[index] + " " + index);
+				}
+				f.cancel(true);
+			}
+			else if(therequest.equals(RequestType.COMMIT) && index < 0){
+				int i = 0;
+				for(final RMI_two_phases_commit rtpc: Replicated_server){
+					@SuppressWarnings("unchecked")
+					RunnableFuture f = new FutureTask(new Callable<Boolean>(){
+						public Boolean call() throws RemoteException {
+							if(args.length == 2){
+								return rtpc.twopcCommit(request_id);
+							}
+							else{
+								return rtpc.twopcCommit(request_id);
+							}
+						}
+					});
+					// start the thread to execute it 
+					new Thread(f).start();
+					try{
+						acks[i] = ((Boolean) f.get(1, TimeUnit.SECONDS)).booleanValue();
+						myLog.normal("Go Acks " + acks[i], true);
+					}catch(Exception e){
+						myLog.error("Timeout");
+						myLog.error("" + acks[i] + " " + i);
+					}
+					f.cancel(true);
+					i++;
+				}
+			}
+			else if(therequest.equals(RequestType.COMMIT) && index >= 0){
+				@SuppressWarnings("unchecked")
+				RunnableFuture f = new FutureTask(new Callable<Boolean>(){
+					// implement call
+					public Boolean call() throws RemoteException {
+						if(args.length == 2){
+							return Replicated_server.get(index).twopcCommit(request_id);
+						}
+						else{
+							return Replicated_server.get(index).twopcCommit(request_id);
+						}
+					}
+			});
+				new Thread(f).start();
+				try{
+					acks[index] = ((Boolean) f.get(1, TimeUnit.SECONDS)).booleanValue();
+					myLog.normal("last Commit Acks " + acks[index], true);
+				}catch(Exception e){
+					myLog.error("Timeout");
+					myLog.error("" + acks[index] + " " + index);
+				}
+				f.cancel(true);	
+		}
+	}
+	/*@Override
+	public void twopcget(String key) throws RemoteException {
+		// TODO Auto-generated method stub
+		
+	}*/
+	@Override
+	public void twopcget(String thekey) throws RemoteException {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

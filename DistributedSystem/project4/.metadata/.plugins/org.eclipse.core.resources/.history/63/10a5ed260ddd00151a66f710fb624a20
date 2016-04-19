@@ -1,0 +1,34 @@
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+/**
+ * 
+ * @author yaqunyu
+ * the paxos algorithm including three steps: Prepare, accept, learn. 
+ * after learner find that acceptors have accepted a value, this value is been chosen by Paxos
+ * once it has been chosen, further communication with other proposers cannot change this value.   
+ */
+public interface Paxos extends Remote {
+	
+	/**
+	 * In this method, the proposer sends a prepare request to each acceptor containing a proposed value v 
+	 * and a proposal number n, n is a positive, monotonically increasing unique number. If the acceptor receiving a prepare request
+	 * has not see another proposal, the acceptor responds with a prepare response with promises never to accept another proposal with a lower proposal number n 
+	 * @param n is the proposal number send along with prepare request
+	 * @param v is the value send along with prepare request
+	 * @return will return ACK if not see any other proposal before or the accepted highest numbered proposal that it has accepted along with the value
+	 * @throws RemoteException
+	 * @throws InterruptedException
+	 */
+	public String prepare(int n, String v) throws RemoteException, InterruptedException;
+	/**
+	 * in this method, after proposer receive the response from a majority of acceptors it can issue an accept request to every acceptor with the same proposal number and 
+	 * value as its initial proposed.
+	 * However these requests are ignored by acceptor because they have all promised not to accept requests with a proposal number lower than what they have seen.
+	 * @param n proposal number
+	 * @param v proposal value
+	 * @return will return an 
+	 * @throws RemoteException
+	 * @throws InterruptedException
+	 */
+	public String accept(int n, String v) throws RemoteException, InterruptedException;
+}

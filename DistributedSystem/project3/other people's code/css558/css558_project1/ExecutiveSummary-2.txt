@@ -1,0 +1,26 @@
+﻿Stephen Mosby
+Kellen Han-Nin Cheng
+Aqeel S Bin Rustum
+Nai-Wei Chen
+CSS558 Sp14 Project1
+
+
+
+
+Assignment overview:
+This assignment was to implement TCP and UDP protocols between a client and server. The primary function was to have the client sends requests[a] to the server to GET, PUT, and DELETE a key-value store. The server and client each must be in agreement of the behavior of these functions[b]. The client will format a command (Command,Key,Value [PUT only]) to transmit over both protocols (done separately) while the server will receive the commands and interpret it such that it can run local methods as requested by the client.  The Server will use a HashMap to store the key value pair. For the PUT method, we will add a key to the map on the server side with the given value. It will overwrite the key-value pair if there is a key conflict. We did not perceive this to be an issue in the scope of the assignment.The GET method will tell the server to retrieve the value of a key that it receives from the client and send back the value if it exists. The DELETE method will remove any key-value mapping from the server memory if it exists. For any issue to where a key-value pair does not exist, we simply mention a failure in implementing the command. The outcomes of this assignment were to get comfortable with TCP and UDP, the differences in implementation and performances between them, handling function calls over the protocols, and prepare for RPC implementation in future assignments.
+
+
+
+
+Technical Impression
+Implementing UDP for our client-server application was fairly straightforward.  Java’s .net package provided the API we needed to quickly write code.  The main difficulty encountered here had to do with parsing client request strings on the server side.  Apparently, Java’s String.split() method doesn’t always behave properly, leaving invisible characters in the client’s request keys, and causing GET and DELETE requests to fail. 
+This is a great introduction to UDP/TCP implementations, and first step in exploring distributed systems. Future classes may want to explore how UDP/TCP client-servers are implemented in distributed systems today, or have been implemented in the past.
+
+
+
+
+
+
+[a]more accurate explanation than 'call functions'
+[b]I did not got it and we can take out this statment

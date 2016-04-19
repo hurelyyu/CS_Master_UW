@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Paxos/Paxos&apos; to &apos;Paxos.java&apos;" description="Rename resource &apos;Paxos&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Paxos" name="Paxos.java" stamp="1456546065934" updateReferences="true"/>
+</session>

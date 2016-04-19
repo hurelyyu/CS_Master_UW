@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;2PC/src/RMIclient.java&apos; to &apos;RMIclientmain.java&apos;" description="Rename resource &apos;RMIclient.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/RMIclient.java" name="RMIclientmain.java" stamp="1455611316121" updateReferences="true"/>
+</session>

@@ -1,0 +1,67 @@
+import java.io.BufferedReader;
+import java.io.DataInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.rmi.Naming;
+import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
+import java.net.Inet4Address;
+
+public class RMIclientmain{
+	public static int timeout = 1000;
+	public static int id;
+	static RMIinterface rmiitf ;
+	
+	public static void main(String args[]) throws Exception{
+		//RMIinterface rmiitf = (RMIinterface) Naming.lookup("RMIinterface");
+		try {
+			myLog.createLog("RMIClientLog.txt");
+		}  catch (IOException e) {
+			System.out.println("Error: Log creation for RMI server failed.");
+			myLog.error("Error: Log creation for RMI server failed.");
+		}
+		  String myHost = "";
+	        if(args.length != 1) {
+	        	myLog.error("Server IP is not provided as a parameter, if your want to use default, please input default ip address: 127.0.0.1");
+	        	//myHost = "127.0.0.1";
+	        } else {
+	        	myHost = java.net.Inet4Address.getLocalHost().getHostName();
+	        	myLog.normal("Will call server: " + args[0], true);
+	        }
+		     
+		try{
+	        	//Registry registry = LocateRegistry.getRegistry(myHost); //get registry
+	        rmiitf = (RMIinterface)Naming.lookup("//" + args[0] + "/"+ "RMIinterface"); //obtain the stub for the remote object from the server's registry
+	        	//System.out.println("connect Success");  //Debug Measurement 2
+	    	}catch (Exception e){
+			myLog.error("Client connect with Server Error: " + e.getMessage());
+			System.exit(-1);
+		}
+		//setup timestamp
+		String timestamp = myLog.getTimestamp();
+		myLog.normal("RMIClient-" + id +"-" + timestamp + " Log.txt", true);
+		myLog.normal("Client " + id + " is running on : " 
+				+ Inet4Address.getLocalHost(), true);
+		//open file and read line by line
+		try {
+            File fl = new File("testPairs.txt");
+            InputStreamReader read = new InputStreamReader(new FileInputStream(fl));
+            BufferedReader br = new BufferedReader(read);
+            String line;
+            
+            while ((line = br.readLine()) != null) {
+                System.out.println("Input line: " + line);
+                RMIoneExecution(line, args[0]);
+            }
+            read.close();
+            System.out.println("Test finished. ");
+        } catch (IOException e) {
+        	myLog.error("Could not find file name testPairs.txt, please make sure file location is correct");
+        }
+	}	
+}

@@ -1,0 +1,8 @@
+17/02/2016 04:03:25:379  [Message]Will call server: Yaquns-MacBook-Pro.local
+17/02/2016 04:03:25:412  [Error]Client connect with Server Error: sun.rmi.registry.RegistryImpl_Stub cannot be cast to RMIinterface
+17/02/2016 04:03:36:647  [Message]Will call server: Yaquns-MacBook-Pro.local
+17/02/2016 04:03:36:694  [Error]Client connect with Server Error: sun.rmi.registry.RegistryImpl_Stub cannot be cast to RMIinterface
+17/02/2016 04:03:49:492  [Error]Server IP is not provided as a parameter, if your want to use default, please input default ip address: 127.0.0.1
+17/02/2016 04:03:49:544  [Error]Client connect with Server Error: sun.rmi.registry.RegistryImpl_Stub cannot be cast to RMIinterface
+17/02/2016 04:03:57:446  [Message]Will call server: Yaquns-MacBook-Pro.local
+17/02/2016 04:03:57:477  [Error]Client connect with Server Error: sun.rmi.registry.RegistryImpl_Stub cannot be cast to RMIinterface

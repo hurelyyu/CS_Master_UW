@@ -1,0 +1,39 @@
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+
+public interface RMI_two_phases_commit extends Remote{
+   /**for functions replicated on replicated servers. functions are put, get, delete
+    * the parameters in each function would be the key, and value we stored in RMIinterface
+      class
+      These functions are all in the first phase, when client send out command to server and 
+      wait for ACK from all, only if all ACK received they would went to second phase,
+      
+    */
+    //functions from 1-pc   
+    void twopcput(String key, String value) throws RemoteException;
+    
+    void twopcget(String key) throws RemoteException;
+    
+    void twopcdelete(String key) throws RemoteException;
+    
+    //functions to deal with odd situation in two-pc
+    //when server first activited it need a registry to check the 
+    //current version of its repica, if not, it will request a updated
+    //version of the replica.
+    
+    String twopcinitial(String version) throws RemoteException;
+    
+    //a server could also been called by other servers to update their replica
+    boolean twopcrequest(String request_id, String...request) throws RemoteException;
+    String twopcupdate(RMIServerStoreData rss) throws RemoteException;
+    
+    
+    
+    /*from here is the function define for the second phase in two-pc
+      during the second phase, the server will receive commond agree servers go ahead 
+      to excute whatever request on phase 1, this only have two states: yes/no, so we 
+      can use boolean.
+     */ 
+     boolean twopcCommit(String request_id) throws RemoteException;
+
+}

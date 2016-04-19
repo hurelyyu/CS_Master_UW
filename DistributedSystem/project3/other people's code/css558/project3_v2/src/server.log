@@ -1,0 +1,1504 @@
+[2016/02/17 20:16:56] RPC.Server start running on : Yaquns-MacBook-Pro.local/10.0.0.4
+[2016/02/17 20:17:52] Timeout
+[2016/02/17 20:17:52] false 0
+[2016/02/17 20:17:52] ACK: index=0 false
+[2016/02/17 20:17:52] Missing acks should be true true
+[2016/02/17 20:17:53] Timeout
+[2016/02/17 20:17:53] false 0
+[2016/02/17 20:17:53] ACK: index=1 false
+[2016/02/17 20:17:53] Missing acks should be true true
+[2016/02/17 20:17:53] Timeout
+[2016/02/17 20:17:53] false 1
+[2016/02/17 20:17:53] ACK: index=2 false
+[2016/02/17 20:17:53] Missing acks should be true true
+[2016/02/17 20:17:53] Timeout
+[2016/02/17 20:17:53] false 2
+[2016/02/17 20:17:53] ACK: index=3 false
+[2016/02/17 20:17:53] Missing acks should be true true
+[2016/02/17 20:17:53] Timeout
+[2016/02/17 20:17:53] false 3
+[2016/02/17 20:17:53] ACK: index=0 false
+[2016/02/17 20:17:53] Missing acks should be true true
+[2016/02/17 20:17:54] Timeout
+[2016/02/17 20:17:54] false 0
+[2016/02/17 20:17:54] ACK: index=1 false
+[2016/02/17 20:17:54] Missing acks should be true true
+[2016/02/17 20:17:54] Timeout
+[2016/02/17 20:17:54] false 1
+[2016/02/17 20:17:54] ACK: index=2 false
+[2016/02/17 20:17:54] Missing acks should be true true
+[2016/02/17 20:17:54] Timeout
+[2016/02/17 20:17:54] false 2
+[2016/02/17 20:17:54] ACK: index=3 false
+[2016/02/17 20:17:54] Missing acks should be true true
+[2016/02/17 20:17:55] Timeout
+[2016/02/17 20:17:55] false 3
+[2016/02/17 20:17:55] ACK: index=0 false
+[2016/02/17 20:17:55] Missing acks should be true true
+[2016/02/17 20:17:56] Timeout
+[2016/02/17 20:17:56] false 0
+[2016/02/17 20:17:56] ACK: index=1 false
+[2016/02/17 20:17:56] Missing acks should be true true
+[2016/02/17 20:17:56] Timeout
+[2016/02/17 20:17:56] false 1
+[2016/02/17 20:17:56] ACK: index=2 false
+[2016/02/17 20:17:56] Missing acks should be true true
+[2016/02/17 20:17:56] Timeout
+[2016/02/17 20:17:56] false 2
+[2016/02/17 20:17:56] ACK: index=3 false
+[2016/02/17 20:17:56] Missing acks should be true true
+[2016/02/17 20:17:56] Timeout
+[2016/02/17 20:17:56] false 3
+[2016/02/17 20:17:56] ACK: index=0 false
+[2016/02/17 20:17:56] Missing acks should be true true
+[2016/02/17 20:17:57] Timeout
+[2016/02/17 20:17:57] false 0
+[2016/02/17 20:17:57] ACK: index=1 false
+[2016/02/17 20:17:57] Missing acks should be true true
+[2016/02/17 20:17:57] Timeout
+[2016/02/17 20:17:57] false 1
+[2016/02/17 20:17:57] ACK: index=2 false
+[2016/02/17 20:17:57] Missing acks should be true true
+[2016/02/17 20:17:57] Timeout
+[2016/02/17 20:17:57] false 2
+[2016/02/17 20:17:57] ACK: index=3 false
+[2016/02/17 20:17:57] Missing acks should be true true
+[2016/02/17 20:17:57] Timeout
+[2016/02/17 20:17:57] false 3
+[2016/02/17 20:17:57] ACK: index=0 false
+[2016/02/17 20:17:57] Missing acks should be true true
+[2016/02/17 20:17:58] Timeout
+[2016/02/17 20:17:58] false 0
+[2016/02/17 20:17:58] ACK: index=1 false
+[2016/02/17 20:17:58] Missing acks should be true true
+[2016/02/17 20:17:58] Timeout
+[2016/02/17 20:17:58] false 1
+[2016/02/17 20:17:58] ACK: index=2 false
+[2016/02/17 20:17:58] Missing acks should be true true
+[2016/02/17 20:17:58] Timeout
+[2016/02/17 20:17:58] false 2
+[2016/02/17 20:17:58] ACK: index=3 false
+[2016/02/17 20:17:58] Missing acks should be true true
+[2016/02/17 20:17:58] Timeout
+[2016/02/17 20:17:58] false 3
+[2016/02/17 20:17:58] Missing acks? true
+[2016/02/17 20:17:58] Server call: failed to do TPC -> put <key1,value1>
+[2016/02/17 20:17:58] {}
+[2016/02/17 20:18:02] Timeout
+[2016/02/17 20:18:02] false 0
+[2016/02/17 20:18:02] ACK: index=0 false
+[2016/02/17 20:18:02] Missing acks should be true true
+[2016/02/17 20:18:03] Timeout
+[2016/02/17 20:18:03] false 0
+[2016/02/17 20:18:03] ACK: index=1 false
+[2016/02/17 20:18:03] Missing acks should be true true
+[2016/02/17 20:18:03] Timeout
+[2016/02/17 20:18:03] false 1
+[2016/02/17 20:18:03] ACK: index=2 false
+[2016/02/17 20:18:03] Missing acks should be true true
+[2016/02/17 20:18:03] Timeout
+[2016/02/17 20:18:03] false 2
+[2016/02/17 20:18:03] ACK: index=3 false
+[2016/02/17 20:18:03] Missing acks should be true true
+[2016/02/17 20:18:03] Timeout
+[2016/02/17 20:18:03] false 3
+[2016/02/17 20:18:03] ACK: index=0 false
+[2016/02/17 20:18:03] Missing acks should be true true
+[2016/02/17 20:18:04] Timeout
+[2016/02/17 20:18:04] false 0
+[2016/02/17 20:18:04] ACK: index=1 false
+[2016/02/17 20:18:04] Missing acks should be true true
+[2016/02/17 20:18:04] Timeout
+[2016/02/17 20:18:04] false 1
+[2016/02/17 20:18:04] ACK: index=2 false
+[2016/02/17 20:18:04] Missing acks should be true true
+[2016/02/17 20:18:04] Timeout
+[2016/02/17 20:18:04] false 2
+[2016/02/17 20:18:04] ACK: index=3 false
+[2016/02/17 20:18:04] Missing acks should be true true
+[2016/02/17 20:18:04] Timeout
+[2016/02/17 20:18:04] false 3
+[2016/02/17 20:18:04] ACK: index=0 false
+[2016/02/17 20:18:04] Missing acks should be true true
+[2016/02/17 20:18:05] Timeout
+[2016/02/17 20:18:05] false 0
+[2016/02/17 20:18:05] ACK: index=1 false
+[2016/02/17 20:18:05] Missing acks should be true true
+[2016/02/17 20:18:05] Timeout
+[2016/02/17 20:18:05] false 1
+[2016/02/17 20:18:05] ACK: index=2 false
+[2016/02/17 20:18:05] Missing acks should be true true
+[2016/02/17 20:18:05] Timeout
+[2016/02/17 20:18:05] false 2
+[2016/02/17 20:18:05] ACK: index=3 false
+[2016/02/17 20:18:05] Missing acks should be true true
+[2016/02/17 20:18:05] Timeout
+[2016/02/17 20:18:05] false 3
+[2016/02/17 20:18:05] ACK: index=0 false
+[2016/02/17 20:18:05] Missing acks should be true true
+[2016/02/17 20:18:06] Timeout
+[2016/02/17 20:18:06] false 0
+[2016/02/17 20:18:06] ACK: index=1 false
+[2016/02/17 20:18:06] Missing acks should be true true
+[2016/02/17 20:18:06] Timeout
+[2016/02/17 20:18:06] false 1
+[2016/02/17 20:18:06] ACK: index=2 false
+[2016/02/17 20:18:06] Missing acks should be true true
+[2016/02/17 20:18:06] Timeout
+[2016/02/17 20:18:06] false 2
+[2016/02/17 20:18:06] ACK: index=3 false
+[2016/02/17 20:18:06] Missing acks should be true true
+[2016/02/17 20:18:06] Timeout
+[2016/02/17 20:18:06] false 3
+[2016/02/17 20:18:06] ACK: index=0 false
+[2016/02/17 20:18:06] Missing acks should be true true
+[2016/02/17 20:18:07] Timeout
+[2016/02/17 20:18:07] false 0
+[2016/02/17 20:18:07] ACK: index=1 false
+[2016/02/17 20:18:07] Missing acks should be true true
+[2016/02/17 20:18:07] Timeout
+[2016/02/17 20:18:07] false 1
+[2016/02/17 20:18:07] ACK: index=2 false
+[2016/02/17 20:18:07] Missing acks should be true true
+[2016/02/17 20:18:07] Timeout
+[2016/02/17 20:18:07] false 2
+[2016/02/17 20:18:07] ACK: index=3 false
+[2016/02/17 20:18:07] Missing acks should be true true
+[2016/02/17 20:18:07] Timeout
+[2016/02/17 20:18:07] false 3
+[2016/02/17 20:18:07] Missing acks? true
+[2016/02/17 20:18:07] Server call: failed to do TPC -> put <key2,value2>
+[2016/02/17 20:18:07] {}
+[2016/02/17 20:18:11] Timeout
+[2016/02/17 20:18:11] false 0
+[2016/02/17 20:18:11] ACK: index=0 false
+[2016/02/17 20:18:11] Missing acks should be true true
+[2016/02/17 20:18:12] Timeout
+[2016/02/17 20:18:12] false 0
+[2016/02/17 20:18:12] ACK: index=1 false
+[2016/02/17 20:18:12] Missing acks should be true true
+[2016/02/17 20:18:12] Timeout
+[2016/02/17 20:18:12] false 1
+[2016/02/17 20:18:12] ACK: index=2 false
+[2016/02/17 20:18:12] Missing acks should be true true
+[2016/02/17 20:18:12] Timeout
+[2016/02/17 20:18:12] false 2
+[2016/02/17 20:18:12] ACK: index=3 false
+[2016/02/17 20:18:12] Missing acks should be true true
+[2016/02/17 20:18:12] Timeout
+[2016/02/17 20:18:12] false 3
+[2016/02/17 20:18:12] ACK: index=0 false
+[2016/02/17 20:18:12] Missing acks should be true true
+[2016/02/17 20:18:13] Timeout
+[2016/02/17 20:18:13] false 0
+[2016/02/17 20:18:13] ACK: index=1 false
+[2016/02/17 20:18:13] Missing acks should be true true
+[2016/02/17 20:18:13] Timeout
+[2016/02/17 20:18:13] false 1
+[2016/02/17 20:18:13] ACK: index=2 false
+[2016/02/17 20:18:13] Missing acks should be true true
+[2016/02/17 20:18:13] Timeout
+[2016/02/17 20:18:13] false 2
+[2016/02/17 20:18:13] ACK: index=3 false
+[2016/02/17 20:18:13] Missing acks should be true true
+[2016/02/17 20:18:13] Timeout
+[2016/02/17 20:18:13] false 3
+[2016/02/17 20:18:13] ACK: index=0 false
+[2016/02/17 20:18:13] Missing acks should be true true
+[2016/02/17 20:18:14] Timeout
+[2016/02/17 20:18:14] false 0
+[2016/02/17 20:18:14] ACK: index=1 false
+[2016/02/17 20:18:14] Missing acks should be true true
+[2016/02/17 20:18:14] Timeout
+[2016/02/17 20:18:14] false 1
+[2016/02/17 20:18:14] ACK: index=2 false
+[2016/02/17 20:18:14] Missing acks should be true true
+[2016/02/17 20:18:14] Timeout
+[2016/02/17 20:18:14] false 2
+[2016/02/17 20:18:14] ACK: index=3 false
+[2016/02/17 20:18:14] Missing acks should be true true
+[2016/02/17 20:18:14] Timeout
+[2016/02/17 20:18:14] false 3
+[2016/02/17 20:18:14] ACK: index=0 false
+[2016/02/17 20:18:14] Missing acks should be true true
+[2016/02/17 20:18:15] Timeout
+[2016/02/17 20:18:15] false 0
+[2016/02/17 20:18:15] ACK: index=1 false
+[2016/02/17 20:18:15] Missing acks should be true true
+[2016/02/17 20:18:15] Timeout
+[2016/02/17 20:18:15] false 1
+[2016/02/17 20:18:15] ACK: index=2 false
+[2016/02/17 20:18:15] Missing acks should be true true
+[2016/02/17 20:18:15] Timeout
+[2016/02/17 20:18:15] false 2
+[2016/02/17 20:18:15] ACK: index=3 false
+[2016/02/17 20:18:15] Missing acks should be true true
+[2016/02/17 20:18:15] Timeout
+[2016/02/17 20:18:15] false 3
+[2016/02/17 20:18:15] ACK: index=0 false
+[2016/02/17 20:18:15] Missing acks should be true true
+[2016/02/17 20:18:16] Timeout
+[2016/02/17 20:18:16] false 0
+[2016/02/17 20:18:16] ACK: index=1 false
+[2016/02/17 20:18:16] Missing acks should be true true
+[2016/02/17 20:18:16] Timeout
+[2016/02/17 20:18:16] false 1
+[2016/02/17 20:18:16] ACK: index=2 false
+[2016/02/17 20:18:16] Missing acks should be true true
+[2016/02/17 20:18:16] Timeout
+[2016/02/17 20:18:16] false 2
+[2016/02/17 20:18:16] ACK: index=3 false
+[2016/02/17 20:18:16] Missing acks should be true true
+[2016/02/17 20:18:16] Timeout
+[2016/02/17 20:18:16] false 3
+[2016/02/17 20:18:16] Missing acks? true
+[2016/02/17 20:18:16] Server call: failed to do TPC -> put <key3,value3>
+[2016/02/17 20:18:16] {}
+[2016/02/17 20:18:20] Timeout
+[2016/02/17 20:18:20] false 0
+[2016/02/17 20:18:20] ACK: index=0 false
+[2016/02/17 20:18:20] Missing acks should be true true
+[2016/02/17 20:18:21] Timeout
+[2016/02/17 20:18:21] false 0
+[2016/02/17 20:18:21] ACK: index=1 false
+[2016/02/17 20:18:21] Missing acks should be true true
+[2016/02/17 20:18:21] Timeout
+[2016/02/17 20:18:21] false 1
+[2016/02/17 20:18:21] ACK: index=2 false
+[2016/02/17 20:18:21] Missing acks should be true true
+[2016/02/17 20:18:21] Timeout
+[2016/02/17 20:18:21] false 2
+[2016/02/17 20:18:21] ACK: index=3 false
+[2016/02/17 20:18:21] Missing acks should be true true
+[2016/02/17 20:18:21] Timeout
+[2016/02/17 20:18:21] false 3
+[2016/02/17 20:18:21] ACK: index=0 false
+[2016/02/17 20:18:21] Missing acks should be true true
+[2016/02/17 20:18:22] Timeout
+[2016/02/17 20:18:22] false 0
+[2016/02/17 20:18:22] ACK: index=1 false
+[2016/02/17 20:18:22] Missing acks should be true true
+[2016/02/17 20:18:22] Timeout
+[2016/02/17 20:18:22] false 1
+[2016/02/17 20:18:22] ACK: index=2 false
+[2016/02/17 20:18:22] Missing acks should be true true
+[2016/02/17 20:18:22] Timeout
+[2016/02/17 20:18:22] false 2
+[2016/02/17 20:18:22] ACK: index=3 false
+[2016/02/17 20:18:22] Missing acks should be true true
+[2016/02/17 20:18:22] Timeout
+[2016/02/17 20:18:22] false 3
+[2016/02/17 20:18:22] ACK: index=0 false
+[2016/02/17 20:18:22] Missing acks should be true true
+[2016/02/17 20:18:23] Timeout
+[2016/02/17 20:18:23] false 0
+[2016/02/17 20:18:23] ACK: index=1 false
+[2016/02/17 20:18:23] Missing acks should be true true
+[2016/02/17 20:18:23] Timeout
+[2016/02/17 20:18:23] false 1
+[2016/02/17 20:18:23] ACK: index=2 false
+[2016/02/17 20:18:23] Missing acks should be true true
+[2016/02/17 20:18:23] Timeout
+[2016/02/17 20:18:23] false 2
+[2016/02/17 20:18:23] ACK: index=3 false
+[2016/02/17 20:18:23] Missing acks should be true true
+[2016/02/17 20:18:23] Timeout
+[2016/02/17 20:18:23] false 3
+[2016/02/17 20:18:23] ACK: index=0 false
+[2016/02/17 20:18:23] Missing acks should be true true
+[2016/02/17 20:18:24] Timeout
+[2016/02/17 20:18:24] false 0
+[2016/02/17 20:18:24] ACK: index=1 false
+[2016/02/17 20:18:24] Missing acks should be true true
+[2016/02/17 20:18:24] Timeout
+[2016/02/17 20:18:24] false 1
+[2016/02/17 20:18:24] ACK: index=2 false
+[2016/02/17 20:18:24] Missing acks should be true true
+[2016/02/17 20:18:24] Timeout
+[2016/02/17 20:18:24] false 2
+[2016/02/17 20:18:24] ACK: index=3 false
+[2016/02/17 20:18:24] Missing acks should be true true
+[2016/02/17 20:18:24] Timeout
+[2016/02/17 20:18:24] false 3
+[2016/02/17 20:18:24] ACK: index=0 false
+[2016/02/17 20:18:24] Missing acks should be true true
+[2016/02/17 20:18:25] Timeout
+[2016/02/17 20:18:25] false 0
+[2016/02/17 20:18:25] ACK: index=1 false
+[2016/02/17 20:18:25] Missing acks should be true true
+[2016/02/17 20:18:25] Timeout
+[2016/02/17 20:18:25] false 1
+[2016/02/17 20:18:25] ACK: index=2 false
+[2016/02/17 20:18:25] Missing acks should be true true
+[2016/02/17 20:18:25] Timeout
+[2016/02/17 20:18:25] false 2
+[2016/02/17 20:18:25] ACK: index=3 false
+[2016/02/17 20:18:25] Missing acks should be true true
+[2016/02/17 20:18:25] Timeout
+[2016/02/17 20:18:25] false 3
+[2016/02/17 20:18:25] Missing acks? true
+[2016/02/17 20:18:25] Server call: failed to do TPC -> put <key4,value4>
+[2016/02/17 20:18:25] {}
+[2016/02/17 20:18:29] Timeout
+[2016/02/17 20:18:29] false 0
+[2016/02/17 20:18:29] ACK: index=0 false
+[2016/02/17 20:18:29] Missing acks should be true true
+[2016/02/17 20:18:30] Timeout
+[2016/02/17 20:18:30] false 0
+[2016/02/17 20:18:30] ACK: index=1 false
+[2016/02/17 20:18:30] Missing acks should be true true
+[2016/02/17 20:18:30] Timeout
+[2016/02/17 20:18:30] false 1
+[2016/02/17 20:18:30] ACK: index=2 false
+[2016/02/17 20:18:30] Missing acks should be true true
+[2016/02/17 20:18:30] Timeout
+[2016/02/17 20:18:30] false 2
+[2016/02/17 20:18:30] ACK: index=3 false
+[2016/02/17 20:18:30] Missing acks should be true true
+[2016/02/17 20:18:30] Timeout
+[2016/02/17 20:18:30] false 3
+[2016/02/17 20:18:30] ACK: index=0 false
+[2016/02/17 20:18:30] Missing acks should be true true
+[2016/02/17 20:18:31] Timeout
+[2016/02/17 20:18:31] false 0
+[2016/02/17 20:18:31] ACK: index=1 false
+[2016/02/17 20:18:31] Missing acks should be true true
+[2016/02/17 20:18:31] Timeout
+[2016/02/17 20:18:31] false 1
+[2016/02/17 20:18:31] ACK: index=2 false
+[2016/02/17 20:18:31] Missing acks should be true true
+[2016/02/17 20:18:31] Timeout
+[2016/02/17 20:18:31] false 2
+[2016/02/17 20:18:31] ACK: index=3 false
+[2016/02/17 20:18:31] Missing acks should be true true
+[2016/02/17 20:18:31] Timeout
+[2016/02/17 20:18:31] false 3
+[2016/02/17 20:18:31] ACK: index=0 false
+[2016/02/17 20:18:31] Missing acks should be true true
+[2016/02/17 20:18:32] Timeout
+[2016/02/17 20:18:32] false 0
+[2016/02/17 20:18:32] ACK: index=1 false
+[2016/02/17 20:18:32] Missing acks should be true true
+[2016/02/17 20:18:32] Timeout
+[2016/02/17 20:18:32] false 1
+[2016/02/17 20:18:32] ACK: index=2 false
+[2016/02/17 20:18:32] Missing acks should be true true
+[2016/02/17 20:18:32] Timeout
+[2016/02/17 20:18:32] false 2
+[2016/02/17 20:18:32] ACK: index=3 false
+[2016/02/17 20:18:32] Missing acks should be true true
+[2016/02/17 20:18:32] Timeout
+[2016/02/17 20:18:32] false 3
+[2016/02/17 20:18:32] ACK: index=0 false
+[2016/02/17 20:18:32] Missing acks should be true true
+[2016/02/17 20:18:33] Timeout
+[2016/02/17 20:18:33] false 0
+[2016/02/17 20:18:33] ACK: index=1 false
+[2016/02/17 20:18:33] Missing acks should be true true
+[2016/02/17 20:18:33] Timeout
+[2016/02/17 20:18:33] false 1
+[2016/02/17 20:18:33] ACK: index=2 false
+[2016/02/17 20:18:33] Missing acks should be true true
+[2016/02/17 20:18:33] Timeout
+[2016/02/17 20:18:33] false 2
+[2016/02/17 20:18:33] ACK: index=3 false
+[2016/02/17 20:18:33] Missing acks should be true true
+[2016/02/17 20:18:33] Timeout
+[2016/02/17 20:18:33] false 3
+[2016/02/17 20:18:33] ACK: index=0 false
+[2016/02/17 20:18:33] Missing acks should be true true
+[2016/02/17 20:18:34] Timeout
+[2016/02/17 20:18:34] false 0
+[2016/02/17 20:18:34] ACK: index=1 false
+[2016/02/17 20:18:34] Missing acks should be true true
+[2016/02/17 20:18:34] Timeout
+[2016/02/17 20:18:34] false 1
+[2016/02/17 20:18:34] ACK: index=2 false
+[2016/02/17 20:18:34] Missing acks should be true true
+[2016/02/17 20:18:34] Timeout
+[2016/02/17 20:18:34] false 2
+[2016/02/17 20:18:34] ACK: index=3 false
+[2016/02/17 20:18:34] Missing acks should be true true
+[2016/02/17 20:18:34] Timeout
+[2016/02/17 20:18:34] false 3
+[2016/02/17 20:18:34] Missing acks? true
+[2016/02/17 20:18:34] Server call: failed to do TPC -> put <key5,value5>
+[2016/02/17 20:18:34] {}
+[2016/02/17 20:18:37] Server call: get (key1)
+[2016/02/17 20:18:37] key = key1 , value = null
+[2016/02/17 20:18:40] Server call: get (key2)
+[2016/02/17 20:18:40] key = key2 , value = null
+[2016/02/17 20:18:43] Server call: get (key3)
+[2016/02/17 20:18:43] key = key3 , value = null
+[2016/02/17 20:18:46] Server call: get (key4)
+[2016/02/17 20:18:46] key = key4 , value = null
+[2016/02/17 20:18:49] Server call: get (key5)
+[2016/02/17 20:18:49] key = key5 , value = null
+[2016/02/17 20:18:53] Timeout
+[2016/02/17 20:18:53] false 0
+[2016/02/17 20:18:53] ACK: index=0 false
+[2016/02/17 20:18:53] Missing acks should be true true
+[2016/02/17 20:18:54] Timeout
+[2016/02/17 20:18:54] false 0
+[2016/02/17 20:18:54] ACK: index=1 false
+[2016/02/17 20:18:54] Missing acks should be true true
+[2016/02/17 20:18:54] Timeout
+[2016/02/17 20:18:54] false 1
+[2016/02/17 20:18:54] ACK: index=2 false
+[2016/02/17 20:18:54] Missing acks should be true true
+[2016/02/17 20:18:54] Timeout
+[2016/02/17 20:18:54] false 2
+[2016/02/17 20:18:54] ACK: index=3 false
+[2016/02/17 20:18:54] Missing acks should be true true
+[2016/02/17 20:18:54] Timeout
+[2016/02/17 20:18:54] false 3
+[2016/02/17 20:18:54] ACK: index=0 false
+[2016/02/17 20:18:54] Missing acks should be true true
+[2016/02/17 20:18:55] Timeout
+[2016/02/17 20:18:55] false 0
+[2016/02/17 20:18:55] ACK: index=1 false
+[2016/02/17 20:18:55] Missing acks should be true true
+[2016/02/17 20:18:55] Timeout
+[2016/02/17 20:18:55] false 1
+[2016/02/17 20:18:55] ACK: index=2 false
+[2016/02/17 20:18:55] Missing acks should be true true
+[2016/02/17 20:18:55] Timeout
+[2016/02/17 20:18:55] false 2
+[2016/02/17 20:18:55] ACK: index=3 false
+[2016/02/17 20:18:55] Missing acks should be true true
+[2016/02/17 20:18:55] Timeout
+[2016/02/17 20:18:55] false 3
+[2016/02/17 20:18:55] ACK: index=0 false
+[2016/02/17 20:18:55] Missing acks should be true true
+[2016/02/17 20:18:56] Timeout
+[2016/02/17 20:18:56] false 0
+[2016/02/17 20:18:56] ACK: index=1 false
+[2016/02/17 20:18:56] Missing acks should be true true
+[2016/02/17 20:18:56] Timeout
+[2016/02/17 20:18:56] false 1
+[2016/02/17 20:18:56] ACK: index=2 false
+[2016/02/17 20:18:56] Missing acks should be true true
+[2016/02/17 20:18:56] Timeout
+[2016/02/17 20:18:56] false 2
+[2016/02/17 20:18:56] ACK: index=3 false
+[2016/02/17 20:18:56] Missing acks should be true true
+[2016/02/17 20:18:56] Timeout
+[2016/02/17 20:18:56] false 3
+[2016/02/17 20:18:56] ACK: index=0 false
+[2016/02/17 20:18:56] Missing acks should be true true
+[2016/02/17 20:18:57] Timeout
+[2016/02/17 20:18:57] false 0
+[2016/02/17 20:18:57] ACK: index=1 false
+[2016/02/17 20:18:57] Missing acks should be true true
+[2016/02/17 20:18:57] Timeout
+[2016/02/17 20:18:57] false 1
+[2016/02/17 20:18:57] ACK: index=2 false
+[2016/02/17 20:18:57] Missing acks should be true true
+[2016/02/17 20:18:57] Timeout
+[2016/02/17 20:18:57] false 2
+[2016/02/17 20:18:57] ACK: index=3 false
+[2016/02/17 20:18:57] Missing acks should be true true
+[2016/02/17 20:18:57] Timeout
+[2016/02/17 20:18:57] false 3
+[2016/02/17 20:18:57] ACK: index=0 false
+[2016/02/17 20:18:57] Missing acks should be true true
+[2016/02/17 20:18:58] Timeout
+[2016/02/17 20:18:58] false 0
+[2016/02/17 20:18:58] ACK: index=1 false
+[2016/02/17 20:18:58] Missing acks should be true true
+[2016/02/17 20:18:58] Timeout
+[2016/02/17 20:18:58] false 1
+[2016/02/17 20:18:58] ACK: index=2 false
+[2016/02/17 20:18:58] Missing acks should be true true
+[2016/02/17 20:18:58] Timeout
+[2016/02/17 20:18:58] false 2
+[2016/02/17 20:18:58] ACK: index=3 false
+[2016/02/17 20:18:58] Missing acks should be true true
+[2016/02/17 20:18:58] Timeout
+[2016/02/17 20:18:58] false 3
+[2016/02/17 20:18:58] Missing acks? true
+[2016/02/17 20:18:58] failed deletion of key = key1 due to failed TPC
+[2016/02/17 20:18:58] {}
+[2016/02/17 20:19:02] Timeout
+[2016/02/17 20:19:02] false 0
+[2016/02/17 20:19:02] ACK: index=0 false
+[2016/02/17 20:19:02] Missing acks should be true true
+[2016/02/17 20:19:03] Timeout
+[2016/02/17 20:19:03] false 0
+[2016/02/17 20:19:03] ACK: index=1 false
+[2016/02/17 20:19:03] Missing acks should be true true
+[2016/02/17 20:19:03] Timeout
+[2016/02/17 20:19:03] false 1
+[2016/02/17 20:19:03] ACK: index=2 false
+[2016/02/17 20:19:03] Missing acks should be true true
+[2016/02/17 20:19:03] Timeout
+[2016/02/17 20:19:03] false 2
+[2016/02/17 20:19:03] ACK: index=3 false
+[2016/02/17 20:19:03] Missing acks should be true true
+[2016/02/17 20:19:03] Timeout
+[2016/02/17 20:19:03] false 3
+[2016/02/17 20:19:03] ACK: index=0 false
+[2016/02/17 20:19:03] Missing acks should be true true
+[2016/02/17 20:19:04] Timeout
+[2016/02/17 20:19:04] false 0
+[2016/02/17 20:19:04] ACK: index=1 false
+[2016/02/17 20:19:04] Missing acks should be true true
+[2016/02/17 20:19:04] Timeout
+[2016/02/17 20:19:04] false 1
+[2016/02/17 20:19:04] ACK: index=2 false
+[2016/02/17 20:19:04] Missing acks should be true true
+[2016/02/17 20:19:04] Timeout
+[2016/02/17 20:19:04] false 2
+[2016/02/17 20:19:04] ACK: index=3 false
+[2016/02/17 20:19:04] Missing acks should be true true
+[2016/02/17 20:19:04] Timeout
+[2016/02/17 20:19:04] false 3
+[2016/02/17 20:19:04] ACK: index=0 false
+[2016/02/17 20:19:04] Missing acks should be true true
+[2016/02/17 20:19:05] Timeout
+[2016/02/17 20:19:05] false 0
+[2016/02/17 20:19:05] ACK: index=1 false
+[2016/02/17 20:19:05] Missing acks should be true true
+[2016/02/17 20:19:05] Timeout
+[2016/02/17 20:19:05] false 1
+[2016/02/17 20:19:05] ACK: index=2 false
+[2016/02/17 20:19:05] Missing acks should be true true
+[2016/02/17 20:19:05] Timeout
+[2016/02/17 20:19:05] false 2
+[2016/02/17 20:19:05] ACK: index=3 false
+[2016/02/17 20:19:05] Missing acks should be true true
+[2016/02/17 20:19:05] Timeout
+[2016/02/17 20:19:05] false 3
+[2016/02/17 20:19:05] ACK: index=0 false
+[2016/02/17 20:19:05] Missing acks should be true true
+[2016/02/17 20:19:06] Timeout
+[2016/02/17 20:19:06] false 0
+[2016/02/17 20:19:06] ACK: index=1 false
+[2016/02/17 20:19:06] Missing acks should be true true
+[2016/02/17 20:19:06] Timeout
+[2016/02/17 20:19:06] false 1
+[2016/02/17 20:19:06] ACK: index=2 false
+[2016/02/17 20:19:06] Missing acks should be true true
+[2016/02/17 20:19:06] Timeout
+[2016/02/17 20:19:06] false 2
+[2016/02/17 20:19:06] ACK: index=3 false
+[2016/02/17 20:19:06] Missing acks should be true true
+[2016/02/17 20:19:06] Timeout
+[2016/02/17 20:19:06] false 3
+[2016/02/17 20:19:06] ACK: index=0 false
+[2016/02/17 20:19:06] Missing acks should be true true
+[2016/02/17 20:19:07] Timeout
+[2016/02/17 20:19:07] false 0
+[2016/02/17 20:19:07] ACK: index=1 false
+[2016/02/17 20:19:07] Missing acks should be true true
+[2016/02/17 20:19:07] Timeout
+[2016/02/17 20:19:07] false 1
+[2016/02/17 20:19:07] ACK: index=2 false
+[2016/02/17 20:19:07] Missing acks should be true true
+[2016/02/17 20:19:07] Timeout
+[2016/02/17 20:19:07] false 2
+[2016/02/17 20:19:07] ACK: index=3 false
+[2016/02/17 20:19:07] Missing acks should be true true
+[2016/02/17 20:19:07] Timeout
+[2016/02/17 20:19:07] false 3
+[2016/02/17 20:19:07] Missing acks? true
+[2016/02/17 20:19:07] failed deletion of key = key2 due to failed TPC
+[2016/02/17 20:19:07] {}
+[2016/02/17 20:19:11] Timeout
+[2016/02/17 20:19:11] false 0
+[2016/02/17 20:19:11] ACK: index=0 false
+[2016/02/17 20:19:11] Missing acks should be true true
+[2016/02/17 20:19:12] Timeout
+[2016/02/17 20:19:12] false 0
+[2016/02/17 20:19:12] ACK: index=1 false
+[2016/02/17 20:19:12] Missing acks should be true true
+[2016/02/17 20:19:12] Timeout
+[2016/02/17 20:19:12] false 1
+[2016/02/17 20:19:12] ACK: index=2 false
+[2016/02/17 20:19:12] Missing acks should be true true
+[2016/02/17 20:19:12] Timeout
+[2016/02/17 20:19:12] false 2
+[2016/02/17 20:19:12] ACK: index=3 false
+[2016/02/17 20:19:12] Missing acks should be true true
+[2016/02/17 20:19:12] Timeout
+[2016/02/17 20:19:12] false 3
+[2016/02/17 20:19:12] ACK: index=0 false
+[2016/02/17 20:19:12] Missing acks should be true true
+[2016/02/17 20:19:13] Timeout
+[2016/02/17 20:19:13] false 0
+[2016/02/17 20:19:13] ACK: index=1 false
+[2016/02/17 20:19:13] Missing acks should be true true
+[2016/02/17 20:19:13] Timeout
+[2016/02/17 20:19:13] false 1
+[2016/02/17 20:19:13] ACK: index=2 false
+[2016/02/17 20:19:13] Missing acks should be true true
+[2016/02/17 20:19:13] Timeout
+[2016/02/17 20:19:13] false 2
+[2016/02/17 20:19:13] ACK: index=3 false
+[2016/02/17 20:19:13] Missing acks should be true true
+[2016/02/17 20:19:13] Timeout
+[2016/02/17 20:19:13] false 3
+[2016/02/17 20:19:13] ACK: index=0 false
+[2016/02/17 20:19:13] Missing acks should be true true
+[2016/02/17 20:19:14] Timeout
+[2016/02/17 20:19:14] false 0
+[2016/02/17 20:19:14] ACK: index=1 false
+[2016/02/17 20:19:14] Missing acks should be true true
+[2016/02/17 20:19:14] Timeout
+[2016/02/17 20:19:14] false 1
+[2016/02/17 20:19:14] ACK: index=2 false
+[2016/02/17 20:19:14] Missing acks should be true true
+[2016/02/17 20:19:14] Timeout
+[2016/02/17 20:19:14] false 2
+[2016/02/17 20:19:14] ACK: index=3 false
+[2016/02/17 20:19:14] Missing acks should be true true
+[2016/02/17 20:19:14] Timeout
+[2016/02/17 20:19:14] false 3
+[2016/02/17 20:19:14] ACK: index=0 false
+[2016/02/17 20:19:14] Missing acks should be true true
+[2016/02/17 20:19:15] Timeout
+[2016/02/17 20:19:15] false 0
+[2016/02/17 20:19:15] ACK: index=1 false
+[2016/02/17 20:19:15] Missing acks should be true true
+[2016/02/17 20:19:15] Timeout
+[2016/02/17 20:19:15] false 1
+[2016/02/17 20:19:15] ACK: index=2 false
+[2016/02/17 20:19:15] Missing acks should be true true
+[2016/02/17 20:19:15] Timeout
+[2016/02/17 20:19:15] false 2
+[2016/02/17 20:19:15] ACK: index=3 false
+[2016/02/17 20:19:15] Missing acks should be true true
+[2016/02/17 20:19:15] Timeout
+[2016/02/17 20:19:15] false 3
+[2016/02/17 20:19:15] ACK: index=0 false
+[2016/02/17 20:19:15] Missing acks should be true true
+[2016/02/17 20:19:16] Timeout
+[2016/02/17 20:19:16] false 0
+[2016/02/17 20:19:16] ACK: index=1 false
+[2016/02/17 20:19:16] Missing acks should be true true
+[2016/02/17 20:19:16] Timeout
+[2016/02/17 20:19:16] false 1
+[2016/02/17 20:19:16] ACK: index=2 false
+[2016/02/17 20:19:16] Missing acks should be true true
+[2016/02/17 20:19:16] Timeout
+[2016/02/17 20:19:16] false 2
+[2016/02/17 20:19:16] ACK: index=3 false
+[2016/02/17 20:19:16] Missing acks should be true true
+[2016/02/17 20:19:16] Timeout
+[2016/02/17 20:19:16] false 3
+[2016/02/17 20:19:16] Missing acks? true
+[2016/02/17 20:19:16] failed deletion of key = key3 due to failed TPC
+[2016/02/17 20:19:16] {}
+[2016/02/17 20:19:20] Timeout
+[2016/02/17 20:19:20] false 0
+[2016/02/17 20:19:20] ACK: index=0 false
+[2016/02/17 20:19:20] Missing acks should be true true
+[2016/02/17 20:19:21] Timeout
+[2016/02/17 20:19:21] false 0
+[2016/02/17 20:19:21] ACK: index=1 false
+[2016/02/17 20:19:21] Missing acks should be true true
+[2016/02/17 20:19:21] Timeout
+[2016/02/17 20:19:21] false 1
+[2016/02/17 20:19:21] ACK: index=2 false
+[2016/02/17 20:19:21] Missing acks should be true true
+[2016/02/17 20:19:21] Timeout
+[2016/02/17 20:19:21] false 2
+[2016/02/17 20:19:21] ACK: index=3 false
+[2016/02/17 20:19:21] Missing acks should be true true
+[2016/02/17 20:19:21] Timeout
+[2016/02/17 20:19:21] false 3
+[2016/02/17 20:19:21] ACK: index=0 false
+[2016/02/17 20:19:21] Missing acks should be true true
+[2016/02/17 20:19:22] Timeout
+[2016/02/17 20:19:22] false 0
+[2016/02/17 20:19:22] ACK: index=1 false
+[2016/02/17 20:19:22] Missing acks should be true true
+[2016/02/17 20:19:22] Timeout
+[2016/02/17 20:19:22] false 1
+[2016/02/17 20:19:22] ACK: index=2 false
+[2016/02/17 20:19:22] Missing acks should be true true
+[2016/02/17 20:19:22] Timeout
+[2016/02/17 20:19:22] false 2
+[2016/02/17 20:19:22] ACK: index=3 false
+[2016/02/17 20:19:22] Missing acks should be true true
+[2016/02/17 20:19:22] Timeout
+[2016/02/17 20:19:22] false 3
+[2016/02/17 20:19:22] ACK: index=0 false
+[2016/02/17 20:19:22] Missing acks should be true true
+[2016/02/17 20:19:23] Timeout
+[2016/02/17 20:19:23] false 0
+[2016/02/17 20:19:23] ACK: index=1 false
+[2016/02/17 20:19:23] Missing acks should be true true
+[2016/02/17 20:19:23] Timeout
+[2016/02/17 20:19:23] false 1
+[2016/02/17 20:19:23] ACK: index=2 false
+[2016/02/17 20:19:23] Missing acks should be true true
+[2016/02/17 20:19:23] Timeout
+[2016/02/17 20:19:23] false 2
+[2016/02/17 20:19:23] ACK: index=3 false
+[2016/02/17 20:19:23] Missing acks should be true true
+[2016/02/17 20:19:23] Timeout
+[2016/02/17 20:19:23] false 3
+[2016/02/17 20:19:23] ACK: index=0 false
+[2016/02/17 20:19:23] Missing acks should be true true
+[2016/02/17 20:19:24] Timeout
+[2016/02/17 20:19:24] false 0
+[2016/02/17 20:19:24] ACK: index=1 false
+[2016/02/17 20:19:24] Missing acks should be true true
+[2016/02/17 20:19:24] Timeout
+[2016/02/17 20:19:24] false 1
+[2016/02/17 20:19:24] ACK: index=2 false
+[2016/02/17 20:19:24] Missing acks should be true true
+[2016/02/17 20:19:24] Timeout
+[2016/02/17 20:19:24] false 2
+[2016/02/17 20:19:24] ACK: index=3 false
+[2016/02/17 20:19:24] Missing acks should be true true
+[2016/02/17 20:19:24] Timeout
+[2016/02/17 20:19:24] false 3
+[2016/02/17 20:19:24] ACK: index=0 false
+[2016/02/17 20:19:24] Missing acks should be true true
+[2016/02/17 20:19:25] Timeout
+[2016/02/17 20:19:25] false 0
+[2016/02/17 20:19:25] ACK: index=1 false
+[2016/02/17 20:19:25] Missing acks should be true true
+[2016/02/17 20:19:25] Timeout
+[2016/02/17 20:19:25] false 1
+[2016/02/17 20:19:25] ACK: index=2 false
+[2016/02/17 20:19:25] Missing acks should be true true
+[2016/02/17 20:19:25] Timeout
+[2016/02/17 20:19:25] false 2
+[2016/02/17 20:19:25] ACK: index=3 false
+[2016/02/17 20:19:25] Missing acks should be true true
+[2016/02/17 20:19:25] Timeout
+[2016/02/17 20:19:25] false 3
+[2016/02/17 20:19:25] Missing acks? true
+[2016/02/17 20:19:25] failed deletion of key = key4 due to failed TPC
+[2016/02/17 20:19:25] {}
+[2016/02/17 20:19:29] Timeout
+[2016/02/17 20:19:29] false 0
+[2016/02/17 20:19:29] ACK: index=0 false
+[2016/02/17 20:19:29] Missing acks should be true true
+[2016/02/17 20:19:30] Timeout
+[2016/02/17 20:19:30] false 0
+[2016/02/17 20:19:30] ACK: index=1 false
+[2016/02/17 20:19:30] Missing acks should be true true
+[2016/02/17 20:19:30] Timeout
+[2016/02/17 20:19:30] false 1
+[2016/02/17 20:19:30] ACK: index=2 false
+[2016/02/17 20:19:30] Missing acks should be true true
+[2016/02/17 20:19:30] Timeout
+[2016/02/17 20:19:30] false 2
+[2016/02/17 20:19:30] ACK: index=3 false
+[2016/02/17 20:19:30] Missing acks should be true true
+[2016/02/17 20:19:30] Timeout
+[2016/02/17 20:19:30] false 3
+[2016/02/17 20:19:30] ACK: index=0 false
+[2016/02/17 20:19:30] Missing acks should be true true
+[2016/02/17 20:19:31] Timeout
+[2016/02/17 20:19:31] false 0
+[2016/02/17 20:19:31] ACK: index=1 false
+[2016/02/17 20:19:31] Missing acks should be true true
+[2016/02/17 20:19:31] Timeout
+[2016/02/17 20:19:31] false 1
+[2016/02/17 20:19:31] ACK: index=2 false
+[2016/02/17 20:19:31] Missing acks should be true true
+[2016/02/17 20:19:31] Timeout
+[2016/02/17 20:19:31] false 2
+[2016/02/17 20:19:31] ACK: index=3 false
+[2016/02/17 20:19:31] Missing acks should be true true
+[2016/02/17 20:19:31] Timeout
+[2016/02/17 20:19:31] false 3
+[2016/02/17 20:19:31] ACK: index=0 false
+[2016/02/17 20:19:31] Missing acks should be true true
+[2016/02/17 20:19:32] Timeout
+[2016/02/17 20:19:32] false 0
+[2016/02/17 20:19:32] ACK: index=1 false
+[2016/02/17 20:19:32] Missing acks should be true true
+[2016/02/17 20:19:32] Timeout
+[2016/02/17 20:19:32] false 1
+[2016/02/17 20:19:32] ACK: index=2 false
+[2016/02/17 20:19:32] Missing acks should be true true
+[2016/02/17 20:19:32] Timeout
+[2016/02/17 20:19:32] false 2
+[2016/02/17 20:19:32] ACK: index=3 false
+[2016/02/17 20:19:32] Missing acks should be true true
+[2016/02/17 20:19:32] Timeout
+[2016/02/17 20:19:32] false 3
+[2016/02/17 20:19:32] ACK: index=0 false
+[2016/02/17 20:19:32] Missing acks should be true true
+[2016/02/17 20:19:33] Timeout
+[2016/02/17 20:19:33] false 0
+[2016/02/17 20:19:33] ACK: index=1 false
+[2016/02/17 20:19:33] Missing acks should be true true
+[2016/02/17 20:19:33] Timeout
+[2016/02/17 20:19:33] false 1
+[2016/02/17 20:19:33] ACK: index=2 false
+[2016/02/17 20:19:33] Missing acks should be true true
+[2016/02/17 20:19:33] Timeout
+[2016/02/17 20:19:33] false 2
+[2016/02/17 20:19:33] ACK: index=3 false
+[2016/02/17 20:19:33] Missing acks should be true true
+[2016/02/17 20:19:33] Timeout
+[2016/02/17 20:19:33] false 3
+[2016/02/17 20:19:33] ACK: index=0 false
+[2016/02/17 20:19:33] Missing acks should be true true
+[2016/02/17 20:19:34] Timeout
+[2016/02/17 20:19:34] false 0
+[2016/02/17 20:19:34] ACK: index=1 false
+[2016/02/17 20:19:34] Missing acks should be true true
+[2016/02/17 20:19:34] Timeout
+[2016/02/17 20:19:34] false 1
+[2016/02/17 20:19:34] ACK: index=2 false
+[2016/02/17 20:19:34] Missing acks should be true true
+[2016/02/17 20:19:34] Timeout
+[2016/02/17 20:19:34] false 2
+[2016/02/17 20:19:34] ACK: index=3 false
+[2016/02/17 20:19:34] Missing acks should be true true
+[2016/02/17 20:19:34] Timeout
+[2016/02/17 20:19:34] false 3
+[2016/02/17 20:19:34] Missing acks? true
+[2016/02/17 20:19:34] failed deletion of key = key5 due to failed TPC
+[2016/02/17 20:19:34] {}
+[2016/02/17 20:19:37] Server call: get (key1)
+[2016/02/17 20:19:37] key = key1 , value = null
+[2016/02/17 20:19:41] Timeout
+[2016/02/17 20:19:41] false 0
+[2016/02/17 20:19:41] ACK: index=0 false
+[2016/02/17 20:19:41] Missing acks should be true true
+[2016/02/17 20:19:42] Timeout
+[2016/02/17 20:19:42] false 0
+[2016/02/17 20:19:42] ACK: index=1 false
+[2016/02/17 20:19:42] Missing acks should be true true
+[2016/02/17 20:19:42] Timeout
+[2016/02/17 20:19:42] false 1
+[2016/02/17 20:19:42] ACK: index=2 false
+[2016/02/17 20:19:42] Missing acks should be true true
+[2016/02/17 20:19:42] Timeout
+[2016/02/17 20:19:42] false 2
+[2016/02/17 20:19:42] ACK: index=3 false
+[2016/02/17 20:19:42] Missing acks should be true true
+[2016/02/17 20:19:42] Timeout
+[2016/02/17 20:19:42] false 3
+[2016/02/17 20:19:42] ACK: index=0 false
+[2016/02/17 20:19:42] Missing acks should be true true
+[2016/02/17 20:19:43] Timeout
+[2016/02/17 20:19:43] false 0
+[2016/02/17 20:19:43] ACK: index=1 false
+[2016/02/17 20:19:43] Missing acks should be true true
+[2016/02/17 20:19:43] Timeout
+[2016/02/17 20:19:43] false 1
+[2016/02/17 20:19:43] ACK: index=2 false
+[2016/02/17 20:19:43] Missing acks should be true true
+[2016/02/17 20:19:43] Timeout
+[2016/02/17 20:19:43] false 2
+[2016/02/17 20:19:43] ACK: index=3 false
+[2016/02/17 20:19:43] Missing acks should be true true
+[2016/02/17 20:19:43] Timeout
+[2016/02/17 20:19:43] false 3
+[2016/02/17 20:19:43] ACK: index=0 false
+[2016/02/17 20:19:43] Missing acks should be true true
+[2016/02/17 20:19:44] Timeout
+[2016/02/17 20:19:44] false 0
+[2016/02/17 20:19:44] ACK: index=1 false
+[2016/02/17 20:19:44] Missing acks should be true true
+[2016/02/17 20:19:44] Timeout
+[2016/02/17 20:19:44] false 1
+[2016/02/17 20:19:44] ACK: index=2 false
+[2016/02/17 20:19:44] Missing acks should be true true
+[2016/02/17 20:19:44] Timeout
+[2016/02/17 20:19:44] false 2
+[2016/02/17 20:19:44] ACK: index=3 false
+[2016/02/17 20:19:44] Missing acks should be true true
+[2016/02/17 20:19:44] Timeout
+[2016/02/17 20:19:44] false 3
+[2016/02/17 20:19:44] ACK: index=0 false
+[2016/02/17 20:19:44] Missing acks should be true true
+[2016/02/17 20:19:45] Timeout
+[2016/02/17 20:19:45] false 0
+[2016/02/17 20:19:45] ACK: index=1 false
+[2016/02/17 20:19:45] Missing acks should be true true
+[2016/02/17 20:19:45] Timeout
+[2016/02/17 20:19:45] false 1
+[2016/02/17 20:19:45] ACK: index=2 false
+[2016/02/17 20:19:45] Missing acks should be true true
+[2016/02/17 20:19:45] Timeout
+[2016/02/17 20:19:45] false 2
+[2016/02/17 20:19:45] ACK: index=3 false
+[2016/02/17 20:19:45] Missing acks should be true true
+[2016/02/17 20:19:45] Timeout
+[2016/02/17 20:19:45] false 3
+[2016/02/17 20:19:45] ACK: index=0 false
+[2016/02/17 20:19:45] Missing acks should be true true
+[2016/02/17 20:19:46] Timeout
+[2016/02/17 20:19:46] false 0
+[2016/02/17 20:19:46] ACK: index=1 false
+[2016/02/17 20:19:46] Missing acks should be true true
+[2016/02/17 20:19:46] Timeout
+[2016/02/17 20:19:46] false 1
+[2016/02/17 20:19:46] ACK: index=2 false
+[2016/02/17 20:19:46] Missing acks should be true true
+[2016/02/17 20:19:46] Timeout
+[2016/02/17 20:19:46] false 2
+[2016/02/17 20:19:46] ACK: index=3 false
+[2016/02/17 20:19:46] Missing acks should be true true
+[2016/02/17 20:19:46] Timeout
+[2016/02/17 20:19:46] false 3
+[2016/02/17 20:19:46] Missing acks? true
+[2016/02/17 20:19:46] Server call: failed to do TPC -> put <key1,value1>
+[2016/02/17 20:19:46] {}
+[2016/02/17 20:19:50] Timeout
+[2016/02/17 20:19:50] false 0
+[2016/02/17 20:19:50] ACK: index=0 false
+[2016/02/17 20:19:50] Missing acks should be true true
+[2016/02/17 20:19:51] Timeout
+[2016/02/17 20:19:51] false 0
+[2016/02/17 20:19:51] ACK: index=1 false
+[2016/02/17 20:19:51] Missing acks should be true true
+[2016/02/17 20:19:51] Timeout
+[2016/02/17 20:19:51] false 1
+[2016/02/17 20:19:51] ACK: index=2 false
+[2016/02/17 20:19:51] Missing acks should be true true
+[2016/02/17 20:19:51] Timeout
+[2016/02/17 20:19:51] false 2
+[2016/02/17 20:19:51] ACK: index=3 false
+[2016/02/17 20:19:51] Missing acks should be true true
+[2016/02/17 20:19:51] Timeout
+[2016/02/17 20:19:51] false 3
+[2016/02/17 20:19:51] ACK: index=0 false
+[2016/02/17 20:19:51] Missing acks should be true true
+[2016/02/17 20:19:52] Timeout
+[2016/02/17 20:19:52] false 0
+[2016/02/17 20:19:52] ACK: index=1 false
+[2016/02/17 20:19:52] Missing acks should be true true
+[2016/02/17 20:19:52] Timeout
+[2016/02/17 20:19:52] false 1
+[2016/02/17 20:19:52] ACK: index=2 false
+[2016/02/17 20:19:52] Missing acks should be true true
+[2016/02/17 20:19:52] Timeout
+[2016/02/17 20:19:52] false 2
+[2016/02/17 20:19:52] ACK: index=3 false
+[2016/02/17 20:19:52] Missing acks should be true true
+[2016/02/17 20:19:52] Timeout
+[2016/02/17 20:19:52] false 3
+[2016/02/17 20:19:52] ACK: index=0 false
+[2016/02/17 20:19:52] Missing acks should be true true
+[2016/02/17 20:19:53] Timeout
+[2016/02/17 20:19:53] false 0
+[2016/02/17 20:19:53] ACK: index=1 false
+[2016/02/17 20:19:53] Missing acks should be true true
+[2016/02/17 20:19:53] Timeout
+[2016/02/17 20:19:53] false 1
+[2016/02/17 20:19:53] ACK: index=2 false
+[2016/02/17 20:19:53] Missing acks should be true true
+[2016/02/17 20:19:53] Timeout
+[2016/02/17 20:19:53] false 2
+[2016/02/17 20:19:53] ACK: index=3 false
+[2016/02/17 20:19:53] Missing acks should be true true
+[2016/02/17 20:19:53] Timeout
+[2016/02/17 20:19:53] false 3
+[2016/02/17 20:19:53] ACK: index=0 false
+[2016/02/17 20:19:53] Missing acks should be true true
+[2016/02/17 20:19:54] Timeout
+[2016/02/17 20:19:54] false 0
+[2016/02/17 20:19:54] ACK: index=1 false
+[2016/02/17 20:19:54] Missing acks should be true true
+[2016/02/17 20:19:54] Timeout
+[2016/02/17 20:19:54] false 1
+[2016/02/17 20:19:54] ACK: index=2 false
+[2016/02/17 20:19:54] Missing acks should be true true
+[2016/02/17 20:19:54] Timeout
+[2016/02/17 20:19:54] false 2
+[2016/02/17 20:19:54] ACK: index=3 false
+[2016/02/17 20:19:54] Missing acks should be true true
+[2016/02/17 20:19:54] Timeout
+[2016/02/17 20:19:54] false 3
+[2016/02/17 20:19:54] ACK: index=0 false
+[2016/02/17 20:19:54] Missing acks should be true true
+[2016/02/17 20:19:55] Timeout
+[2016/02/17 20:19:55] false 0
+[2016/02/17 20:19:55] ACK: index=1 false
+[2016/02/17 20:19:55] Missing acks should be true true
+[2016/02/17 20:19:55] Timeout
+[2016/02/17 20:19:55] false 1
+[2016/02/17 20:19:55] ACK: index=2 false
+[2016/02/17 20:19:55] Missing acks should be true true
+[2016/02/17 20:19:55] Timeout
+[2016/02/17 20:19:55] false 2
+[2016/02/17 20:19:55] ACK: index=3 false
+[2016/02/17 20:19:55] Missing acks should be true true
+[2016/02/17 20:19:55] Timeout
+[2016/02/17 20:19:55] false 3
+[2016/02/17 20:19:55] Missing acks? true
+[2016/02/17 20:19:55] Server call: failed to do TPC -> put <key2,value2>
+[2016/02/17 20:19:55] {}
+[2016/02/17 20:19:59] Timeout
+[2016/02/17 20:19:59] false 0
+[2016/02/17 20:19:59] ACK: index=0 false
+[2016/02/17 20:19:59] Missing acks should be true true
+[2016/02/17 20:20:00] Timeout
+[2016/02/17 20:20:00] false 0
+[2016/02/17 20:20:00] ACK: index=1 false
+[2016/02/17 20:20:00] Missing acks should be true true
+[2016/02/17 20:20:00] Timeout
+[2016/02/17 20:20:00] false 1
+[2016/02/17 20:20:00] ACK: index=2 false
+[2016/02/17 20:20:00] Missing acks should be true true
+[2016/02/17 20:20:00] Timeout
+[2016/02/17 20:20:00] false 2
+[2016/02/17 20:20:00] ACK: index=3 false
+[2016/02/17 20:20:00] Missing acks should be true true
+[2016/02/17 20:20:00] Timeout
+[2016/02/17 20:20:00] false 3
+[2016/02/17 20:20:00] ACK: index=0 false
+[2016/02/17 20:20:00] Missing acks should be true true
+[2016/02/17 20:20:01] Timeout
+[2016/02/17 20:20:01] false 0
+[2016/02/17 20:20:01] ACK: index=1 false
+[2016/02/17 20:20:01] Missing acks should be true true
+[2016/02/17 20:20:01] Timeout
+[2016/02/17 20:20:01] false 1
+[2016/02/17 20:20:01] ACK: index=2 false
+[2016/02/17 20:20:01] Missing acks should be true true
+[2016/02/17 20:20:01] Timeout
+[2016/02/17 20:20:01] false 2
+[2016/02/17 20:20:01] ACK: index=3 false
+[2016/02/17 20:20:01] Missing acks should be true true
+[2016/02/17 20:20:01] Timeout
+[2016/02/17 20:20:01] false 3
+[2016/02/17 20:20:01] ACK: index=0 false
+[2016/02/17 20:20:01] Missing acks should be true true
+[2016/02/17 20:20:02] Timeout
+[2016/02/17 20:20:02] false 0
+[2016/02/17 20:20:02] ACK: index=1 false
+[2016/02/17 20:20:02] Missing acks should be true true
+[2016/02/17 20:20:02] Timeout
+[2016/02/17 20:20:02] false 1
+[2016/02/17 20:20:02] ACK: index=2 false
+[2016/02/17 20:20:02] Missing acks should be true true
+[2016/02/17 20:20:02] Timeout
+[2016/02/17 20:20:02] false 2
+[2016/02/17 20:20:02] ACK: index=3 false
+[2016/02/17 20:20:02] Missing acks should be true true
+[2016/02/17 20:20:02] Timeout
+[2016/02/17 20:20:02] false 3
+[2016/02/17 20:20:02] ACK: index=0 false
+[2016/02/17 20:20:02] Missing acks should be true true
+[2016/02/17 20:20:03] Timeout
+[2016/02/17 20:20:03] false 0
+[2016/02/17 20:20:03] ACK: index=1 false
+[2016/02/17 20:20:03] Missing acks should be true true
+[2016/02/17 20:20:03] Timeout
+[2016/02/17 20:20:03] false 1
+[2016/02/17 20:20:03] ACK: index=2 false
+[2016/02/17 20:20:03] Missing acks should be true true
+[2016/02/17 20:20:03] Timeout
+[2016/02/17 20:20:03] false 2
+[2016/02/17 20:20:03] ACK: index=3 false
+[2016/02/17 20:20:03] Missing acks should be true true
+[2016/02/17 20:20:03] Timeout
+[2016/02/17 20:20:03] false 3
+[2016/02/17 20:20:03] ACK: index=0 false
+[2016/02/17 20:20:03] Missing acks should be true true
+[2016/02/17 20:20:04] Timeout
+[2016/02/17 20:20:04] false 0
+[2016/02/17 20:20:04] ACK: index=1 false
+[2016/02/17 20:20:04] Missing acks should be true true
+[2016/02/17 20:20:04] Timeout
+[2016/02/17 20:20:04] false 1
+[2016/02/17 20:20:04] ACK: index=2 false
+[2016/02/17 20:20:04] Missing acks should be true true
+[2016/02/17 20:20:04] Timeout
+[2016/02/17 20:20:04] false 2
+[2016/02/17 20:20:04] ACK: index=3 false
+[2016/02/17 20:20:04] Missing acks should be true true
+[2016/02/17 20:20:04] Timeout
+[2016/02/17 20:20:04] false 3
+[2016/02/17 20:20:04] Missing acks? true
+[2016/02/17 20:20:04] Server call: failed to do TPC -> put <key3,value3>
+[2016/02/17 20:20:04] {}
+[2016/02/17 20:20:08] Timeout
+[2016/02/17 20:20:08] false 0
+[2016/02/17 20:20:08] ACK: index=0 false
+[2016/02/17 20:20:08] Missing acks should be true true
+[2016/02/17 20:20:09] Timeout
+[2016/02/17 20:20:09] false 0
+[2016/02/17 20:20:09] ACK: index=1 false
+[2016/02/17 20:20:09] Missing acks should be true true
+[2016/02/17 20:20:09] Timeout
+[2016/02/17 20:20:09] false 1
+[2016/02/17 20:20:09] ACK: index=2 false
+[2016/02/17 20:20:09] Missing acks should be true true
+[2016/02/17 20:20:09] Timeout
+[2016/02/17 20:20:09] false 2
+[2016/02/17 20:20:09] ACK: index=3 false
+[2016/02/17 20:20:09] Missing acks should be true true
+[2016/02/17 20:20:09] Timeout
+[2016/02/17 20:20:09] false 3
+[2016/02/17 20:20:09] ACK: index=0 false
+[2016/02/17 20:20:09] Missing acks should be true true
+[2016/02/17 20:20:10] Timeout
+[2016/02/17 20:20:10] false 0
+[2016/02/17 20:20:10] ACK: index=1 false
+[2016/02/17 20:20:10] Missing acks should be true true
+[2016/02/17 20:20:10] Timeout
+[2016/02/17 20:20:10] false 1
+[2016/02/17 20:20:10] ACK: index=2 false
+[2016/02/17 20:20:10] Missing acks should be true true
+[2016/02/17 20:20:10] Timeout
+[2016/02/17 20:20:10] false 2
+[2016/02/17 20:20:10] ACK: index=3 false
+[2016/02/17 20:20:10] Missing acks should be true true
+[2016/02/17 20:20:10] Timeout
+[2016/02/17 20:20:10] false 3
+[2016/02/17 20:20:10] ACK: index=0 false
+[2016/02/17 20:20:10] Missing acks should be true true
+[2016/02/17 20:20:11] Timeout
+[2016/02/17 20:20:11] false 0
+[2016/02/17 20:20:11] ACK: index=1 false
+[2016/02/17 20:20:11] Missing acks should be true true
+[2016/02/17 20:20:11] Timeout
+[2016/02/17 20:20:11] false 1
+[2016/02/17 20:20:11] ACK: index=2 false
+[2016/02/17 20:20:11] Missing acks should be true true
+[2016/02/17 20:20:11] Timeout
+[2016/02/17 20:20:11] false 2
+[2016/02/17 20:20:11] ACK: index=3 false
+[2016/02/17 20:20:11] Missing acks should be true true
+[2016/02/17 20:20:11] Timeout
+[2016/02/17 20:20:11] false 3
+[2016/02/17 20:20:11] ACK: index=0 false
+[2016/02/17 20:20:11] Missing acks should be true true
+[2016/02/17 20:20:12] Timeout
+[2016/02/17 20:20:12] false 0
+[2016/02/17 20:20:12] ACK: index=1 false
+[2016/02/17 20:20:12] Missing acks should be true true
+[2016/02/17 20:20:12] Timeout
+[2016/02/17 20:20:12] false 1
+[2016/02/17 20:20:12] ACK: index=2 false
+[2016/02/17 20:20:12] Missing acks should be true true
+[2016/02/17 20:20:12] Timeout
+[2016/02/17 20:20:12] false 2
+[2016/02/17 20:20:12] ACK: index=3 false
+[2016/02/17 20:20:12] Missing acks should be true true
+[2016/02/17 20:20:12] Timeout
+[2016/02/17 20:20:12] false 3
+[2016/02/17 20:20:12] ACK: index=0 false
+[2016/02/17 20:20:12] Missing acks should be true true
+[2016/02/17 20:20:13] Timeout
+[2016/02/17 20:20:13] false 0
+[2016/02/17 20:20:13] ACK: index=1 false
+[2016/02/17 20:20:13] Missing acks should be true true
+[2016/02/17 20:20:13] Timeout
+[2016/02/17 20:20:13] false 1
+[2016/02/17 20:20:13] ACK: index=2 false
+[2016/02/17 20:20:13] Missing acks should be true true
+[2016/02/17 20:20:13] Timeout
+[2016/02/17 20:20:13] false 2
+[2016/02/17 20:20:13] ACK: index=3 false
+[2016/02/17 20:20:13] Missing acks should be true true
+[2016/02/17 20:20:13] Timeout
+[2016/02/17 20:20:13] false 3
+[2016/02/17 20:20:13] Missing acks? true
+[2016/02/17 20:20:13] Server call: failed to do TPC -> put <key4,value4>
+[2016/02/17 20:20:13] {}
+[2016/02/17 20:20:17] Timeout
+[2016/02/17 20:20:17] false 0
+[2016/02/17 20:20:17] ACK: index=0 false
+[2016/02/17 20:20:17] Missing acks should be true true
+[2016/02/17 20:20:18] Timeout
+[2016/02/17 20:20:18] false 0
+[2016/02/17 20:20:18] ACK: index=1 false
+[2016/02/17 20:20:18] Missing acks should be true true
+[2016/02/17 20:20:18] Timeout
+[2016/02/17 20:20:18] false 1
+[2016/02/17 20:20:18] ACK: index=2 false
+[2016/02/17 20:20:18] Missing acks should be true true
+[2016/02/17 20:20:18] Timeout
+[2016/02/17 20:20:18] false 2
+[2016/02/17 20:20:18] ACK: index=3 false
+[2016/02/17 20:20:18] Missing acks should be true true
+[2016/02/17 20:20:18] Timeout
+[2016/02/17 20:20:18] false 3
+[2016/02/17 20:20:18] ACK: index=0 false
+[2016/02/17 20:20:18] Missing acks should be true true
+[2016/02/17 20:20:19] Timeout
+[2016/02/17 20:20:19] false 0
+[2016/02/17 20:20:19] ACK: index=1 false
+[2016/02/17 20:20:19] Missing acks should be true true
+[2016/02/17 20:20:19] Timeout
+[2016/02/17 20:20:19] false 1
+[2016/02/17 20:20:19] ACK: index=2 false
+[2016/02/17 20:20:19] Missing acks should be true true
+[2016/02/17 20:20:19] Timeout
+[2016/02/17 20:20:19] false 2
+[2016/02/17 20:20:19] ACK: index=3 false
+[2016/02/17 20:20:19] Missing acks should be true true
+[2016/02/17 20:20:19] Timeout
+[2016/02/17 20:20:19] false 3
+[2016/02/17 20:20:19] ACK: index=0 false
+[2016/02/17 20:20:19] Missing acks should be true true
+[2016/02/17 20:20:20] Timeout
+[2016/02/17 20:20:20] false 0
+[2016/02/17 20:20:20] ACK: index=1 false
+[2016/02/17 20:20:20] Missing acks should be true true
+[2016/02/17 20:20:20] Timeout
+[2016/02/17 20:20:20] false 1
+[2016/02/17 20:20:20] ACK: index=2 false
+[2016/02/17 20:20:20] Missing acks should be true true
+[2016/02/17 20:20:20] Timeout
+[2016/02/17 20:20:20] false 2
+[2016/02/17 20:20:20] ACK: index=3 false
+[2016/02/17 20:20:20] Missing acks should be true true
+[2016/02/17 20:20:20] Timeout
+[2016/02/17 20:20:20] false 3
+[2016/02/17 20:20:20] ACK: index=0 false
+[2016/02/17 20:20:20] Missing acks should be true true
+[2016/02/17 20:20:21] Timeout
+[2016/02/17 20:20:21] false 0
+[2016/02/17 20:20:21] ACK: index=1 false
+[2016/02/17 20:20:21] Missing acks should be true true
+[2016/02/17 20:20:21] Timeout
+[2016/02/17 20:20:21] false 1
+[2016/02/17 20:20:21] ACK: index=2 false
+[2016/02/17 20:20:21] Missing acks should be true true
+[2016/02/17 20:20:21] Timeout
+[2016/02/17 20:20:21] false 2
+[2016/02/17 20:20:21] ACK: index=3 false
+[2016/02/17 20:20:21] Missing acks should be true true
+[2016/02/17 20:20:21] Timeout
+[2016/02/17 20:20:21] false 3
+[2016/02/17 20:20:21] ACK: index=0 false
+[2016/02/17 20:20:21] Missing acks should be true true
+[2016/02/17 20:20:22] Timeout
+[2016/02/17 20:20:22] false 0
+[2016/02/17 20:20:22] ACK: index=1 false
+[2016/02/17 20:20:22] Missing acks should be true true
+[2016/02/17 20:20:22] Timeout
+[2016/02/17 20:20:22] false 1
+[2016/02/17 20:20:22] ACK: index=2 false
+[2016/02/17 20:20:22] Missing acks should be true true
+[2016/02/17 20:20:22] Timeout
+[2016/02/17 20:20:22] false 2
+[2016/02/17 20:20:22] ACK: index=3 false
+[2016/02/17 20:20:22] Missing acks should be true true
+[2016/02/17 20:20:22] Timeout
+[2016/02/17 20:20:22] false 3
+[2016/02/17 20:20:22] Missing acks? true
+[2016/02/17 20:20:22] Server call: failed to do TPC -> put <key5,value5>
+[2016/02/17 20:20:22] {}
+[2016/02/17 20:20:25] Server call: get (key1)
+[2016/02/17 20:20:25] key = key1 , value = null
+[2016/02/17 20:20:28] Server call: get (key2)
+[2016/02/17 20:20:28] key = key2 , value = null
+[2016/02/17 20:20:31] Server call: get (key3)
+[2016/02/17 20:20:31] key = key3 , value = null
+[2016/02/17 20:20:34] Server call: get (key4)
+[2016/02/17 20:20:34] key = key4 , value = null
+[2016/02/17 20:20:37] Server call: get (key5)
+[2016/02/17 20:20:37] key = key5 , value = null
+[2016/02/17 20:20:41] Timeout
+[2016/02/17 20:20:41] false 0
+[2016/02/17 20:20:41] ACK: index=0 false
+[2016/02/17 20:20:41] Missing acks should be true true
+[2016/02/17 20:20:42] Timeout
+[2016/02/17 20:20:42] false 0
+[2016/02/17 20:20:42] ACK: index=1 false
+[2016/02/17 20:20:42] Missing acks should be true true
+[2016/02/17 20:20:42] Timeout
+[2016/02/17 20:20:42] false 1
+[2016/02/17 20:20:42] ACK: index=2 false
+[2016/02/17 20:20:42] Missing acks should be true true
+[2016/02/17 20:20:42] Timeout
+[2016/02/17 20:20:42] false 2
+[2016/02/17 20:20:42] ACK: index=3 false
+[2016/02/17 20:20:42] Missing acks should be true true
+[2016/02/17 20:20:42] Timeout
+[2016/02/17 20:20:42] false 3
+[2016/02/17 20:20:42] ACK: index=0 false
+[2016/02/17 20:20:42] Missing acks should be true true
+[2016/02/17 20:20:43] Timeout
+[2016/02/17 20:20:43] false 0
+[2016/02/17 20:20:43] ACK: index=1 false
+[2016/02/17 20:20:43] Missing acks should be true true
+[2016/02/17 20:20:43] Timeout
+[2016/02/17 20:20:43] false 1
+[2016/02/17 20:20:43] ACK: index=2 false
+[2016/02/17 20:20:43] Missing acks should be true true
+[2016/02/17 20:20:43] Timeout
+[2016/02/17 20:20:43] false 2
+[2016/02/17 20:20:43] ACK: index=3 false
+[2016/02/17 20:20:43] Missing acks should be true true
+[2016/02/17 20:20:43] Timeout
+[2016/02/17 20:20:43] false 3
+[2016/02/17 20:20:43] ACK: index=0 false
+[2016/02/17 20:20:43] Missing acks should be true true
+[2016/02/17 20:20:44] Timeout
+[2016/02/17 20:20:44] false 0
+[2016/02/17 20:20:44] ACK: index=1 false
+[2016/02/17 20:20:44] Missing acks should be true true
+[2016/02/17 20:20:44] Timeout
+[2016/02/17 20:20:44] false 1
+[2016/02/17 20:20:44] ACK: index=2 false
+[2016/02/17 20:20:44] Missing acks should be true true
+[2016/02/17 20:20:44] Timeout
+[2016/02/17 20:20:44] false 2
+[2016/02/17 20:20:44] ACK: index=3 false
+[2016/02/17 20:20:44] Missing acks should be true true
+[2016/02/17 20:20:44] Timeout
+[2016/02/17 20:20:44] false 3
+[2016/02/17 20:20:44] ACK: index=0 false
+[2016/02/17 20:20:44] Missing acks should be true true
+[2016/02/17 20:20:45] Timeout
+[2016/02/17 20:20:45] false 0
+[2016/02/17 20:20:45] ACK: index=1 false
+[2016/02/17 20:20:45] Missing acks should be true true
+[2016/02/17 20:20:45] Timeout
+[2016/02/17 20:20:45] false 1
+[2016/02/17 20:20:45] ACK: index=2 false
+[2016/02/17 20:20:45] Missing acks should be true true
+[2016/02/17 20:20:45] Timeout
+[2016/02/17 20:20:45] false 2
+[2016/02/17 20:20:45] ACK: index=3 false
+[2016/02/17 20:20:45] Missing acks should be true true
+[2016/02/17 20:20:45] Timeout
+[2016/02/17 20:20:45] false 3
+[2016/02/17 20:20:45] ACK: index=0 false
+[2016/02/17 20:20:45] Missing acks should be true true
+[2016/02/17 20:20:46] Timeout
+[2016/02/17 20:20:46] false 0
+[2016/02/17 20:20:46] ACK: index=1 false
+[2016/02/17 20:20:46] Missing acks should be true true
+[2016/02/17 20:20:46] Timeout
+[2016/02/17 20:20:46] false 1
+[2016/02/17 20:20:46] ACK: index=2 false
+[2016/02/17 20:20:46] Missing acks should be true true
+[2016/02/17 20:20:46] Timeout
+[2016/02/17 20:20:46] false 2
+[2016/02/17 20:20:46] ACK: index=3 false
+[2016/02/17 20:20:46] Missing acks should be true true
+[2016/02/17 20:20:46] Timeout
+[2016/02/17 20:20:46] false 3
+[2016/02/17 20:20:46] Missing acks? true
+[2016/02/17 20:20:46] failed deletion of key = key1 due to failed TPC
+[2016/02/17 20:20:46] {}
+[2016/02/17 20:20:50] Timeout
+[2016/02/17 20:20:50] false 0
+[2016/02/17 20:20:50] ACK: index=0 false
+[2016/02/17 20:20:50] Missing acks should be true true
+[2016/02/17 20:20:51] Timeout
+[2016/02/17 20:20:51] false 0
+[2016/02/17 20:20:51] ACK: index=1 false
+[2016/02/17 20:20:51] Missing acks should be true true
+[2016/02/17 20:20:51] Timeout
+[2016/02/17 20:20:51] false 1
+[2016/02/17 20:20:51] ACK: index=2 false
+[2016/02/17 20:20:51] Missing acks should be true true
+[2016/02/17 20:20:51] Timeout
+[2016/02/17 20:20:51] false 2
+[2016/02/17 20:20:51] ACK: index=3 false
+[2016/02/17 20:20:51] Missing acks should be true true
+[2016/02/17 20:20:51] Timeout
+[2016/02/17 20:20:51] false 3
+[2016/02/17 20:20:51] ACK: index=0 false
+[2016/02/17 20:20:51] Missing acks should be true true
+[2016/02/17 20:20:52] Timeout
+[2016/02/17 20:20:52] false 0
+[2016/02/17 20:20:52] ACK: index=1 false
+[2016/02/17 20:20:52] Missing acks should be true true
+[2016/02/17 20:20:52] Timeout
+[2016/02/17 20:20:52] false 1
+[2016/02/17 20:20:52] ACK: index=2 false
+[2016/02/17 20:20:52] Missing acks should be true true
+[2016/02/17 20:20:52] Timeout
+[2016/02/17 20:20:52] false 2
+[2016/02/17 20:20:52] ACK: index=3 false
+[2016/02/17 20:20:52] Missing acks should be true true
+[2016/02/17 20:20:52] Timeout
+[2016/02/17 20:20:52] false 3
+[2016/02/17 20:20:52] ACK: index=0 false
+[2016/02/17 20:20:52] Missing acks should be true true
+[2016/02/17 20:20:53] Timeout
+[2016/02/17 20:20:53] false 0
+[2016/02/17 20:20:53] ACK: index=1 false
+[2016/02/17 20:20:53] Missing acks should be true true
+[2016/02/17 20:20:53] Timeout
+[2016/02/17 20:20:53] false 1
+[2016/02/17 20:20:53] ACK: index=2 false
+[2016/02/17 20:20:53] Missing acks should be true true
+[2016/02/17 20:20:53] Timeout
+[2016/02/17 20:20:53] false 2
+[2016/02/17 20:20:53] ACK: index=3 false
+[2016/02/17 20:20:53] Missing acks should be true true
+[2016/02/17 20:20:53] Timeout
+[2016/02/17 20:20:53] false 3
+[2016/02/17 20:20:53] ACK: index=0 false
+[2016/02/17 20:20:53] Missing acks should be true true
+[2016/02/17 20:20:54] Timeout
+[2016/02/17 20:20:54] false 0
+[2016/02/17 20:20:54] ACK: index=1 false
+[2016/02/17 20:20:54] Missing acks should be true true
+[2016/02/17 20:20:54] Timeout
+[2016/02/17 20:20:54] false 1
+[2016/02/17 20:20:54] ACK: index=2 false
+[2016/02/17 20:20:54] Missing acks should be true true
+[2016/02/17 20:20:54] Timeout
+[2016/02/17 20:20:54] false 2
+[2016/02/17 20:20:54] ACK: index=3 false
+[2016/02/17 20:20:54] Missing acks should be true true
+[2016/02/17 20:20:54] Timeout
+[2016/02/17 20:20:54] false 3
+[2016/02/17 20:20:54] ACK: index=0 false
+[2016/02/17 20:20:54] Missing acks should be true true
+[2016/02/17 20:20:55] Timeout
+[2016/02/17 20:20:55] false 0
+[2016/02/17 20:20:55] ACK: index=1 false
+[2016/02/17 20:20:55] Missing acks should be true true
+[2016/02/17 20:20:55] Timeout
+[2016/02/17 20:20:55] false 1
+[2016/02/17 20:20:55] ACK: index=2 false
+[2016/02/17 20:20:55] Missing acks should be true true
+[2016/02/17 20:20:55] Timeout
+[2016/02/17 20:20:55] false 2
+[2016/02/17 20:20:55] ACK: index=3 false
+[2016/02/17 20:20:55] Missing acks should be true true
+[2016/02/17 20:20:55] Timeout
+[2016/02/17 20:20:55] false 3
+[2016/02/17 20:20:55] Missing acks? true
+[2016/02/17 20:20:55] failed deletion of key = key2 due to failed TPC
+[2016/02/17 20:20:55] {}
+[2016/02/17 20:20:59] Timeout
+[2016/02/17 20:20:59] false 0
+[2016/02/17 20:20:59] ACK: index=0 false
+[2016/02/17 20:20:59] Missing acks should be true true
+[2016/02/17 20:21:00] Timeout
+[2016/02/17 20:21:00] false 0
+[2016/02/17 20:21:00] ACK: index=1 false
+[2016/02/17 20:21:00] Missing acks should be true true
+[2016/02/17 20:21:00] Timeout
+[2016/02/17 20:21:00] false 1
+[2016/02/17 20:21:00] ACK: index=2 false
+[2016/02/17 20:21:00] Missing acks should be true true
+[2016/02/17 20:21:00] Timeout
+[2016/02/17 20:21:00] false 2
+[2016/02/17 20:21:00] ACK: index=3 false
+[2016/02/17 20:21:00] Missing acks should be true true
+[2016/02/17 20:21:00] Timeout
+[2016/02/17 20:21:00] false 3
+[2016/02/17 20:21:00] ACK: index=0 false
+[2016/02/17 20:21:00] Missing acks should be true true
+[2016/02/17 20:21:01] Timeout
+[2016/02/17 20:21:01] false 0
+[2016/02/17 20:21:01] ACK: index=1 false
+[2016/02/17 20:21:01] Missing acks should be true true
+[2016/02/17 20:21:01] Timeout
+[2016/02/17 20:21:01] false 1
+[2016/02/17 20:21:01] ACK: index=2 false
+[2016/02/17 20:21:01] Missing acks should be true true
+[2016/02/17 20:21:01] Timeout
+[2016/02/17 20:21:01] false 2
+[2016/02/17 20:21:01] ACK: index=3 false
+[2016/02/17 20:21:01] Missing acks should be true true
+[2016/02/17 20:21:01] Timeout
+[2016/02/17 20:21:01] false 3
+[2016/02/17 20:21:01] ACK: index=0 false
+[2016/02/17 20:21:01] Missing acks should be true true

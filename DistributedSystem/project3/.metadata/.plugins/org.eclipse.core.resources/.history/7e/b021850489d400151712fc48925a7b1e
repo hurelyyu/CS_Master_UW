@@ -1,0 +1,76 @@
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
+
+public class RMIClient implements Runnable{
+	private static int timeout = 1000;
+	private static RMIinterface rmiitf;
+	private int my_id;
+	private String my_host;
+	
+	public RMIClient(String clientInputArgs, int serverIP) throws NotBoundException, IOException{
+	
+			 String[] clientArgs = clientInputArgs.split("/");
+			 
+			 String key  = clientArgs[1];
+			  //System.out.print ("Value is : ");
+			 String value  = clientArgs[2];
+		//put
+		private void put(final String the_key, final String the_value) 
+			throws RemoteException, InterruptedException {	  	  
+	    try{rmiitf.put(the_key, the_value) ;
+				myLog.normal("Request succesfully executed : PUT (" + the_key + ", " + the_value + ")", true);
+		}catch(Exception e){
+				myLog.error("unknown error: " + e.getMessage());
+			 System.out.println();
+			 try {
+				Thread.sleep(timeout);
+			} catch (InterruptedException e1) {
+				// TODO Auto-generated catch block
+				myLog.error("Error: " + e1.getMessage());
+			}
+		}
+			}
+			 //get function
+		public void get（final String the_key）throws RemoteException, InterruptedException{
+			  try{rmiitf.get(the_key);
+			  if (rmiitf.get(the_key) != null) {
+					myLog.normal("Request succesfully executed: " + "GET Key: " + the_key + " and its Value: " + rmiitf.get(the_key), true);
+				} else {
+					myLog.error("GET request with invalid KEY: " + "Key " + the_key + " is not in set.");
+				}
+			  }catch(Exception e){
+				  myLog.error("unknown error: " + e.getMessage());
+			 try{
+				Thread.sleep(timeout);
+			} catch (InterruptedException e1) {
+				// TODO Auto-generated catch block
+				myLog.error("Error: " + e1.getMessage());
+			}
+			  }
+		}
+			
+			 //delete function 
+		private void delete(final String key)
+			throws InterruptedException, RemoteException { 	
+			 try{rmiitf.delete(key);
+			  myLog.normal("RMIClient " + id 
+						+ " has issued request: delete "+ key  , true);
+			 }catch(Exception e){
+				 myLog.error("unknown error: " + e.getMessage());
+			 try {
+				Thread.sleep(timeout);
+			} catch (InterruptedException e1) {
+				// TODO Auto-generated catch block
+				myLog.error("Error: " + e1.getMessage());
+			}
+		}
+		}
+
+@Override
+public void run() {
+	// TODO Auto-generated method stub
+	
+}
+}

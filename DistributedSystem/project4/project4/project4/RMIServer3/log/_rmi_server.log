@@ -1,0 +1,60 @@
+2016-03-06 13:46:49,585 ERROR [RMIServer] RMI server binding failed with Port already in use: 3445; nested exception is: 
+	java.net.BindException: Address already in use
+2016-03-06 13:52:31,083 ERROR [RMIServer] RMI server binding failed with Exception creating connection to: 172.22.71.29; nested exception is: 
+	java.net.SocketTimeoutException: connect timed out
+2016-03-06 13:57:58,851 INFO  [RMIServer] Paxos RMIServer 3  started successfully
+2016-03-06 13:58:03,297 INFO  [Paxos] Accepted number = 5
+2016-03-06 13:58:03,298 INFO  [Paxos]  REQUEST ACCEPTED :)
+2016-03-06 13:58:03,323 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [PUT Apple Color is Red, fromClient=1, requestId=ab844398-b0de-4ac9-a5eb-c1e1fcc49181]
+2016-03-06 13:58:03,339 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [PUT Banana Color is Yellow, fromClient=1, requestId=8ce227db-abf0-47b8-8d6a-f1a0d4276db5]
+2016-03-06 13:58:03,344 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [PUT Orange Color is Orange, fromClient=1, requestId=0308d7a3-af8e-4a82-9bcf-e29a1fc29ec0]
+2016-03-06 13:58:15,039 INFO  [Paxos] Accepted number = 5
+2016-03-06 13:58:15,040 INFO  [Paxos]  REQUEST ACCEPTED :)
+2016-03-06 13:58:15,077 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [PUT Kiwi Color is Green, fromClient=1, requestId=29bb639f-0654-4676-8a99-b00f0558da82]
+2016-03-06 13:58:15,085 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [PUT Pineapple Color is Yellowish-Green, fromClient=1, requestId=76a46794-b67c-4af1-a80a-45ffa3e4dc20]
+2016-03-06 13:58:15,091 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [GET Apple null, fromClient=1, requestId=096bf6e2-2724-4f03-9d14-7e1bb8b49ebb]
+2016-03-06 13:58:15,092 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [GET Banana null, fromClient=1, requestId=a8400d36-7ffd-43c6-8427-793e47283fff]
+2016-03-06 13:58:15,093 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [GET Orange null, fromClient=1, requestId=069812dd-3f28-4c48-90b6-c94c104aa990]
+2016-03-06 14:03:06,999 INFO  [RMIServer] Paxos RMIServer 3  started successfully
+2016-03-06 14:03:11,323 INFO  [RMIServerInterfaceImpl] FAIL/CRASH server 3: CAUSED BY RANDOM FAILURE
+2016-03-06 14:03:20,325 INFO  [RMIServerInterfaceImpl] RESUSCITATED ZOMBIE SERVER 3 : IS ALIVE AGAIN! 
+2016-03-06 14:03:23,067 INFO  [RMIServerInterfaceImpl] FAIL/CRASH server 3: CAUSED BY RANDOM FAILURE
+2016-03-06 14:03:32,069 INFO  [RMIServerInterfaceImpl] RESUSCITATED ZOMBIE SERVER 3 : IS ALIVE AGAIN! 
+2016-03-06 14:03:43,305 INFO  [Paxos] localhost:1234 unreachable didn't accept 
+2016-03-06 14:03:43,317 INFO  [Paxos] Accepted number = 4
+2016-03-06 14:03:43,317 INFO  [Paxos]  REQUEST ACCEPTED :)
+2016-03-06 14:03:44,151 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [PUT Apple Color is Red, fromClient=1, requestId=4d385b98-2634-4a8c-affa-3abeea85cd6a]
+2016-03-06 14:03:44,164 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [PUT Banana Color is Yellow, fromClient=1, requestId=da612b8b-315b-4903-a8cf-ae12a53c162c]
+2016-03-06 14:03:44,169 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [PUT Orange Color is Orange, fromClient=1, requestId=64cd134c-093b-49cc-8ba8-b85fd8268f8e]
+2016-03-06 14:03:44,175 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [PUT Kiwi Color is Green, fromClient=1, requestId=0eadc506-5f51-4d16-8627-8a7c58f5f180]
+2016-03-06 14:03:44,181 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [PUT Pineapple Color is Yellowish-Green, fromClient=1, requestId=87dbde24-e957-46a9-9744-aba282fac274]
+2016-03-06 14:03:44,187 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [GET Apple null, fromClient=1, requestId=8b081c3a-2425-4a7b-9d1a-640100007abf]
+2016-03-06 14:03:44,188 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [GET Banana null, fromClient=1, requestId=a8a2c370-8104-409c-9559-c537db8dee87]
+2016-03-06 14:03:44,189 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [GET Orange null, fromClient=1, requestId=d59b3c05-777f-47b1-94fe-9f91d8ef9d7d]
+2016-03-06 14:03:44,192 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [GET Kiwi null, fromClient=1, requestId=a60e4686-b362-4574-95fc-23a1c6b10228]
+2016-03-06 14:03:44,193 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [GET Pineapple null, fromClient=1, requestId=84ff92f1-0671-427b-a8cb-92e40a2a5e9b]
+2016-03-06 14:03:44,194 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [DELETE Apple null, fromClient=1, requestId=ed122aa0-c80d-4635-988c-1bd30513a069]
+2016-03-06 14:03:44,201 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [DELETE Banana null, fromClient=1, requestId=423608b9-4996-4f66-8f8e-0345df618d60]
+2016-03-06 14:03:47,095 INFO  [Paxos] Accepted number = 5
+2016-03-06 14:03:47,095 INFO  [Paxos]  REQUEST ACCEPTED :)
+2016-03-06 14:03:47,132 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [DELETE Orange null, fromClient=1, requestId=60aec270-e62b-4b8a-bf59-2a1635ed6d8a]
+2016-03-06 14:03:47,140 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [DELETE Kiwi null, fromClient=1, requestId=a2253ffc-3b28-41ef-aa5e-ed445a44f4ce]
+2016-03-06 14:03:47,145 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [DELETE Pineapple null, fromClient=1, requestId=290f1170-9008-4a95-8d8e-e6191a4d6078]
+2016-03-06 14:03:47,151 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [GET Apple null, fromClient=1, requestId=82be323d-a3ba-493e-b3b8-57ce8568aad5]
+2016-03-06 14:03:47,151 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [GET Banana null, fromClient=1, requestId=92bc6d4e-dbd0-4bfc-acf5-9264be016eee]
+2016-03-06 14:03:47,152 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [GET Orange null, fromClient=1, requestId=453ceb56-7fb1-45aa-b278-ba0c406ad11d]
+2016-03-06 14:03:47,153 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [GET Kiwi null, fromClient=1, requestId=fd7ad090-db46-40cd-8fbb-31bb3c435381]
+2016-03-06 14:03:57,412 INFO  [Paxos] localhost:1234 unreachable didn't accept 
+2016-03-06 14:03:57,421 INFO  [Paxos] Accepted number = 4
+2016-03-06 14:03:57,421 INFO  [Paxos]  REQUEST ACCEPTED :)
+2016-03-06 14:03:58,272 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [GET Pineapple null, fromClient=1, requestId=3b820bda-63c4-4777-a1e9-e752812c58f7]
+2016-03-06 14:03:58,273 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [PUT Apple iPhone6, fromClient=1, requestId=73027282-57e2-4a64-bfb2-d06ada7ec579]
+2016-03-06 14:03:58,281 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [PUT Microsoft Band, fromClient=1, requestId=5c7200ee-22b2-43d6-b871-d3bf52400e09]
+2016-03-06 14:03:58,287 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [PUT Amazon Fire, fromClient=1, requestId=efc3b779-ff53-4424-85b1-df0b971d8274]
+2016-03-06 14:03:58,291 INFO  [RMIServerInterfaceImpl] Apply update at server 3:Operation [PUT Google Nexus, fromClient=1, requestId=31c3e6c3-ab28-43e9-a711-a9c2e001451e]
+2016-03-06 14:21:33,968 ERROR [RMIServer] RMI server binding failed with Port already in use: 1099; nested exception is: 
+	java.net.BindException: Address already in use
+2016-03-06 14:36:58,495 ERROR [RMIServer] RMI server binding failed with Port already in use: 1099; nested exception is: 
+	java.net.BindException: Address already in use
+2016-03-06 14:37:31,931 ERROR [RMIServer] RMI server binding failed with Port already in use: 1099; nested exception is: 
+	java.net.BindException: Address already in use

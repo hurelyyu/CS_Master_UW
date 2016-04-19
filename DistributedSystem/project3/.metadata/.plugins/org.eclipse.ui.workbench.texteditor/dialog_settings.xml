@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="getMy_replicated_servers" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="getMy_replicated_servers"/>
+			<item value="Get"/>
+			<item value="get"/>
+			<item value="Input"/>
+			<item value="final"/>
+			<item value="RMIinterface"/>
+			<item value="RMII"/>
+			<item value="tpc"/>
+		</list>
+		<list key="replacehistory">
+			<item value="String"/>
+			<item value="COMMIT"/>
+			<item value="RMIServerStoreData"/>
+			<item value=""/>
+			<item value="RMIserver.pairs"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="265" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="399" key="DIALOG_HEIGHT"/>
+		<item value="870" key="DIALOG_X_ORIGIN"/>
+		<item value="82" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

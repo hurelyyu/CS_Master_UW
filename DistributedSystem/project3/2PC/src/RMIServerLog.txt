@@ -1,0 +1,2396 @@
+17/02/2016 04:46:26:335  [Message]RPC Server start running on : Yaquns-MacBook-Pro.local/10.0.0.4
+17/02/2016 04:46:26:421  [Error]Remote ExceptionConnection refused to host: 10.0.0.4; nested exception is: 
+	java.net.ConnectException: Connection refused
+17/02/2016 04:47:05:979  [Message]RPC Server start running on : Yaquns-MacBook-Pro.local/10.0.0.4
+17/02/2016 04:47:06:372  [Message]Server bind......
+17/02/2016 04:47:06:374  [Message]Sync......
+17/02/2016 04:47:06:375  [Message]Server is ready!
+17/02/2016 05:19:41:932  [Message]ACK: index=0 false
+17/02/2016 05:19:41:933  [Error]Missing acks should be true true
+17/02/2016 05:19:41:935  [Error]Timeout
+17/02/2016 05:19:41:936  [Error]false 0
+17/02/2016 05:19:41:936  [Message]ACK: index=1 false
+17/02/2016 05:19:41:937  [Error]Missing acks should be true true
+17/02/2016 05:19:41:938  [Error]Timeout
+17/02/2016 05:19:41:938  [Error]false 1
+17/02/2016 05:19:41:939  [Message]ACK: index=2 false
+17/02/2016 05:19:41:939  [Error]Missing acks should be true true
+17/02/2016 05:19:41:940  [Error]Timeout
+17/02/2016 05:19:41:940  [Error]false 2
+17/02/2016 05:19:41:941  [Message]ACK: index=3 false
+17/02/2016 05:19:41:942  [Error]Missing acks should be true true
+17/02/2016 05:19:41:943  [Error]Timeout
+17/02/2016 05:19:41:943  [Error]false 3
+17/02/2016 05:19:41:944  [Message]ACK: index=0 false
+17/02/2016 05:19:41:944  [Error]Missing acks should be true true
+17/02/2016 05:19:41:945  [Error]Timeout
+17/02/2016 05:19:41:945  [Error]false 0
+17/02/2016 05:19:41:946  [Message]ACK: index=1 false
+17/02/2016 05:19:41:947  [Error]Missing acks should be true true
+17/02/2016 05:19:41:948  [Error]Timeout
+17/02/2016 05:19:41:948  [Error]false 1
+17/02/2016 05:19:41:950  [Message]ACK: index=2 false
+17/02/2016 05:19:41:951  [Error]Missing acks should be true true
+17/02/2016 05:19:41:955  [Error]Timeout
+17/02/2016 05:19:41:955  [Error]false 2
+17/02/2016 05:19:41:956  [Message]ACK: index=3 false
+17/02/2016 05:19:41:957  [Error]Missing acks should be true true
+17/02/2016 05:19:41:958  [Error]Timeout
+17/02/2016 05:19:41:958  [Error]false 3
+17/02/2016 05:19:41:959  [Message]ACK: index=0 false
+17/02/2016 05:19:41:960  [Error]Missing acks should be true true
+17/02/2016 05:19:41:961  [Error]Timeout
+17/02/2016 05:19:41:962  [Error]false 0
+17/02/2016 05:19:41:962  [Message]ACK: index=1 false
+17/02/2016 05:19:41:963  [Error]Missing acks should be true true
+17/02/2016 05:19:41:968  [Error]Timeout
+17/02/2016 05:19:41:968  [Error]false 1
+17/02/2016 05:19:41:969  [Message]ACK: index=2 false
+17/02/2016 05:19:41:970  [Error]Missing acks should be true true
+17/02/2016 05:19:41:971  [Error]Timeout
+17/02/2016 05:19:41:972  [Error]false 2
+17/02/2016 05:19:41:972  [Message]ACK: index=3 false
+17/02/2016 05:19:41:973  [Error]Missing acks should be true true
+17/02/2016 05:19:41:974  [Error]Timeout
+17/02/2016 05:19:41:975  [Error]false 3
+17/02/2016 05:19:41:975  [Message]ACK: index=0 false
+17/02/2016 05:19:41:976  [Error]Missing acks should be true true
+17/02/2016 05:19:41:977  [Error]Timeout
+17/02/2016 05:19:41:978  [Error]false 0
+17/02/2016 05:19:41:979  [Message]ACK: index=1 false
+17/02/2016 05:19:41:980  [Error]Missing acks should be true true
+17/02/2016 05:19:41:988  [Error]Timeout
+17/02/2016 05:19:41:991  [Error]false 1
+17/02/2016 05:19:41:992  [Message]ACK: index=2 false
+17/02/2016 05:19:41:993  [Error]Missing acks should be true true
+17/02/2016 05:19:41:993  [Error]Timeout
+17/02/2016 05:19:41:994  [Error]false 2
+17/02/2016 05:19:41:994  [Message]ACK: index=3 false
+17/02/2016 05:19:41:995  [Error]Missing acks should be true true
+17/02/2016 05:19:41:996  [Error]Timeout
+17/02/2016 05:19:41:996  [Error]false 3
+17/02/2016 05:19:41:997  [Message]ACK: index=0 false
+17/02/2016 05:19:41:997  [Error]Missing acks should be true true
+17/02/2016 05:19:41:998  [Error]Timeout
+17/02/2016 05:19:41:998  [Error]false 0
+17/02/2016 05:19:41:999  [Message]ACK: index=1 false
+17/02/2016 05:19:42:000  [Error]Missing acks should be true true
+17/02/2016 05:19:42:001  [Error]Timeout
+17/02/2016 05:19:42:001  [Error]false 1
+17/02/2016 05:19:42:001  [Message]ACK: index=2 false
+17/02/2016 05:19:42:002  [Error]Missing acks should be true true
+17/02/2016 05:19:42:003  [Error]Timeout
+17/02/2016 05:19:42:003  [Error]false 2
+17/02/2016 05:19:42:004  [Message]ACK: index=3 false
+17/02/2016 05:19:42:004  [Error]Missing acks should be true true
+17/02/2016 05:19:42:005  [Error]Timeout
+17/02/2016 05:19:42:006  [Error]false 3
+17/02/2016 05:19:42:006  [Message]Is ACK: truemissing?
+17/02/2016 05:19:42:007  [Error]Server call: failed to do two phase commit
+17/02/2016 05:19:42:008  [Message]{}
+17/02/2016 05:19:42:013  [Error]Get Key: hello does not exist in KeySet
+17/02/2016 05:19:42:014  [Error]Get Key: hello does not exist in KeySet
+17/02/2016 05:19:42:016  [Message]ACK: index=0 false
+17/02/2016 05:19:42:017  [Error]Missing acks should be true true
+17/02/2016 05:19:42:017  [Error]Timeout
+17/02/2016 05:19:42:018  [Error]false 0
+17/02/2016 05:19:42:018  [Message]ACK: index=1 false
+17/02/2016 05:19:42:018  [Error]Missing acks should be true true
+17/02/2016 05:19:42:019  [Error]Timeout
+17/02/2016 05:19:42:019  [Error]false 1
+17/02/2016 05:19:42:020  [Message]ACK: index=2 false
+17/02/2016 05:19:42:020  [Error]Missing acks should be true true
+17/02/2016 05:19:42:021  [Error]Timeout
+17/02/2016 05:19:42:021  [Error]false 2
+17/02/2016 05:19:42:022  [Message]ACK: index=3 false
+17/02/2016 05:19:42:022  [Error]Missing acks should be true true
+17/02/2016 05:19:42:023  [Error]Timeout
+17/02/2016 05:19:42:024  [Error]false 3
+17/02/2016 05:19:42:024  [Message]ACK: index=0 false
+17/02/2016 05:19:42:025  [Error]Missing acks should be true true
+17/02/2016 05:19:42:025  [Error]Timeout
+17/02/2016 05:19:42:026  [Error]false 0
+17/02/2016 05:19:42:026  [Message]ACK: index=1 false
+17/02/2016 05:19:42:027  [Error]Missing acks should be true true
+17/02/2016 05:19:42:027  [Error]Timeout
+17/02/2016 05:19:42:028  [Error]false 1
+17/02/2016 05:19:42:028  [Message]ACK: index=2 false
+17/02/2016 05:19:42:029  [Error]Missing acks should be true true
+17/02/2016 05:19:42:029  [Error]Timeout
+17/02/2016 05:19:42:030  [Error]false 2
+17/02/2016 05:19:42:030  [Message]ACK: index=3 false
+17/02/2016 05:19:42:031  [Error]Missing acks should be true true
+17/02/2016 05:19:42:031  [Error]Timeout
+17/02/2016 05:19:42:032  [Error]false 3
+17/02/2016 05:19:42:032  [Message]ACK: index=0 false
+17/02/2016 05:19:42:033  [Error]Missing acks should be true true
+17/02/2016 05:19:42:034  [Error]Timeout
+17/02/2016 05:19:42:034  [Error]false 0
+17/02/2016 05:19:42:034  [Message]ACK: index=1 false
+17/02/2016 05:19:42:035  [Error]Missing acks should be true true
+17/02/2016 05:19:42:035  [Error]Timeout
+17/02/2016 05:19:42:036  [Error]false 1
+17/02/2016 05:19:42:036  [Message]ACK: index=2 false
+17/02/2016 05:19:42:037  [Error]Missing acks should be true true
+17/02/2016 05:19:42:037  [Error]Timeout
+17/02/2016 05:19:42:037  [Error]false 2
+17/02/2016 05:19:42:038  [Message]ACK: index=3 false
+17/02/2016 05:19:42:038  [Error]Missing acks should be true true
+17/02/2016 05:19:42:039  [Error]Timeout
+17/02/2016 05:19:42:039  [Error]false 3
+17/02/2016 05:19:42:039  [Message]ACK: index=0 false
+17/02/2016 05:19:42:040  [Error]Missing acks should be true true
+17/02/2016 05:19:42:041  [Error]Timeout
+17/02/2016 05:19:42:041  [Error]false 0
+17/02/2016 05:19:42:042  [Message]ACK: index=1 false
+17/02/2016 05:19:42:043  [Error]Missing acks should be true true
+17/02/2016 05:19:42:044  [Error]Timeout
+17/02/2016 05:19:42:044  [Error]false 1
+17/02/2016 05:19:42:044  [Message]ACK: index=2 false
+17/02/2016 05:19:42:045  [Error]Missing acks should be true true
+17/02/2016 05:19:42:055  [Error]Timeout
+17/02/2016 05:19:42:055  [Error]false 2
+17/02/2016 05:19:42:056  [Message]ACK: index=3 false
+17/02/2016 05:19:42:058  [Error]Missing acks should be true true
+17/02/2016 05:19:42:059  [Error]Timeout
+17/02/2016 05:19:42:060  [Error]false 3
+17/02/2016 05:19:42:060  [Message]ACK: index=0 false
+17/02/2016 05:19:42:061  [Error]Missing acks should be true true
+17/02/2016 05:19:42:062  [Error]Timeout
+17/02/2016 05:19:42:062  [Error]false 0
+17/02/2016 05:19:42:062  [Message]ACK: index=1 false
+17/02/2016 05:19:42:063  [Error]Missing acks should be true true
+17/02/2016 05:19:42:065  [Error]Timeout
+17/02/2016 05:19:42:066  [Error]false 1
+17/02/2016 05:19:42:067  [Message]ACK: index=2 false
+17/02/2016 05:19:42:067  [Error]Missing acks should be true true
+17/02/2016 05:19:42:068  [Error]Timeout
+17/02/2016 05:19:42:069  [Error]false 2
+17/02/2016 05:19:42:069  [Message]ACK: index=3 false
+17/02/2016 05:19:42:070  [Error]Missing acks should be true true
+17/02/2016 05:19:42:070  [Error]Timeout
+17/02/2016 05:19:42:071  [Error]false 3
+17/02/2016 05:19:42:071  [Message]Is ACK: truemissing?
+17/02/2016 05:19:42:072  [Error]Can not delet the key: hello because two face commit failed
+17/02/2016 05:19:42:072  [Message]{}
+17/02/2016 05:19:42:076  [Message]ACK: index=0 false
+17/02/2016 05:19:42:077  [Error]Missing acks should be true true
+17/02/2016 05:19:42:078  [Error]Timeout
+17/02/2016 05:19:42:078  [Error]false 0
+17/02/2016 05:19:42:078  [Message]ACK: index=1 false
+17/02/2016 05:19:42:079  [Error]Missing acks should be true true
+17/02/2016 05:19:42:082  [Error]Timeout
+17/02/2016 05:19:42:083  [Error]false 1
+17/02/2016 05:19:42:083  [Message]ACK: index=2 false
+17/02/2016 05:19:42:083  [Error]Missing acks should be true true
+17/02/2016 05:19:42:084  [Error]Timeout
+17/02/2016 05:19:42:085  [Error]false 2
+17/02/2016 05:19:42:085  [Message]ACK: index=3 false
+17/02/2016 05:19:42:086  [Error]Missing acks should be true true
+17/02/2016 05:19:42:087  [Error]Timeout
+17/02/2016 05:19:42:087  [Error]false 3
+17/02/2016 05:19:42:088  [Message]ACK: index=0 false
+17/02/2016 05:19:42:088  [Error]Missing acks should be true true
+17/02/2016 05:19:42:089  [Error]Timeout
+17/02/2016 05:19:42:090  [Error]false 0
+17/02/2016 05:19:42:090  [Message]ACK: index=1 false
+17/02/2016 05:19:42:091  [Error]Missing acks should be true true
+17/02/2016 05:19:42:095  [Error]Timeout
+17/02/2016 05:19:42:095  [Error]false 1
+17/02/2016 05:19:42:095  [Message]ACK: index=2 false
+17/02/2016 05:19:42:096  [Error]Missing acks should be true true
+17/02/2016 05:19:42:101  [Error]Timeout
+17/02/2016 05:19:42:101  [Error]false 2
+17/02/2016 05:19:42:101  [Message]ACK: index=3 false
+17/02/2016 05:19:42:101  [Error]Missing acks should be true true
+17/02/2016 05:19:42:104  [Error]Timeout
+17/02/2016 05:19:42:105  [Error]false 3
+17/02/2016 05:19:42:105  [Message]ACK: index=0 false
+17/02/2016 05:19:42:105  [Error]Missing acks should be true true
+17/02/2016 05:19:42:107  [Error]Timeout
+17/02/2016 05:19:42:107  [Error]false 0
+17/02/2016 05:19:42:107  [Message]ACK: index=1 false
+17/02/2016 05:19:42:107  [Error]Missing acks should be true true
+17/02/2016 05:19:42:108  [Error]Timeout
+17/02/2016 05:19:42:109  [Error]false 1
+17/02/2016 05:19:42:109  [Message]ACK: index=2 false
+17/02/2016 05:19:42:109  [Error]Missing acks should be true true
+17/02/2016 05:19:42:111  [Error]Timeout
+17/02/2016 05:19:42:118  [Error]false 2
+17/02/2016 05:19:42:118  [Message]ACK: index=3 false
+17/02/2016 05:19:42:118  [Error]Missing acks should be true true
+17/02/2016 05:19:42:122  [Error]Timeout
+17/02/2016 05:19:42:123  [Error]false 3
+17/02/2016 05:19:42:123  [Message]ACK: index=0 false
+17/02/2016 05:19:42:123  [Error]Missing acks should be true true
+17/02/2016 05:19:42:124  [Error]Timeout
+17/02/2016 05:19:42:126  [Error]false 0
+17/02/2016 05:19:42:127  [Message]ACK: index=1 false
+17/02/2016 05:19:42:128  [Error]Missing acks should be true true
+17/02/2016 05:19:42:128  [Error]Timeout
+17/02/2016 05:19:42:129  [Error]false 1
+17/02/2016 05:19:42:129  [Message]ACK: index=2 false
+17/02/2016 05:19:42:129  [Error]Missing acks should be true true
+17/02/2016 05:19:42:130  [Error]Timeout
+17/02/2016 05:19:42:130  [Error]false 2
+17/02/2016 05:19:42:130  [Message]ACK: index=3 false
+17/02/2016 05:19:42:131  [Error]Missing acks should be true true
+17/02/2016 05:19:42:131  [Error]Timeout
+17/02/2016 05:19:42:131  [Error]false 3
+17/02/2016 05:19:42:132  [Message]ACK: index=0 false
+17/02/2016 05:19:42:132  [Error]Missing acks should be true true
+17/02/2016 05:19:42:134  [Error]Timeout
+17/02/2016 05:19:42:134  [Error]false 0
+17/02/2016 05:19:42:134  [Message]ACK: index=1 false
+17/02/2016 05:19:42:134  [Error]Missing acks should be true true
+17/02/2016 05:19:42:135  [Error]Timeout
+17/02/2016 05:19:42:135  [Error]false 1
+17/02/2016 05:19:42:135  [Message]ACK: index=2 false
+17/02/2016 05:19:42:136  [Error]Missing acks should be true true
+17/02/2016 05:19:42:136  [Error]Timeout
+17/02/2016 05:19:42:137  [Error]false 2
+17/02/2016 05:19:42:137  [Message]ACK: index=3 false
+17/02/2016 05:19:42:137  [Error]Missing acks should be true true
+17/02/2016 05:19:42:138  [Error]Timeout
+17/02/2016 05:19:42:138  [Error]false 3
+17/02/2016 05:19:42:138  [Message]Is ACK: truemissing?
+17/02/2016 05:19:42:138  [Error]Server call: failed to do two phase commit
+17/02/2016 05:19:42:139  [Message]{}
+17/02/2016 05:19:42:141  [Error]Get Key: one does not exist in KeySet
+17/02/2016 05:19:42:142  [Error]Get Key: one does not exist in KeySet
+17/02/2016 05:19:42:143  [Message]ACK: index=0 false
+17/02/2016 05:19:42:143  [Error]Missing acks should be true true
+17/02/2016 05:19:42:144  [Error]Timeout
+17/02/2016 05:19:42:144  [Error]false 0
+17/02/2016 05:19:42:144  [Message]ACK: index=1 false
+17/02/2016 05:19:42:144  [Error]Missing acks should be true true
+17/02/2016 05:19:42:145  [Error]Timeout
+17/02/2016 05:19:42:145  [Error]false 1
+17/02/2016 05:19:42:145  [Message]ACK: index=2 false
+17/02/2016 05:19:42:146  [Error]Missing acks should be true true
+17/02/2016 05:19:42:146  [Error]Timeout
+17/02/2016 05:19:42:146  [Error]false 2
+17/02/2016 05:19:42:147  [Message]ACK: index=3 false
+17/02/2016 05:19:42:147  [Error]Missing acks should be true true
+17/02/2016 05:19:42:147  [Error]Timeout
+17/02/2016 05:19:42:148  [Error]false 3
+17/02/2016 05:19:42:148  [Message]ACK: index=0 false
+17/02/2016 05:19:42:148  [Error]Missing acks should be true true
+17/02/2016 05:19:42:149  [Error]Timeout
+17/02/2016 05:19:42:149  [Error]false 0
+17/02/2016 05:19:42:149  [Message]ACK: index=1 false
+17/02/2016 05:19:42:149  [Error]Missing acks should be true true
+17/02/2016 05:19:42:150  [Error]Timeout
+17/02/2016 05:19:42:150  [Error]false 1
+17/02/2016 05:19:42:151  [Message]ACK: index=2 false
+17/02/2016 05:19:42:151  [Error]Missing acks should be true true
+17/02/2016 05:19:42:151  [Error]Timeout
+17/02/2016 05:19:42:152  [Error]false 2
+17/02/2016 05:19:42:152  [Message]ACK: index=3 false
+17/02/2016 05:19:42:152  [Error]Missing acks should be true true
+17/02/2016 05:19:42:153  [Error]Timeout
+17/02/2016 05:19:42:153  [Error]false 3
+17/02/2016 05:19:42:153  [Message]ACK: index=0 false
+17/02/2016 05:19:42:153  [Error]Missing acks should be true true
+17/02/2016 05:19:42:154  [Error]Timeout
+17/02/2016 05:19:42:154  [Error]false 0
+17/02/2016 05:19:42:155  [Message]ACK: index=1 false
+17/02/2016 05:19:42:155  [Error]Missing acks should be true true
+17/02/2016 05:19:42:156  [Error]Timeout
+17/02/2016 05:19:42:156  [Error]false 1
+17/02/2016 05:19:42:156  [Message]ACK: index=2 false
+17/02/2016 05:19:42:156  [Error]Missing acks should be true true
+17/02/2016 05:19:42:157  [Error]Timeout
+17/02/2016 05:19:42:157  [Error]false 2
+17/02/2016 05:19:42:158  [Message]ACK: index=3 false
+17/02/2016 05:19:42:158  [Error]Missing acks should be true true
+17/02/2016 05:19:42:159  [Error]Timeout
+17/02/2016 05:19:42:159  [Error]false 3
+17/02/2016 05:19:42:160  [Message]ACK: index=0 false
+17/02/2016 05:19:42:160  [Error]Missing acks should be true true
+17/02/2016 05:19:42:163  [Error]Timeout
+17/02/2016 05:19:42:164  [Error]false 0
+17/02/2016 05:19:42:164  [Message]ACK: index=1 false
+17/02/2016 05:19:42:164  [Error]Missing acks should be true true
+17/02/2016 05:19:42:166  [Error]Timeout
+17/02/2016 05:19:42:166  [Error]false 1
+17/02/2016 05:19:42:167  [Message]ACK: index=2 false
+17/02/2016 05:19:42:167  [Error]Missing acks should be true true
+17/02/2016 05:19:42:168  [Error]Timeout
+17/02/2016 05:19:42:168  [Error]false 2
+17/02/2016 05:19:42:168  [Message]ACK: index=3 false
+17/02/2016 05:19:42:168  [Error]Missing acks should be true true
+17/02/2016 05:19:42:169  [Error]Timeout
+17/02/2016 05:19:42:169  [Error]false 3
+17/02/2016 05:19:42:169  [Message]ACK: index=0 false
+17/02/2016 05:19:42:170  [Error]Missing acks should be true true
+17/02/2016 05:19:42:170  [Error]Timeout
+17/02/2016 05:19:42:171  [Error]false 0
+17/02/2016 05:19:42:171  [Message]ACK: index=1 false
+17/02/2016 05:19:42:171  [Error]Missing acks should be true true
+17/02/2016 05:19:42:172  [Error]Timeout
+17/02/2016 05:19:42:172  [Error]false 1
+17/02/2016 05:19:42:172  [Message]ACK: index=2 false
+17/02/2016 05:19:42:173  [Error]Missing acks should be true true
+17/02/2016 05:19:42:174  [Error]Timeout
+17/02/2016 05:19:42:174  [Error]false 2
+17/02/2016 05:19:42:175  [Message]ACK: index=3 false
+17/02/2016 05:19:42:175  [Error]Missing acks should be true true
+17/02/2016 05:19:42:176  [Error]Timeout
+17/02/2016 05:19:42:176  [Error]false 3
+17/02/2016 05:19:42:176  [Message]Is ACK: truemissing?
+17/02/2016 05:19:42:177  [Error]Can not delet the key: one because two face commit failed
+17/02/2016 05:19:42:177  [Message]{}
+17/02/2016 05:19:42:190  [Message]ACK: index=0 false
+17/02/2016 05:19:42:190  [Error]Missing acks should be true true
+17/02/2016 05:19:42:195  [Error]Timeout
+17/02/2016 05:19:42:196  [Error]false 0
+17/02/2016 05:19:42:196  [Message]ACK: index=1 false
+17/02/2016 05:19:42:196  [Error]Missing acks should be true true
+17/02/2016 05:19:42:197  [Error]Timeout
+17/02/2016 05:19:42:197  [Error]false 1
+17/02/2016 05:19:42:198  [Message]ACK: index=2 false
+17/02/2016 05:19:42:198  [Error]Missing acks should be true true
+17/02/2016 05:19:42:199  [Error]Timeout
+17/02/2016 05:19:42:199  [Error]false 2
+17/02/2016 05:19:42:199  [Message]ACK: index=3 false
+17/02/2016 05:19:42:199  [Error]Missing acks should be true true
+17/02/2016 05:19:42:203  [Error]Timeout
+17/02/2016 05:19:42:204  [Error]false 3
+17/02/2016 05:19:42:204  [Message]ACK: index=0 false
+17/02/2016 05:19:42:204  [Error]Missing acks should be true true
+17/02/2016 05:19:42:209  [Error]Timeout
+17/02/2016 05:19:42:209  [Error]false 0
+17/02/2016 05:19:42:210  [Message]ACK: index=1 false
+17/02/2016 05:19:42:210  [Error]Missing acks should be true true
+17/02/2016 05:19:42:212  [Error]Timeout
+17/02/2016 05:19:42:212  [Error]false 1
+17/02/2016 05:19:42:212  [Message]ACK: index=2 false
+17/02/2016 05:19:42:213  [Error]Missing acks should be true true
+17/02/2016 05:19:42:214  [Error]Timeout
+17/02/2016 05:19:42:214  [Error]false 2
+17/02/2016 05:19:42:214  [Message]ACK: index=3 false
+17/02/2016 05:19:42:214  [Error]Missing acks should be true true
+17/02/2016 05:19:42:215  [Error]Timeout
+17/02/2016 05:19:42:215  [Error]false 3
+17/02/2016 05:19:42:216  [Message]ACK: index=0 false
+17/02/2016 05:19:42:216  [Error]Missing acks should be true true
+17/02/2016 05:19:42:218  [Error]Timeout
+17/02/2016 05:19:42:218  [Error]false 0
+17/02/2016 05:19:42:218  [Message]ACK: index=1 false
+17/02/2016 05:19:42:219  [Error]Missing acks should be true true
+17/02/2016 05:19:42:221  [Error]Timeout
+17/02/2016 05:19:42:221  [Error]false 1
+17/02/2016 05:19:42:221  [Message]ACK: index=2 false
+17/02/2016 05:19:42:221  [Error]Missing acks should be true true
+17/02/2016 05:19:42:224  [Error]Timeout
+17/02/2016 05:19:42:224  [Error]false 2
+17/02/2016 05:19:42:225  [Message]ACK: index=3 false
+17/02/2016 05:19:42:225  [Error]Missing acks should be true true
+17/02/2016 05:19:42:229  [Error]Timeout
+17/02/2016 05:19:42:229  [Error]false 3
+17/02/2016 05:19:42:229  [Message]ACK: index=0 false
+17/02/2016 05:19:42:229  [Error]Missing acks should be true true
+17/02/2016 05:19:42:230  [Error]Timeout
+17/02/2016 05:19:42:230  [Error]false 0
+17/02/2016 05:19:42:231  [Message]ACK: index=1 false
+17/02/2016 05:19:42:231  [Error]Missing acks should be true true
+17/02/2016 05:19:42:232  [Error]Timeout
+17/02/2016 05:19:42:232  [Error]false 1
+17/02/2016 05:19:42:232  [Message]ACK: index=2 false
+17/02/2016 05:19:42:232  [Error]Missing acks should be true true
+17/02/2016 05:19:42:235  [Error]Timeout
+17/02/2016 05:19:42:235  [Error]false 2
+17/02/2016 05:19:42:235  [Message]ACK: index=3 false
+17/02/2016 05:19:42:235  [Error]Missing acks should be true true
+17/02/2016 05:19:42:236  [Error]Timeout
+17/02/2016 05:19:42:236  [Error]false 3
+17/02/2016 05:19:42:236  [Message]ACK: index=0 false
+17/02/2016 05:19:42:237  [Error]Missing acks should be true true
+17/02/2016 05:19:42:238  [Error]Timeout
+17/02/2016 05:19:42:238  [Error]false 0
+17/02/2016 05:19:42:238  [Message]ACK: index=1 false
+17/02/2016 05:19:42:238  [Error]Missing acks should be true true
+17/02/2016 05:19:42:239  [Error]Timeout
+17/02/2016 05:19:42:239  [Error]false 1
+17/02/2016 05:19:42:239  [Message]ACK: index=2 false
+17/02/2016 05:19:42:239  [Error]Missing acks should be true true
+17/02/2016 05:19:42:240  [Error]Timeout
+17/02/2016 05:19:42:240  [Error]false 2
+17/02/2016 05:19:42:240  [Message]ACK: index=3 false
+17/02/2016 05:19:42:241  [Error]Missing acks should be true true
+17/02/2016 05:19:42:242  [Error]Timeout
+17/02/2016 05:19:42:243  [Error]false 3
+17/02/2016 05:19:42:243  [Message]Is ACK: truemissing?
+17/02/2016 05:19:42:243  [Error]Server call: failed to do two phase commit
+17/02/2016 05:19:42:243  [Message]{}
+17/02/2016 05:19:42:246  [Error]Get Key: two does not exist in KeySet
+17/02/2016 05:19:42:247  [Error]Get Key: two does not exist in KeySet
+17/02/2016 05:19:42:248  [Message]ACK: index=0 false
+17/02/2016 05:19:42:248  [Error]Missing acks should be true true
+17/02/2016 05:19:42:249  [Error]Timeout
+17/02/2016 05:19:42:249  [Error]false 0
+17/02/2016 05:19:42:249  [Message]ACK: index=1 false
+17/02/2016 05:19:42:249  [Error]Missing acks should be true true
+17/02/2016 05:19:42:250  [Error]Timeout
+17/02/2016 05:19:42:250  [Error]false 1
+17/02/2016 05:19:42:250  [Message]ACK: index=2 false
+17/02/2016 05:19:42:251  [Error]Missing acks should be true true
+17/02/2016 05:19:42:252  [Error]Timeout
+17/02/2016 05:19:42:252  [Error]false 2
+17/02/2016 05:19:42:252  [Message]ACK: index=3 false
+17/02/2016 05:19:42:252  [Error]Missing acks should be true true
+17/02/2016 05:19:42:252  [Error]Timeout
+17/02/2016 05:19:42:253  [Error]false 3
+17/02/2016 05:19:42:253  [Message]ACK: index=0 false
+17/02/2016 05:19:42:253  [Error]Missing acks should be true true
+17/02/2016 05:19:42:254  [Error]Timeout
+17/02/2016 05:19:42:254  [Error]false 0
+17/02/2016 05:19:42:254  [Message]ACK: index=1 false
+17/02/2016 05:19:42:254  [Error]Missing acks should be true true
+17/02/2016 05:19:42:264  [Error]Timeout
+17/02/2016 05:19:42:265  [Error]false 1
+17/02/2016 05:19:42:265  [Message]ACK: index=2 false
+17/02/2016 05:19:42:267  [Error]Missing acks should be true true
+17/02/2016 05:19:42:268  [Error]Timeout
+17/02/2016 05:19:42:268  [Error]false 2
+17/02/2016 05:19:42:268  [Message]ACK: index=3 false
+17/02/2016 05:19:42:269  [Error]Missing acks should be true true
+17/02/2016 05:19:42:269  [Error]Timeout
+17/02/2016 05:19:42:270  [Error]false 3
+17/02/2016 05:19:42:270  [Message]ACK: index=0 false
+17/02/2016 05:19:42:270  [Error]Missing acks should be true true
+17/02/2016 05:19:42:298  [Error]Timeout
+17/02/2016 05:19:42:298  [Error]false 0
+17/02/2016 05:19:42:298  [Message]ACK: index=1 false
+17/02/2016 05:19:42:298  [Error]Missing acks should be true true
+17/02/2016 05:19:42:300  [Error]Timeout
+17/02/2016 05:19:42:300  [Error]false 1
+17/02/2016 05:19:42:300  [Message]ACK: index=2 false
+17/02/2016 05:19:42:300  [Error]Missing acks should be true true
+17/02/2016 05:19:42:304  [Error]Timeout
+17/02/2016 05:19:42:304  [Error]false 2
+17/02/2016 05:19:42:304  [Message]ACK: index=3 false
+17/02/2016 05:19:42:304  [Error]Missing acks should be true true
+17/02/2016 05:19:42:306  [Error]Timeout
+17/02/2016 05:19:42:306  [Error]false 3
+17/02/2016 05:19:42:306  [Message]ACK: index=0 false
+17/02/2016 05:19:42:307  [Error]Missing acks should be true true
+17/02/2016 05:19:42:314  [Error]Timeout
+17/02/2016 05:19:42:314  [Error]false 0
+17/02/2016 05:19:42:314  [Message]ACK: index=1 false
+17/02/2016 05:19:42:314  [Error]Missing acks should be true true
+17/02/2016 05:19:42:316  [Error]Timeout
+17/02/2016 05:19:42:316  [Error]false 1
+17/02/2016 05:19:42:316  [Message]ACK: index=2 false
+17/02/2016 05:19:42:316  [Error]Missing acks should be true true
+17/02/2016 05:19:42:318  [Error]Timeout
+17/02/2016 05:19:42:318  [Error]false 2
+17/02/2016 05:19:42:318  [Message]ACK: index=3 false
+17/02/2016 05:19:42:318  [Error]Missing acks should be true true
+17/02/2016 05:19:42:319  [Error]Timeout
+17/02/2016 05:19:42:319  [Error]false 3
+17/02/2016 05:19:42:320  [Message]ACK: index=0 false
+17/02/2016 05:19:42:320  [Error]Missing acks should be true true
+17/02/2016 05:19:42:321  [Error]Timeout
+17/02/2016 05:19:42:321  [Error]false 0
+17/02/2016 05:19:42:328  [Message]ACK: index=1 false
+17/02/2016 05:19:42:329  [Error]Missing acks should be true true
+17/02/2016 05:19:42:332  [Error]Timeout
+17/02/2016 05:19:42:332  [Error]false 1
+17/02/2016 05:19:42:332  [Message]ACK: index=2 false
+17/02/2016 05:19:42:333  [Error]Missing acks should be true true
+17/02/2016 05:19:42:334  [Error]Timeout
+17/02/2016 05:19:42:334  [Error]false 2
+17/02/2016 05:19:42:334  [Message]ACK: index=3 false
+17/02/2016 05:19:42:335  [Error]Missing acks should be true true
+17/02/2016 05:19:42:335  [Error]Timeout
+17/02/2016 05:19:42:335  [Error]false 3
+17/02/2016 05:19:42:335  [Message]Is ACK: truemissing?
+17/02/2016 05:19:42:336  [Error]Can not delet the key: two because two face commit failed
+17/02/2016 05:19:42:336  [Message]{}
+17/02/2016 05:19:42:339  [Message]ACK: index=0 false
+17/02/2016 05:19:42:339  [Error]Missing acks should be true true
+17/02/2016 05:19:42:343  [Error]Timeout
+17/02/2016 05:19:42:343  [Error]false 0
+17/02/2016 05:19:42:343  [Message]ACK: index=1 false
+17/02/2016 05:19:42:343  [Error]Missing acks should be true true
+17/02/2016 05:19:42:347  [Error]Timeout
+17/02/2016 05:19:42:347  [Error]false 1
+17/02/2016 05:19:42:347  [Message]ACK: index=2 false
+17/02/2016 05:19:42:347  [Error]Missing acks should be true true
+17/02/2016 05:19:42:349  [Error]Timeout
+17/02/2016 05:19:42:349  [Error]false 2
+17/02/2016 05:19:42:349  [Message]ACK: index=3 false
+17/02/2016 05:19:42:349  [Error]Missing acks should be true true
+17/02/2016 05:19:42:350  [Error]Timeout
+17/02/2016 05:19:42:350  [Error]false 3
+17/02/2016 05:19:42:350  [Message]ACK: index=0 false
+17/02/2016 05:19:42:350  [Error]Missing acks should be true true
+17/02/2016 05:19:42:351  [Error]Timeout
+17/02/2016 05:19:42:352  [Error]false 0
+17/02/2016 05:19:42:352  [Message]ACK: index=1 false
+17/02/2016 05:19:42:352  [Error]Missing acks should be true true
+17/02/2016 05:19:42:353  [Error]Timeout
+17/02/2016 05:19:42:353  [Error]false 1
+17/02/2016 05:19:42:357  [Message]ACK: index=2 false
+17/02/2016 05:19:42:357  [Error]Missing acks should be true true
+17/02/2016 05:19:42:358  [Error]Timeout
+17/02/2016 05:19:42:358  [Error]false 2
+17/02/2016 05:19:42:358  [Message]ACK: index=3 false
+17/02/2016 05:19:42:358  [Error]Missing acks should be true true
+17/02/2016 05:19:42:360  [Error]Timeout
+17/02/2016 05:19:42:360  [Error]false 3
+17/02/2016 05:19:42:360  [Message]ACK: index=0 false
+17/02/2016 05:19:42:360  [Error]Missing acks should be true true
+17/02/2016 05:19:42:365  [Error]Timeout
+17/02/2016 05:19:42:366  [Error]false 0
+17/02/2016 05:19:42:366  [Message]ACK: index=1 false
+17/02/2016 05:19:42:366  [Error]Missing acks should be true true
+17/02/2016 05:19:42:368  [Error]Timeout
+17/02/2016 05:19:42:368  [Error]false 1
+17/02/2016 05:19:42:368  [Message]ACK: index=2 false
+17/02/2016 05:19:42:368  [Error]Missing acks should be true true
+17/02/2016 05:19:42:369  [Error]Timeout
+17/02/2016 05:19:42:369  [Error]false 2
+17/02/2016 05:19:42:369  [Message]ACK: index=3 false
+17/02/2016 05:19:42:369  [Error]Missing acks should be true true
+17/02/2016 05:19:42:387  [Error]Timeout
+17/02/2016 05:19:42:387  [Error]false 3
+17/02/2016 05:19:42:387  [Message]ACK: index=0 false
+17/02/2016 05:19:42:387  [Error]Missing acks should be true true
+17/02/2016 05:19:42:388  [Error]Timeout
+17/02/2016 05:19:42:388  [Error]false 0
+17/02/2016 05:19:42:389  [Message]ACK: index=1 false
+17/02/2016 05:19:42:389  [Error]Missing acks should be true true
+17/02/2016 05:19:42:390  [Error]Timeout
+17/02/2016 05:19:42:390  [Error]false 1
+17/02/2016 05:19:42:390  [Message]ACK: index=2 false
+17/02/2016 05:19:42:390  [Error]Missing acks should be true true
+17/02/2016 05:19:42:391  [Error]Timeout
+17/02/2016 05:19:42:391  [Error]false 2
+17/02/2016 05:19:42:391  [Message]ACK: index=3 false
+17/02/2016 05:19:42:391  [Error]Missing acks should be true true
+17/02/2016 05:19:42:392  [Error]Timeout
+17/02/2016 05:19:42:393  [Error]false 3
+17/02/2016 05:19:42:393  [Message]ACK: index=0 false
+17/02/2016 05:19:42:393  [Error]Missing acks should be true true
+17/02/2016 05:19:42:394  [Error]Timeout
+17/02/2016 05:19:42:394  [Error]false 0
+17/02/2016 05:19:42:394  [Message]ACK: index=1 false
+17/02/2016 05:19:42:394  [Error]Missing acks should be true true
+17/02/2016 05:19:42:395  [Error]Timeout
+17/02/2016 05:19:42:395  [Error]false 1
+17/02/2016 05:19:42:395  [Message]ACK: index=2 false
+17/02/2016 05:19:42:395  [Error]Missing acks should be true true
+17/02/2016 05:19:42:396  [Error]Timeout
+17/02/2016 05:19:42:396  [Error]false 2
+17/02/2016 05:19:42:396  [Message]ACK: index=3 false
+17/02/2016 05:19:42:396  [Error]Missing acks should be true true
+17/02/2016 05:19:42:396  [Error]Timeout
+17/02/2016 05:19:42:396  [Error]false 3
+17/02/2016 05:19:42:397  [Message]Is ACK: truemissing?
+17/02/2016 05:19:42:397  [Error]Server call: failed to do two phase commit
+17/02/2016 05:19:42:397  [Message]{}
+17/02/2016 05:19:42:399  [Error]Get Key: three does not exist in KeySet
+17/02/2016 05:19:42:400  [Error]Get Key: three does not exist in KeySet
+17/02/2016 05:19:42:401  [Message]ACK: index=0 false
+17/02/2016 05:19:42:402  [Error]Missing acks should be true true
+17/02/2016 05:19:42:403  [Error]Timeout
+17/02/2016 05:19:42:403  [Error]false 0
+17/02/2016 05:19:42:403  [Message]ACK: index=1 false
+17/02/2016 05:19:42:404  [Error]Missing acks should be true true
+17/02/2016 05:19:42:404  [Error]Timeout
+17/02/2016 05:19:42:405  [Error]false 1
+17/02/2016 05:19:42:407  [Message]ACK: index=2 false
+17/02/2016 05:19:42:407  [Error]Missing acks should be true true
+17/02/2016 05:19:42:408  [Error]Timeout
+17/02/2016 05:19:42:408  [Error]false 2
+17/02/2016 05:19:42:409  [Message]ACK: index=3 false
+17/02/2016 05:19:42:409  [Error]Missing acks should be true true
+17/02/2016 05:19:42:410  [Error]Timeout
+17/02/2016 05:19:42:410  [Error]false 3
+17/02/2016 05:19:42:410  [Message]ACK: index=0 false
+17/02/2016 05:19:42:411  [Error]Missing acks should be true true
+17/02/2016 05:19:42:412  [Error]Timeout
+17/02/2016 05:19:42:412  [Error]false 0
+17/02/2016 05:19:42:412  [Message]ACK: index=1 false
+17/02/2016 05:19:42:413  [Error]Missing acks should be true true
+17/02/2016 05:19:42:413  [Error]Timeout
+17/02/2016 05:19:42:414  [Error]false 1
+17/02/2016 05:19:42:414  [Message]ACK: index=2 false
+17/02/2016 05:19:42:414  [Error]Missing acks should be true true
+17/02/2016 05:19:42:415  [Error]Timeout
+17/02/2016 05:19:42:415  [Error]false 2
+17/02/2016 05:19:42:415  [Message]ACK: index=3 false
+17/02/2016 05:19:42:416  [Error]Missing acks should be true true
+17/02/2016 05:19:42:416  [Error]Timeout
+17/02/2016 05:19:42:416  [Error]false 3
+17/02/2016 05:19:42:417  [Message]ACK: index=0 false
+17/02/2016 05:19:42:417  [Error]Missing acks should be true true
+17/02/2016 05:19:42:418  [Error]Timeout
+17/02/2016 05:19:42:418  [Error]false 0
+17/02/2016 05:19:42:418  [Message]ACK: index=1 false
+17/02/2016 05:19:42:419  [Error]Missing acks should be true true
+17/02/2016 05:19:42:419  [Error]Timeout
+17/02/2016 05:19:42:419  [Error]false 1
+17/02/2016 05:19:42:419  [Message]ACK: index=2 false
+17/02/2016 05:19:42:420  [Error]Missing acks should be true true
+17/02/2016 05:19:42:420  [Error]Timeout
+17/02/2016 05:19:42:420  [Error]false 2
+17/02/2016 05:19:42:420  [Message]ACK: index=3 false
+17/02/2016 05:19:42:420  [Error]Missing acks should be true true
+17/02/2016 05:19:42:423  [Error]Timeout
+17/02/2016 05:19:42:423  [Error]false 3
+17/02/2016 05:19:42:424  [Message]ACK: index=0 false
+17/02/2016 05:19:42:424  [Error]Missing acks should be true true
+17/02/2016 05:19:42:424  [Error]Timeout
+17/02/2016 05:19:42:424  [Error]false 0
+17/02/2016 05:19:42:425  [Message]ACK: index=1 false
+17/02/2016 05:19:42:425  [Error]Missing acks should be true true
+17/02/2016 05:19:42:425  [Error]Timeout
+17/02/2016 05:19:42:426  [Error]false 1
+17/02/2016 05:19:42:426  [Message]ACK: index=2 false
+17/02/2016 05:19:42:426  [Error]Missing acks should be true true
+17/02/2016 05:19:42:426  [Error]Timeout
+17/02/2016 05:19:42:427  [Error]false 2
+17/02/2016 05:19:42:427  [Message]ACK: index=3 false
+17/02/2016 05:19:42:427  [Error]Missing acks should be true true
+17/02/2016 05:19:42:427  [Error]Timeout
+17/02/2016 05:19:42:427  [Error]false 3
+17/02/2016 05:19:42:428  [Message]ACK: index=0 false
+17/02/2016 05:19:42:428  [Error]Missing acks should be true true
+17/02/2016 05:19:42:428  [Error]Timeout
+17/02/2016 05:19:42:428  [Error]false 0
+17/02/2016 05:19:42:429  [Message]ACK: index=1 false
+17/02/2016 05:19:42:429  [Error]Missing acks should be true true
+17/02/2016 05:19:42:430  [Error]Timeout
+17/02/2016 05:19:42:430  [Error]false 1
+17/02/2016 05:19:42:430  [Message]ACK: index=2 false
+17/02/2016 05:19:42:430  [Error]Missing acks should be true true
+17/02/2016 05:19:42:430  [Error]Timeout
+17/02/2016 05:19:42:431  [Error]false 2
+17/02/2016 05:19:42:431  [Message]ACK: index=3 false
+17/02/2016 05:19:42:431  [Error]Missing acks should be true true
+17/02/2016 05:19:42:432  [Error]Timeout
+17/02/2016 05:19:42:432  [Error]false 3
+17/02/2016 05:19:42:432  [Message]Is ACK: truemissing?
+17/02/2016 05:19:42:432  [Error]Can not delet the key: three because two face commit failed
+17/02/2016 05:19:42:433  [Message]{}
+17/02/2016 05:19:42:437  [Message]ACK: index=0 false
+17/02/2016 05:19:42:437  [Error]Missing acks should be true true
+17/02/2016 05:19:42:446  [Error]Timeout
+17/02/2016 05:19:42:446  [Error]false 0
+17/02/2016 05:19:42:446  [Message]ACK: index=1 false
+17/02/2016 05:19:42:447  [Error]Missing acks should be true true
+17/02/2016 05:19:42:448  [Error]Timeout
+17/02/2016 05:19:42:448  [Error]false 1
+17/02/2016 05:19:42:448  [Message]ACK: index=2 false
+17/02/2016 05:19:42:448  [Error]Missing acks should be true true
+17/02/2016 05:19:42:449  [Error]Timeout
+17/02/2016 05:19:42:449  [Error]false 2
+17/02/2016 05:19:42:449  [Message]ACK: index=3 false
+17/02/2016 05:19:42:449  [Error]Missing acks should be true true
+17/02/2016 05:19:42:450  [Error]Timeout
+17/02/2016 05:19:42:451  [Error]false 3
+17/02/2016 05:19:42:451  [Message]ACK: index=0 false
+17/02/2016 05:19:42:452  [Error]Missing acks should be true true
+17/02/2016 05:19:42:453  [Error]Timeout
+17/02/2016 05:19:42:453  [Error]false 0
+17/02/2016 05:19:42:453  [Message]ACK: index=1 false
+17/02/2016 05:19:42:453  [Error]Missing acks should be true true
+17/02/2016 05:19:42:454  [Error]Timeout
+17/02/2016 05:19:42:454  [Error]false 1
+17/02/2016 05:19:42:454  [Message]ACK: index=2 false
+17/02/2016 05:19:42:454  [Error]Missing acks should be true true
+17/02/2016 05:19:42:454  [Error]Timeout
+17/02/2016 05:19:42:455  [Error]false 2
+17/02/2016 05:19:42:455  [Message]ACK: index=3 false
+17/02/2016 05:19:42:455  [Error]Missing acks should be true true
+17/02/2016 05:19:42:455  [Error]Timeout
+17/02/2016 05:19:42:455  [Error]false 3
+17/02/2016 05:19:42:456  [Message]ACK: index=0 false
+17/02/2016 05:19:42:456  [Error]Missing acks should be true true
+17/02/2016 05:19:42:456  [Error]Timeout
+17/02/2016 05:19:42:456  [Error]false 0
+17/02/2016 05:19:42:456  [Message]ACK: index=1 false
+17/02/2016 05:19:42:457  [Error]Missing acks should be true true
+17/02/2016 05:19:42:457  [Error]Timeout
+17/02/2016 05:19:42:457  [Error]false 1
+17/02/2016 05:19:42:457  [Message]ACK: index=2 false
+17/02/2016 05:19:42:458  [Error]Missing acks should be true true
+17/02/2016 05:19:42:458  [Error]Timeout
+17/02/2016 05:19:42:458  [Error]false 2
+17/02/2016 05:19:42:458  [Message]ACK: index=3 false
+17/02/2016 05:19:42:459  [Error]Missing acks should be true true
+17/02/2016 05:19:42:459  [Error]Timeout
+17/02/2016 05:19:42:459  [Error]false 3
+17/02/2016 05:19:42:459  [Message]ACK: index=0 false
+17/02/2016 05:19:42:459  [Error]Missing acks should be true true
+17/02/2016 05:19:42:460  [Error]Timeout
+17/02/2016 05:19:42:460  [Error]false 0
+17/02/2016 05:19:42:460  [Message]ACK: index=1 false
+17/02/2016 05:19:42:461  [Error]Missing acks should be true true
+17/02/2016 05:19:42:462  [Error]Timeout
+17/02/2016 05:19:42:464  [Error]false 1
+17/02/2016 05:19:42:465  [Message]ACK: index=2 false
+17/02/2016 05:19:42:465  [Error]Missing acks should be true true
+17/02/2016 05:19:42:466  [Error]Timeout
+17/02/2016 05:19:42:466  [Error]false 2
+17/02/2016 05:19:42:466  [Message]ACK: index=3 false
+17/02/2016 05:19:42:466  [Error]Missing acks should be true true
+17/02/2016 05:19:42:467  [Error]Timeout
+17/02/2016 05:19:42:467  [Error]false 3
+17/02/2016 05:19:42:467  [Message]ACK: index=0 false
+17/02/2016 05:19:42:467  [Error]Missing acks should be true true
+17/02/2016 05:19:42:468  [Error]Timeout
+17/02/2016 05:19:42:468  [Error]false 0
+17/02/2016 05:19:42:468  [Message]ACK: index=1 false
+17/02/2016 05:19:42:468  [Error]Missing acks should be true true
+17/02/2016 05:19:42:469  [Error]Timeout
+17/02/2016 05:19:42:469  [Error]false 1
+17/02/2016 05:19:42:469  [Message]ACK: index=2 false
+17/02/2016 05:19:42:469  [Error]Missing acks should be true true
+17/02/2016 05:19:42:469  [Error]Timeout
+17/02/2016 05:19:42:469  [Error]false 2
+17/02/2016 05:19:42:470  [Message]ACK: index=3 false
+17/02/2016 05:19:42:470  [Error]Missing acks should be true true
+17/02/2016 05:19:42:470  [Error]Timeout
+17/02/2016 05:19:42:470  [Error]false 3
+17/02/2016 05:19:42:470  [Message]Is ACK: truemissing?
+17/02/2016 05:19:42:471  [Error]Server call: failed to do two phase commit
+17/02/2016 05:19:42:471  [Message]{}
+17/02/2016 05:19:42:477  [Error]Get Key: a does not exist in KeySet
+17/02/2016 05:19:42:479  [Error]Get Key: a does not exist in KeySet
+17/02/2016 05:19:42:480  [Message]ACK: index=0 false
+17/02/2016 05:19:42:481  [Error]Missing acks should be true true
+17/02/2016 05:19:42:481  [Error]Timeout
+17/02/2016 05:19:42:481  [Error]false 0
+17/02/2016 05:19:42:482  [Message]ACK: index=1 false
+17/02/2016 05:19:42:482  [Error]Missing acks should be true true
+17/02/2016 05:19:42:483  [Error]Timeout
+17/02/2016 05:19:42:483  [Error]false 1
+17/02/2016 05:19:42:483  [Message]ACK: index=2 false
+17/02/2016 05:19:42:483  [Error]Missing acks should be true true
+17/02/2016 05:19:42:484  [Error]Timeout
+17/02/2016 05:19:42:484  [Error]false 2
+17/02/2016 05:19:42:484  [Message]ACK: index=3 false
+17/02/2016 05:19:42:484  [Error]Missing acks should be true true
+17/02/2016 05:19:42:485  [Error]Timeout
+17/02/2016 05:19:42:485  [Error]false 3
+17/02/2016 05:19:42:485  [Message]ACK: index=0 false
+17/02/2016 05:19:42:485  [Error]Missing acks should be true true
+17/02/2016 05:19:42:485  [Error]Timeout
+17/02/2016 05:19:42:485  [Error]false 0
+17/02/2016 05:19:42:486  [Message]ACK: index=1 false
+17/02/2016 05:19:42:486  [Error]Missing acks should be true true
+17/02/2016 05:19:42:487  [Error]Timeout
+17/02/2016 05:19:42:487  [Error]false 1
+17/02/2016 05:19:42:487  [Message]ACK: index=2 false
+17/02/2016 05:19:42:487  [Error]Missing acks should be true true
+17/02/2016 05:19:42:487  [Error]Timeout
+17/02/2016 05:19:42:488  [Error]false 2
+17/02/2016 05:19:42:488  [Message]ACK: index=3 false
+17/02/2016 05:19:42:488  [Error]Missing acks should be true true
+17/02/2016 05:19:42:488  [Error]Timeout
+17/02/2016 05:19:42:488  [Error]false 3
+17/02/2016 05:19:42:488  [Message]ACK: index=0 false
+17/02/2016 05:19:42:489  [Error]Missing acks should be true true
+17/02/2016 05:19:42:489  [Error]Timeout
+17/02/2016 05:19:42:489  [Error]false 0
+17/02/2016 05:19:42:489  [Message]ACK: index=1 false
+17/02/2016 05:19:42:489  [Error]Missing acks should be true true
+17/02/2016 05:19:42:490  [Error]Timeout
+17/02/2016 05:19:42:490  [Error]false 1
+17/02/2016 05:19:42:490  [Message]ACK: index=2 false
+17/02/2016 05:19:42:490  [Error]Missing acks should be true true
+17/02/2016 05:19:42:490  [Error]Timeout
+17/02/2016 05:19:42:491  [Error]false 2
+17/02/2016 05:19:42:491  [Message]ACK: index=3 false
+17/02/2016 05:19:42:491  [Error]Missing acks should be true true
+17/02/2016 05:19:42:491  [Error]Timeout
+17/02/2016 05:19:42:491  [Error]false 3
+17/02/2016 05:19:42:492  [Message]ACK: index=0 false
+17/02/2016 05:19:42:492  [Error]Missing acks should be true true
+17/02/2016 05:19:42:492  [Error]Timeout
+17/02/2016 05:19:42:492  [Error]false 0
+17/02/2016 05:19:42:492  [Message]ACK: index=1 false
+17/02/2016 05:19:42:492  [Error]Missing acks should be true true
+17/02/2016 05:19:42:493  [Error]Timeout
+17/02/2016 05:19:42:493  [Error]false 1
+17/02/2016 05:19:42:493  [Message]ACK: index=2 false
+17/02/2016 05:19:42:493  [Error]Missing acks should be true true
+17/02/2016 05:19:42:493  [Error]Timeout
+17/02/2016 05:19:42:494  [Error]false 2
+17/02/2016 05:19:42:494  [Message]ACK: index=3 false
+17/02/2016 05:19:42:494  [Error]Missing acks should be true true
+17/02/2016 05:19:42:494  [Error]Timeout
+17/02/2016 05:19:42:494  [Error]false 3
+17/02/2016 05:19:42:494  [Message]ACK: index=0 false
+17/02/2016 05:19:42:495  [Error]Missing acks should be true true
+17/02/2016 05:19:42:495  [Error]Timeout
+17/02/2016 05:19:42:495  [Error]false 0
+17/02/2016 05:19:42:495  [Message]ACK: index=1 false
+17/02/2016 05:19:42:495  [Error]Missing acks should be true true
+17/02/2016 05:19:42:496  [Error]Timeout
+17/02/2016 05:19:42:496  [Error]false 1
+17/02/2016 05:19:42:496  [Message]ACK: index=2 false
+17/02/2016 05:19:42:496  [Error]Missing acks should be true true
+17/02/2016 05:19:42:497  [Error]Timeout
+17/02/2016 05:19:42:497  [Error]false 2
+17/02/2016 05:19:42:497  [Message]ACK: index=3 false
+17/02/2016 05:19:42:497  [Error]Missing acks should be true true
+17/02/2016 05:19:42:498  [Error]Timeout
+17/02/2016 05:19:42:498  [Error]false 3
+17/02/2016 05:19:42:498  [Message]Is ACK: truemissing?
+17/02/2016 05:19:42:498  [Error]Can not delet the key: a because two face commit failed
+17/02/2016 05:19:42:498  [Message]{}
+17/02/2016 05:19:42:500  [Message]ACK: index=0 false
+17/02/2016 05:19:42:501  [Error]Missing acks should be true true
+17/02/2016 05:19:42:501  [Error]Timeout
+17/02/2016 05:19:42:501  [Error]false 0
+17/02/2016 05:19:42:501  [Message]ACK: index=1 false
+17/02/2016 05:19:42:502  [Error]Missing acks should be true true
+17/02/2016 05:19:42:502  [Error]Timeout
+17/02/2016 05:19:42:502  [Error]false 1
+17/02/2016 05:19:42:502  [Message]ACK: index=2 false
+17/02/2016 05:19:42:503  [Error]Missing acks should be true true
+17/02/2016 05:19:42:503  [Error]Timeout
+17/02/2016 05:19:42:503  [Error]false 2
+17/02/2016 05:19:42:503  [Message]ACK: index=3 false
+17/02/2016 05:19:42:503  [Error]Missing acks should be true true
+17/02/2016 05:19:42:504  [Error]Timeout
+17/02/2016 05:19:42:504  [Error]false 3
+17/02/2016 05:19:42:504  [Message]ACK: index=0 false
+17/02/2016 05:19:42:504  [Error]Missing acks should be true true
+17/02/2016 05:19:42:504  [Error]Timeout
+17/02/2016 05:19:42:505  [Error]false 0
+17/02/2016 05:19:42:505  [Message]ACK: index=1 false
+17/02/2016 05:19:42:505  [Error]Missing acks should be true true
+17/02/2016 05:19:42:505  [Error]Timeout
+17/02/2016 05:19:42:506  [Error]false 1
+17/02/2016 05:19:42:506  [Message]ACK: index=2 false
+17/02/2016 05:19:42:506  [Error]Missing acks should be true true
+17/02/2016 05:19:42:506  [Error]Timeout
+17/02/2016 05:19:42:506  [Error]false 2
+17/02/2016 05:19:42:506  [Message]ACK: index=3 false
+17/02/2016 05:19:42:507  [Error]Missing acks should be true true
+17/02/2016 05:19:42:507  [Error]Timeout
+17/02/2016 05:19:42:507  [Error]false 3
+17/02/2016 05:19:42:507  [Message]ACK: index=0 false
+17/02/2016 05:19:42:507  [Error]Missing acks should be true true
+17/02/2016 05:19:42:508  [Error]Timeout
+17/02/2016 05:19:42:508  [Error]false 0
+17/02/2016 05:19:42:508  [Message]ACK: index=1 false
+17/02/2016 05:19:42:508  [Error]Missing acks should be true true
+17/02/2016 05:19:42:509  [Error]Timeout
+17/02/2016 05:19:42:509  [Error]false 1
+17/02/2016 05:19:42:509  [Message]ACK: index=2 false
+17/02/2016 05:19:42:509  [Error]Missing acks should be true true
+17/02/2016 05:19:42:510  [Error]Timeout
+17/02/2016 05:19:42:510  [Error]false 2
+17/02/2016 05:19:42:510  [Message]ACK: index=3 false
+17/02/2016 05:19:42:510  [Error]Missing acks should be true true
+17/02/2016 05:19:42:511  [Error]Timeout
+17/02/2016 05:19:42:511  [Error]false 3
+17/02/2016 05:19:42:511  [Message]ACK: index=0 false
+17/02/2016 05:19:42:511  [Error]Missing acks should be true true
+17/02/2016 05:19:42:511  [Error]Timeout
+17/02/2016 05:19:42:511  [Error]false 0
+17/02/2016 05:19:42:512  [Message]ACK: index=1 false
+17/02/2016 05:19:42:512  [Error]Missing acks should be true true
+17/02/2016 05:19:42:512  [Error]Timeout
+17/02/2016 05:19:42:512  [Error]false 1
+17/02/2016 05:19:42:512  [Message]ACK: index=2 false
+17/02/2016 05:19:42:512  [Error]Missing acks should be true true
+17/02/2016 05:19:42:513  [Error]Timeout
+17/02/2016 05:19:42:513  [Error]false 2
+17/02/2016 05:19:42:513  [Message]ACK: index=3 false
+17/02/2016 05:19:42:513  [Error]Missing acks should be true true
+17/02/2016 05:19:42:514  [Error]Timeout
+17/02/2016 05:19:42:514  [Error]false 3
+17/02/2016 05:19:42:514  [Message]ACK: index=0 false
+17/02/2016 05:19:42:514  [Error]Missing acks should be true true
+17/02/2016 05:19:42:515  [Error]Timeout
+17/02/2016 05:19:42:515  [Error]false 0
+17/02/2016 05:19:42:515  [Message]ACK: index=1 false
+17/02/2016 05:19:42:515  [Error]Missing acks should be true true
+17/02/2016 05:19:42:516  [Error]Timeout
+17/02/2016 05:19:42:516  [Error]false 1
+17/02/2016 05:19:42:516  [Message]ACK: index=2 false
+17/02/2016 05:19:42:516  [Error]Missing acks should be true true
+17/02/2016 05:19:42:516  [Error]Timeout
+17/02/2016 05:19:42:516  [Error]false 2
+17/02/2016 05:19:42:517  [Message]ACK: index=3 false
+17/02/2016 05:19:42:517  [Error]Missing acks should be true true
+17/02/2016 05:19:42:517  [Error]Timeout
+17/02/2016 05:19:42:517  [Error]false 3
+17/02/2016 05:19:42:517  [Message]Is ACK: truemissing?
+17/02/2016 05:19:42:518  [Error]Server call: failed to do two phase commit
+17/02/2016 05:19:42:518  [Message]{}
+17/02/2016 05:19:42:531  [Error]Get Key: b does not exist in KeySet
+17/02/2016 05:19:42:532  [Error]Get Key: b does not exist in KeySet
+17/02/2016 05:19:42:534  [Message]ACK: index=0 false
+17/02/2016 05:19:42:535  [Error]Missing acks should be true true
+17/02/2016 05:19:42:535  [Error]Timeout
+17/02/2016 05:19:42:536  [Error]false 0
+17/02/2016 05:19:42:536  [Message]ACK: index=1 false
+17/02/2016 05:19:42:536  [Error]Missing acks should be true true
+17/02/2016 05:19:42:537  [Error]Timeout
+17/02/2016 05:19:42:537  [Error]false 1
+17/02/2016 05:19:42:537  [Message]ACK: index=2 false
+17/02/2016 05:19:42:537  [Error]Missing acks should be true true
+17/02/2016 05:19:42:538  [Error]Timeout
+17/02/2016 05:19:42:538  [Error]false 2
+17/02/2016 05:19:42:538  [Message]ACK: index=3 false
+17/02/2016 05:19:42:538  [Error]Missing acks should be true true
+17/02/2016 05:19:42:539  [Error]Timeout
+17/02/2016 05:19:42:539  [Error]false 3
+17/02/2016 05:19:42:539  [Message]ACK: index=0 false
+17/02/2016 05:19:42:539  [Error]Missing acks should be true true
+17/02/2016 05:19:42:540  [Error]Timeout
+17/02/2016 05:19:42:541  [Error]false 0
+17/02/2016 05:19:42:541  [Message]ACK: index=1 false
+17/02/2016 05:19:42:542  [Error]Missing acks should be true true
+17/02/2016 05:19:42:543  [Error]Timeout
+17/02/2016 05:19:42:543  [Error]false 1
+17/02/2016 05:19:42:543  [Message]ACK: index=2 false
+17/02/2016 05:19:42:543  [Error]Missing acks should be true true
+17/02/2016 05:19:42:544  [Error]Timeout
+17/02/2016 05:19:42:544  [Error]false 2
+17/02/2016 05:19:42:544  [Message]ACK: index=3 false
+17/02/2016 05:19:42:544  [Error]Missing acks should be true true
+17/02/2016 05:19:42:546  [Error]Timeout
+17/02/2016 05:19:42:546  [Error]false 3
+17/02/2016 05:19:42:546  [Message]ACK: index=0 false
+17/02/2016 05:19:42:546  [Error]Missing acks should be true true
+17/02/2016 05:19:42:547  [Error]Timeout
+17/02/2016 05:19:42:547  [Error]false 0
+17/02/2016 05:19:42:548  [Message]ACK: index=1 false
+17/02/2016 05:19:42:548  [Error]Missing acks should be true true
+17/02/2016 05:19:42:549  [Error]Timeout
+17/02/2016 05:19:42:549  [Error]false 1
+17/02/2016 05:19:42:550  [Message]ACK: index=2 false
+17/02/2016 05:19:42:551  [Error]Missing acks should be true true
+17/02/2016 05:19:42:552  [Error]Timeout
+17/02/2016 05:19:42:552  [Error]false 2
+17/02/2016 05:19:42:552  [Message]ACK: index=3 false
+17/02/2016 05:19:42:552  [Error]Missing acks should be true true
+17/02/2016 05:19:42:553  [Error]Timeout
+17/02/2016 05:19:42:553  [Error]false 3
+17/02/2016 05:19:42:553  [Message]ACK: index=0 false
+17/02/2016 05:19:42:555  [Error]Missing acks should be true true
+17/02/2016 05:19:42:558  [Error]Timeout
+17/02/2016 05:19:42:558  [Error]false 0
+17/02/2016 05:19:42:559  [Message]ACK: index=1 false
+17/02/2016 05:19:42:559  [Error]Missing acks should be true true
+17/02/2016 05:19:42:560  [Error]Timeout
+17/02/2016 05:19:42:560  [Error]false 1
+17/02/2016 05:19:42:560  [Message]ACK: index=2 false
+17/02/2016 05:19:42:560  [Error]Missing acks should be true true
+17/02/2016 05:19:42:561  [Error]Timeout
+17/02/2016 05:19:42:562  [Error]false 2
+17/02/2016 05:19:42:562  [Message]ACK: index=3 false
+17/02/2016 05:19:42:562  [Error]Missing acks should be true true
+17/02/2016 05:19:42:563  [Error]Timeout
+17/02/2016 05:19:42:563  [Error]false 3
+17/02/2016 05:19:42:563  [Message]ACK: index=0 false
+17/02/2016 05:19:42:564  [Error]Missing acks should be true true
+17/02/2016 05:19:42:564  [Error]Timeout
+17/02/2016 05:19:42:564  [Error]false 0
+17/02/2016 05:19:42:564  [Message]ACK: index=1 false
+17/02/2016 05:19:42:565  [Error]Missing acks should be true true
+17/02/2016 05:19:42:565  [Error]Timeout
+17/02/2016 05:19:42:565  [Error]false 1
+17/02/2016 05:19:42:565  [Message]ACK: index=2 false
+17/02/2016 05:19:42:566  [Error]Missing acks should be true true
+17/02/2016 05:19:42:566  [Error]Timeout
+17/02/2016 05:19:42:566  [Error]false 2
+17/02/2016 05:19:42:566  [Message]ACK: index=3 false
+17/02/2016 05:19:42:567  [Error]Missing acks should be true true
+17/02/2016 05:19:42:567  [Error]Timeout
+17/02/2016 05:19:42:569  [Error]false 3
+17/02/2016 05:19:42:569  [Message]Is ACK: truemissing?
+17/02/2016 05:19:42:570  [Error]Can not delet the key: b because two face commit failed
+17/02/2016 05:19:42:570  [Message]{}
+17/02/2016 05:19:42:588  [Message]ACK: index=0 false
+17/02/2016 05:19:42:588  [Error]Missing acks should be true true
+17/02/2016 05:19:42:591  [Error]Timeout
+17/02/2016 05:19:42:592  [Error]false 0
+17/02/2016 05:19:42:592  [Message]ACK: index=1 false
+17/02/2016 05:19:42:592  [Error]Missing acks should be true true
+17/02/2016 05:19:42:593  [Error]Timeout
+17/02/2016 05:19:42:593  [Error]false 1
+17/02/2016 05:19:42:593  [Message]ACK: index=2 false
+17/02/2016 05:19:42:593  [Error]Missing acks should be true true
+17/02/2016 05:19:42:601  [Error]Timeout
+17/02/2016 05:19:42:601  [Error]false 2
+17/02/2016 05:19:42:602  [Message]ACK: index=3 false
+17/02/2016 05:19:42:602  [Error]Missing acks should be true true
+17/02/2016 05:19:42:604  [Error]Timeout
+17/02/2016 05:19:42:604  [Error]false 3
+17/02/2016 05:19:42:604  [Message]ACK: index=0 false
+17/02/2016 05:19:42:604  [Error]Missing acks should be true true
+17/02/2016 05:19:42:607  [Error]Timeout
+17/02/2016 05:19:42:609  [Error]false 0
+17/02/2016 05:19:42:611  [Message]ACK: index=1 false
+17/02/2016 05:19:42:611  [Error]Missing acks should be true true
+17/02/2016 05:19:42:620  [Error]Timeout
+17/02/2016 05:19:42:620  [Error]false 1
+17/02/2016 05:19:42:621  [Message]ACK: index=2 false
+17/02/2016 05:19:42:621  [Error]Missing acks should be true true
+17/02/2016 05:19:42:621  [Error]Timeout
+17/02/2016 05:19:42:622  [Error]false 2
+17/02/2016 05:19:42:622  [Message]ACK: index=3 false
+17/02/2016 05:19:42:622  [Error]Missing acks should be true true
+17/02/2016 05:19:42:623  [Error]Timeout
+17/02/2016 05:19:42:623  [Error]false 3
+17/02/2016 05:19:42:623  [Message]ACK: index=0 false
+17/02/2016 05:19:42:623  [Error]Missing acks should be true true
+17/02/2016 05:19:42:623  [Error]Timeout
+17/02/2016 05:19:42:624  [Error]false 0
+17/02/2016 05:19:42:624  [Message]ACK: index=1 false
+17/02/2016 05:19:42:624  [Error]Missing acks should be true true
+17/02/2016 05:19:42:624  [Error]Timeout
+17/02/2016 05:19:42:625  [Error]false 1
+17/02/2016 05:19:42:625  [Message]ACK: index=2 false
+17/02/2016 05:19:42:625  [Error]Missing acks should be true true
+17/02/2016 05:19:42:626  [Error]Timeout
+17/02/2016 05:19:42:626  [Error]false 2
+17/02/2016 05:19:42:626  [Message]ACK: index=3 false
+17/02/2016 05:19:42:626  [Error]Missing acks should be true true
+17/02/2016 05:19:42:628  [Error]Timeout
+17/02/2016 05:19:42:628  [Error]false 3
+17/02/2016 05:19:42:628  [Message]ACK: index=0 false
+17/02/2016 05:19:42:628  [Error]Missing acks should be true true
+17/02/2016 05:19:42:630  [Error]Timeout
+17/02/2016 05:19:42:630  [Error]false 0
+17/02/2016 05:19:42:630  [Message]ACK: index=1 false
+17/02/2016 05:19:42:630  [Error]Missing acks should be true true
+17/02/2016 05:19:42:631  [Error]Timeout
+17/02/2016 05:19:42:631  [Error]false 1
+17/02/2016 05:19:42:631  [Message]ACK: index=2 false
+17/02/2016 05:19:42:631  [Error]Missing acks should be true true
+17/02/2016 05:19:42:632  [Error]Timeout
+17/02/2016 05:19:42:632  [Error]false 2
+17/02/2016 05:19:42:632  [Message]ACK: index=3 false
+17/02/2016 05:19:42:632  [Error]Missing acks should be true true
+17/02/2016 05:19:42:633  [Error]Timeout
+17/02/2016 05:19:42:633  [Error]false 3
+17/02/2016 05:19:42:633  [Message]ACK: index=0 false
+17/02/2016 05:19:42:634  [Error]Missing acks should be true true
+17/02/2016 05:19:42:634  [Error]Timeout
+17/02/2016 05:19:42:634  [Error]false 0
+17/02/2016 05:19:42:634  [Message]ACK: index=1 false
+17/02/2016 05:19:42:635  [Error]Missing acks should be true true
+17/02/2016 05:19:42:636  [Error]Timeout
+17/02/2016 05:19:42:636  [Error]false 1
+17/02/2016 05:19:42:636  [Message]ACK: index=2 false
+17/02/2016 05:19:42:638  [Error]Missing acks should be true true
+17/02/2016 05:19:42:638  [Error]Timeout
+17/02/2016 05:19:42:638  [Error]false 2
+17/02/2016 05:19:42:639  [Message]ACK: index=3 false
+17/02/2016 05:19:42:639  [Error]Missing acks should be true true
+17/02/2016 05:19:42:639  [Error]Timeout
+17/02/2016 05:19:42:639  [Error]false 3
+17/02/2016 05:19:42:639  [Message]Is ACK: truemissing?
+17/02/2016 05:19:42:640  [Error]Server call: failed to do two phase commit
+17/02/2016 05:19:42:640  [Message]{}
+17/02/2016 05:19:42:642  [Error]Get Key: c does not exist in KeySet
+17/02/2016 05:19:42:643  [Error]Get Key: c does not exist in KeySet
+17/02/2016 05:19:42:644  [Message]ACK: index=0 false
+17/02/2016 05:19:42:644  [Error]Missing acks should be true true
+17/02/2016 05:19:42:645  [Error]Timeout
+17/02/2016 05:19:42:645  [Error]false 0
+17/02/2016 05:19:42:645  [Message]ACK: index=1 false
+17/02/2016 05:19:42:645  [Error]Missing acks should be true true
+17/02/2016 05:19:42:646  [Error]Timeout
+17/02/2016 05:19:42:646  [Error]false 1
+17/02/2016 05:19:42:646  [Message]ACK: index=2 false
+17/02/2016 05:19:42:646  [Error]Missing acks should be true true
+17/02/2016 05:19:42:647  [Error]Timeout
+17/02/2016 05:19:42:647  [Error]false 2
+17/02/2016 05:19:42:647  [Message]ACK: index=3 false
+17/02/2016 05:19:42:647  [Error]Missing acks should be true true
+17/02/2016 05:19:42:648  [Error]Timeout
+17/02/2016 05:19:42:648  [Error]false 3
+17/02/2016 05:19:42:648  [Message]ACK: index=0 false
+17/02/2016 05:19:42:648  [Error]Missing acks should be true true
+17/02/2016 05:19:42:649  [Error]Timeout
+17/02/2016 05:19:42:649  [Error]false 0
+17/02/2016 05:19:42:649  [Message]ACK: index=1 false
+17/02/2016 05:19:42:649  [Error]Missing acks should be true true
+17/02/2016 05:19:42:650  [Error]Timeout
+17/02/2016 05:19:42:650  [Error]false 1
+17/02/2016 05:19:42:650  [Message]ACK: index=2 false
+17/02/2016 05:19:42:650  [Error]Missing acks should be true true
+17/02/2016 05:19:42:651  [Error]Timeout
+17/02/2016 05:19:42:651  [Error]false 2
+17/02/2016 05:19:42:651  [Message]ACK: index=3 false
+17/02/2016 05:19:42:651  [Error]Missing acks should be true true
+17/02/2016 05:19:42:652  [Error]Timeout
+17/02/2016 05:19:42:652  [Error]false 3
+17/02/2016 05:19:42:652  [Message]ACK: index=0 false
+17/02/2016 05:19:42:653  [Error]Missing acks should be true true
+17/02/2016 05:19:42:653  [Error]Timeout
+17/02/2016 05:19:42:653  [Error]false 0
+17/02/2016 05:19:42:653  [Message]ACK: index=1 false
+17/02/2016 05:19:42:654  [Error]Missing acks should be true true
+17/02/2016 05:19:42:654  [Error]Timeout
+17/02/2016 05:19:42:654  [Error]false 1
+17/02/2016 05:19:42:654  [Message]ACK: index=2 false
+17/02/2016 05:19:42:654  [Error]Missing acks should be true true
+17/02/2016 05:19:42:655  [Error]Timeout
+17/02/2016 05:19:42:655  [Error]false 2
+17/02/2016 05:19:42:655  [Message]ACK: index=3 false
+17/02/2016 05:19:42:655  [Error]Missing acks should be true true
+17/02/2016 05:19:42:660  [Error]Timeout
+17/02/2016 05:19:42:661  [Error]false 3
+17/02/2016 05:19:42:662  [Message]ACK: index=0 false
+17/02/2016 05:19:42:662  [Error]Missing acks should be true true
+17/02/2016 05:19:42:663  [Error]Timeout
+17/02/2016 05:19:42:663  [Error]false 0
+17/02/2016 05:19:42:663  [Message]ACK: index=1 false
+17/02/2016 05:19:42:663  [Error]Missing acks should be true true
+17/02/2016 05:19:42:664  [Error]Timeout
+17/02/2016 05:19:42:664  [Error]false 1
+17/02/2016 05:19:42:664  [Message]ACK: index=2 false
+17/02/2016 05:19:42:664  [Error]Missing acks should be true true
+17/02/2016 05:19:42:665  [Error]Timeout
+17/02/2016 05:19:42:665  [Error]false 2
+17/02/2016 05:19:42:665  [Message]ACK: index=3 false
+17/02/2016 05:19:42:665  [Error]Missing acks should be true true
+17/02/2016 05:19:42:666  [Error]Timeout
+17/02/2016 05:19:42:666  [Error]false 3
+17/02/2016 05:19:42:666  [Message]ACK: index=0 false
+17/02/2016 05:19:42:666  [Error]Missing acks should be true true
+17/02/2016 05:19:42:667  [Error]Timeout
+17/02/2016 05:19:42:667  [Error]false 0
+17/02/2016 05:19:42:667  [Message]ACK: index=1 false
+17/02/2016 05:19:42:667  [Error]Missing acks should be true true
+17/02/2016 05:19:42:668  [Error]Timeout
+17/02/2016 05:19:42:668  [Error]false 1
+17/02/2016 05:19:42:668  [Message]ACK: index=2 false
+17/02/2016 05:19:42:668  [Error]Missing acks should be true true
+17/02/2016 05:19:42:669  [Error]Timeout
+17/02/2016 05:19:42:669  [Error]false 2
+17/02/2016 05:19:42:669  [Message]ACK: index=3 false
+17/02/2016 05:19:42:669  [Error]Missing acks should be true true
+17/02/2016 05:19:42:670  [Error]Timeout
+17/02/2016 05:19:42:670  [Error]false 3
+17/02/2016 05:19:42:670  [Message]Is ACK: truemissing?
+17/02/2016 05:19:42:670  [Error]Can not delet the key: c because two face commit failed
+17/02/2016 05:19:42:671  [Message]{}
+17/02/2016 05:20:12:483  [Message]RPC Server start running on : Yaquns-MacBook-Pro.local/10.0.0.4
+17/02/2016 05:20:12:689  [Message]Server bind......
+17/02/2016 05:20:12:691  [Message]Sync......
+17/02/2016 05:20:12:701  [Error]true
+17/02/2016 05:20:12:702  [Message]Server is ready!
+17/02/2016 05:20:17:933  [Error]Timeout
+17/02/2016 05:20:17:934  [Error]false 0
+17/02/2016 05:20:17:934  [Message]ACK: index=0 false
+17/02/2016 05:20:17:935  [Error]Missing acks should be true true
+17/02/2016 05:20:18:942  [Error]Timeout
+17/02/2016 05:20:18:943  [Error]false 0
+17/02/2016 05:20:18:943  [Message]ACK: index=1 false
+17/02/2016 05:20:18:945  [Error]Missing acks should be true true
+17/02/2016 05:20:18:946  [Error]Timeout
+17/02/2016 05:20:18:947  [Error]false 1
+17/02/2016 05:20:18:947  [Message]ACK: index=2 false
+17/02/2016 05:20:18:948  [Error]Missing acks should be true true
+17/02/2016 05:20:18:948  [Error]Timeout
+17/02/2016 05:20:18:949  [Error]false 2
+17/02/2016 05:20:18:949  [Message]ACK: index=3 false
+17/02/2016 05:20:18:950  [Error]Missing acks should be true true
+17/02/2016 05:20:18:951  [Error]Timeout
+17/02/2016 05:20:18:951  [Error]false 3
+17/02/2016 05:20:18:951  [Message]ACK: index=0 false
+17/02/2016 05:20:18:952  [Error]Missing acks should be true true
+17/02/2016 05:20:19:956  [Error]Timeout
+17/02/2016 05:20:19:957  [Error]false 0
+17/02/2016 05:20:19:957  [Message]ACK: index=1 false
+17/02/2016 05:20:19:958  [Error]Missing acks should be true true
+17/02/2016 05:20:19:959  [Error]Timeout
+17/02/2016 05:20:19:964  [Error]false 1
+17/02/2016 05:20:19:965  [Message]ACK: index=2 false
+17/02/2016 05:20:19:966  [Error]Missing acks should be true true
+17/02/2016 05:20:19:967  [Error]Timeout
+17/02/2016 05:20:19:967  [Error]false 2
+17/02/2016 05:20:19:968  [Message]ACK: index=3 false
+17/02/2016 05:20:19:968  [Error]Missing acks should be true true
+17/02/2016 05:20:19:969  [Error]Timeout
+17/02/2016 05:20:19:970  [Error]false 3
+17/02/2016 05:20:19:970  [Message]ACK: index=0 false
+17/02/2016 05:20:19:971  [Error]Missing acks should be true true
+17/02/2016 05:20:20:978  [Error]Timeout
+17/02/2016 05:20:20:979  [Error]false 0
+17/02/2016 05:20:20:979  [Message]ACK: index=1 false
+17/02/2016 05:20:20:980  [Error]Missing acks should be true true
+17/02/2016 05:20:20:981  [Error]Timeout
+17/02/2016 05:20:20:982  [Error]false 1
+17/02/2016 05:20:20:982  [Message]ACK: index=2 false
+17/02/2016 05:20:20:983  [Error]Missing acks should be true true
+17/02/2016 05:20:20:984  [Error]Timeout
+17/02/2016 05:20:20:984  [Error]false 2
+17/02/2016 05:20:20:985  [Message]ACK: index=3 false
+17/02/2016 05:20:20:985  [Error]Missing acks should be true true
+17/02/2016 05:20:20:986  [Error]Timeout
+17/02/2016 05:20:20:987  [Error]false 3
+17/02/2016 05:20:20:987  [Message]ACK: index=0 false
+17/02/2016 05:20:20:988  [Error]Missing acks should be true true
+17/02/2016 05:20:21:993  [Error]Timeout
+17/02/2016 05:20:21:993  [Error]false 0
+17/02/2016 05:20:21:993  [Message]ACK: index=1 false
+17/02/2016 05:20:21:994  [Error]Missing acks should be true true
+17/02/2016 05:20:21:996  [Error]Timeout
+17/02/2016 05:20:21:996  [Error]false 1
+17/02/2016 05:20:21:996  [Message]ACK: index=2 false
+17/02/2016 05:20:21:997  [Error]Missing acks should be true true
+17/02/2016 05:20:21:998  [Error]Timeout
+17/02/2016 05:20:21:998  [Error]false 2
+17/02/2016 05:20:21:999  [Message]ACK: index=3 false
+17/02/2016 05:20:21:999  [Error]Missing acks should be true true
+17/02/2016 05:20:22:002  [Error]Timeout
+17/02/2016 05:20:22:002  [Error]false 3
+17/02/2016 05:20:22:002  [Message]ACK: index=0 false
+17/02/2016 05:20:22:003  [Error]Missing acks should be true true
+17/02/2016 05:20:23:007  [Error]Timeout
+17/02/2016 05:20:23:007  [Error]false 0
+17/02/2016 05:20:23:008  [Message]ACK: index=1 false
+17/02/2016 05:20:23:008  [Error]Missing acks should be true true
+17/02/2016 05:20:23:009  [Error]Timeout
+17/02/2016 05:20:23:009  [Error]false 1
+17/02/2016 05:20:23:010  [Message]ACK: index=2 false
+17/02/2016 05:20:23:011  [Error]Missing acks should be true true
+17/02/2016 05:20:23:012  [Error]Timeout
+17/02/2016 05:20:23:012  [Error]false 2
+17/02/2016 05:20:23:012  [Message]ACK: index=3 false
+17/02/2016 05:20:23:013  [Error]Missing acks should be true true
+17/02/2016 05:20:23:014  [Error]Timeout
+17/02/2016 05:20:23:014  [Error]false 3
+17/02/2016 05:20:23:015  [Message]Is ACK: truemissing?
+17/02/2016 05:20:23:015  [Error]Server call: failed to do two phase commit
+17/02/2016 05:20:23:015  [Message]{}
+17/02/2016 05:20:23:022  [Error]Get Key: hello does not exist in KeySet
+17/02/2016 05:20:23:023  [Error]Get Key: hello does not exist in KeySet
+17/02/2016 05:20:24:030  [Error]Timeout
+17/02/2016 05:20:24:031  [Error]false 0
+17/02/2016 05:20:24:031  [Message]ACK: index=0 false
+17/02/2016 05:20:24:032  [Error]Missing acks should be true true
+17/02/2016 05:20:25:036  [Error]Timeout
+17/02/2016 05:20:25:037  [Error]false 0
+17/02/2016 05:20:25:037  [Message]ACK: index=1 false
+17/02/2016 05:20:25:037  [Error]Missing acks should be true true
+17/02/2016 05:20:25:038  [Error]Timeout
+17/02/2016 05:20:25:038  [Error]false 1
+17/02/2016 05:20:25:038  [Message]ACK: index=2 false
+17/02/2016 05:20:25:039  [Error]Missing acks should be true true
+17/02/2016 05:20:25:040  [Error]Timeout
+17/02/2016 05:20:25:040  [Error]false 2
+17/02/2016 05:20:25:040  [Message]ACK: index=3 false
+17/02/2016 05:20:25:041  [Error]Missing acks should be true true
+17/02/2016 05:20:25:042  [Error]Timeout
+17/02/2016 05:20:25:042  [Error]false 3
+17/02/2016 05:20:25:043  [Message]ACK: index=0 false
+17/02/2016 05:20:25:043  [Error]Missing acks should be true true
+17/02/2016 05:20:26:052  [Error]Timeout
+17/02/2016 05:20:26:052  [Error]false 0
+17/02/2016 05:20:26:052  [Message]ACK: index=1 false
+17/02/2016 05:20:26:052  [Error]Missing acks should be true true
+17/02/2016 05:20:26:053  [Error]Timeout
+17/02/2016 05:20:26:053  [Error]false 1
+17/02/2016 05:20:26:054  [Message]ACK: index=2 false
+17/02/2016 05:20:26:054  [Error]Missing acks should be true true
+17/02/2016 05:20:26:055  [Error]Timeout
+17/02/2016 05:20:26:055  [Error]false 2
+17/02/2016 05:20:26:055  [Message]ACK: index=3 false
+17/02/2016 05:20:26:056  [Error]Missing acks should be true true
+17/02/2016 05:20:26:057  [Error]Timeout
+17/02/2016 05:20:26:057  [Error]false 3
+17/02/2016 05:20:26:057  [Message]ACK: index=0 false
+17/02/2016 05:20:26:058  [Error]Missing acks should be true true
+17/02/2016 05:20:27:063  [Error]Timeout
+17/02/2016 05:20:27:063  [Error]false 0
+17/02/2016 05:20:27:063  [Message]ACK: index=1 false
+17/02/2016 05:20:27:063  [Error]Missing acks should be true true
+17/02/2016 05:20:27:064  [Error]Timeout
+17/02/2016 05:20:27:065  [Error]false 1
+17/02/2016 05:20:27:065  [Message]ACK: index=2 false
+17/02/2016 05:20:27:065  [Error]Missing acks should be true true
+17/02/2016 05:20:27:066  [Error]Timeout
+17/02/2016 05:20:27:067  [Error]false 2
+17/02/2016 05:20:27:067  [Message]ACK: index=3 false
+17/02/2016 05:20:27:067  [Error]Missing acks should be true true
+17/02/2016 05:20:27:068  [Error]Timeout
+17/02/2016 05:20:27:069  [Error]false 3
+17/02/2016 05:20:27:069  [Message]ACK: index=0 false
+17/02/2016 05:20:27:070  [Error]Missing acks should be true true
+17/02/2016 05:20:28:075  [Error]Timeout
+17/02/2016 05:20:28:075  [Error]false 0
+17/02/2016 05:20:28:076  [Message]ACK: index=1 false
+17/02/2016 05:20:28:076  [Error]Missing acks should be true true
+17/02/2016 05:20:28:077  [Error]Timeout
+17/02/2016 05:20:28:077  [Error]false 1
+17/02/2016 05:20:28:077  [Message]ACK: index=2 false
+17/02/2016 05:20:28:079  [Error]Missing acks should be true true
+17/02/2016 05:20:28:081  [Error]Timeout
+17/02/2016 05:20:28:081  [Error]false 2
+17/02/2016 05:20:28:082  [Message]ACK: index=3 false
+17/02/2016 05:20:28:082  [Error]Missing acks should be true true
+17/02/2016 05:20:28:087  [Error]Timeout
+17/02/2016 05:20:28:087  [Error]false 3
+17/02/2016 05:20:28:087  [Message]ACK: index=0 false
+17/02/2016 05:20:28:088  [Error]Missing acks should be true true
+17/02/2016 05:20:29:092  [Error]Timeout
+17/02/2016 05:20:29:092  [Error]false 0
+17/02/2016 05:20:29:093  [Message]ACK: index=1 false
+17/02/2016 05:20:29:093  [Error]Missing acks should be true true
+17/02/2016 05:20:29:093  [Error]Timeout
+17/02/2016 05:20:29:094  [Error]false 1
+17/02/2016 05:20:29:094  [Message]ACK: index=2 false
+17/02/2016 05:20:29:094  [Error]Missing acks should be true true
+17/02/2016 05:20:29:095  [Error]Timeout
+17/02/2016 05:20:29:095  [Error]false 2
+17/02/2016 05:20:29:096  [Message]ACK: index=3 false
+17/02/2016 05:20:29:096  [Error]Missing acks should be true true
+17/02/2016 05:20:29:097  [Error]Timeout
+17/02/2016 05:20:29:098  [Error]false 3
+17/02/2016 05:20:29:098  [Message]Is ACK: truemissing?
+17/02/2016 05:20:29:098  [Error]Can not delet the key: hello because two face commit failed
+17/02/2016 05:20:29:098  [Message]{}
+17/02/2016 05:20:30:110  [Error]Timeout
+17/02/2016 05:20:30:111  [Error]false 0
+17/02/2016 05:20:30:111  [Message]ACK: index=0 false
+17/02/2016 05:20:30:111  [Error]Missing acks should be true true
+17/02/2016 05:20:31:116  [Error]Timeout
+17/02/2016 05:20:31:117  [Error]false 0
+17/02/2016 05:20:31:117  [Message]ACK: index=1 false
+17/02/2016 05:20:31:117  [Error]Missing acks should be true true
+17/02/2016 05:20:31:118  [Error]Timeout
+17/02/2016 05:20:31:118  [Error]false 1
+17/02/2016 05:20:31:119  [Message]ACK: index=2 false
+17/02/2016 05:20:31:119  [Error]Missing acks should be true true
+17/02/2016 05:20:31:120  [Error]Timeout
+17/02/2016 05:20:31:121  [Error]false 2
+17/02/2016 05:20:31:121  [Message]ACK: index=3 false
+17/02/2016 05:20:31:121  [Error]Missing acks should be true true
+17/02/2016 05:20:31:122  [Error]Timeout
+17/02/2016 05:20:31:122  [Error]false 3
+17/02/2016 05:20:31:122  [Message]ACK: index=0 false
+17/02/2016 05:20:31:123  [Error]Missing acks should be true true
+17/02/2016 05:20:32:126  [Error]Timeout
+17/02/2016 05:20:32:127  [Error]false 0
+17/02/2016 05:20:32:127  [Message]ACK: index=1 false
+17/02/2016 05:20:32:127  [Error]Missing acks should be true true
+17/02/2016 05:20:32:127  [Error]Timeout
+17/02/2016 05:20:32:128  [Error]false 1
+17/02/2016 05:20:32:128  [Message]ACK: index=2 false
+17/02/2016 05:20:32:128  [Error]Missing acks should be true true
+17/02/2016 05:20:32:128  [Error]Timeout
+17/02/2016 05:20:32:129  [Error]false 2
+17/02/2016 05:20:32:129  [Message]ACK: index=3 false
+17/02/2016 05:20:32:129  [Error]Missing acks should be true true
+17/02/2016 05:20:32:130  [Error]Timeout
+17/02/2016 05:20:32:130  [Error]false 3
+17/02/2016 05:20:32:131  [Message]ACK: index=0 false
+17/02/2016 05:20:32:131  [Error]Missing acks should be true true
+17/02/2016 05:20:33:136  [Error]Timeout
+17/02/2016 05:20:33:137  [Error]false 0
+17/02/2016 05:20:33:137  [Message]ACK: index=1 false
+17/02/2016 05:20:33:137  [Error]Missing acks should be true true
+17/02/2016 05:20:33:138  [Error]Timeout
+17/02/2016 05:20:33:138  [Error]false 1
+17/02/2016 05:20:33:138  [Message]ACK: index=2 false
+17/02/2016 05:20:33:139  [Error]Missing acks should be true true
+17/02/2016 05:20:33:139  [Error]Timeout
+17/02/2016 05:20:33:139  [Error]false 2
+17/02/2016 05:20:33:140  [Message]ACK: index=3 false
+17/02/2016 05:20:33:141  [Error]Missing acks should be true true
+17/02/2016 05:20:33:142  [Error]Timeout
+17/02/2016 05:20:33:142  [Error]false 3
+17/02/2016 05:20:33:142  [Message]ACK: index=0 false
+17/02/2016 05:20:33:143  [Error]Missing acks should be true true
+17/02/2016 05:20:34:148  [Error]Timeout
+17/02/2016 05:20:34:148  [Error]false 0
+17/02/2016 05:20:34:148  [Message]ACK: index=1 false
+17/02/2016 05:20:34:148  [Error]Missing acks should be true true
+17/02/2016 05:20:34:149  [Error]Timeout
+17/02/2016 05:20:34:149  [Error]false 1
+17/02/2016 05:20:34:150  [Message]ACK: index=2 false
+17/02/2016 05:20:34:150  [Error]Missing acks should be true true
+17/02/2016 05:20:34:151  [Error]Timeout
+17/02/2016 05:20:34:151  [Error]false 2
+17/02/2016 05:20:34:151  [Message]ACK: index=3 false
+17/02/2016 05:20:34:151  [Error]Missing acks should be true true
+17/02/2016 05:20:34:152  [Error]Timeout
+17/02/2016 05:20:34:152  [Error]false 3
+17/02/2016 05:20:34:152  [Message]ACK: index=0 false
+17/02/2016 05:20:34:153  [Error]Missing acks should be true true
+17/02/2016 05:20:35:158  [Error]Timeout
+17/02/2016 05:20:35:158  [Error]false 0
+17/02/2016 05:20:35:158  [Message]ACK: index=1 false
+17/02/2016 05:20:35:158  [Error]Missing acks should be true true
+17/02/2016 05:20:35:159  [Error]Timeout
+17/02/2016 05:20:35:159  [Error]false 1
+17/02/2016 05:20:35:159  [Message]ACK: index=2 false
+17/02/2016 05:20:35:160  [Error]Missing acks should be true true
+17/02/2016 05:20:35:160  [Error]Timeout
+17/02/2016 05:20:35:160  [Error]false 2
+17/02/2016 05:20:35:161  [Message]ACK: index=3 false
+17/02/2016 05:20:35:161  [Error]Missing acks should be true true
+17/02/2016 05:20:35:162  [Error]Timeout
+17/02/2016 05:20:35:162  [Error]false 3
+17/02/2016 05:20:35:162  [Message]Is ACK: truemissing?
+17/02/2016 05:20:35:162  [Error]Server call: failed to do two phase commit
+17/02/2016 05:20:35:162  [Message]{}
+17/02/2016 05:20:35:165  [Error]Get Key: one does not exist in KeySet
+17/02/2016 05:20:35:165  [Error]Get Key: one does not exist in KeySet
+17/02/2016 05:20:36:173  [Error]Timeout
+17/02/2016 05:20:36:173  [Error]false 0
+17/02/2016 05:20:36:174  [Message]ACK: index=0 false
+17/02/2016 05:20:36:174  [Error]Missing acks should be true true
+17/02/2016 05:20:37:179  [Error]Timeout
+17/02/2016 05:20:37:179  [Error]false 0
+17/02/2016 05:20:37:180  [Message]ACK: index=1 false
+17/02/2016 05:20:37:180  [Error]Missing acks should be true true
+17/02/2016 05:20:37:181  [Error]Timeout
+17/02/2016 05:20:37:181  [Error]false 1
+17/02/2016 05:20:37:181  [Message]ACK: index=2 false
+17/02/2016 05:20:37:181  [Error]Missing acks should be true true
+17/02/2016 05:20:37:182  [Error]Timeout
+17/02/2016 05:20:37:182  [Error]false 2
+17/02/2016 05:20:37:182  [Message]ACK: index=3 false
+17/02/2016 05:20:37:183  [Error]Missing acks should be true true
+17/02/2016 05:20:37:183  [Error]Timeout
+17/02/2016 05:20:37:184  [Error]false 3
+17/02/2016 05:20:37:184  [Message]ACK: index=0 false
+17/02/2016 05:20:37:184  [Error]Missing acks should be true true
+17/02/2016 05:20:38:191  [Error]Timeout
+17/02/2016 05:20:38:191  [Error]false 0
+17/02/2016 05:20:38:191  [Message]ACK: index=1 false
+17/02/2016 05:20:38:191  [Error]Missing acks should be true true
+17/02/2016 05:20:38:192  [Error]Timeout
+17/02/2016 05:20:38:192  [Error]false 1
+17/02/2016 05:20:38:192  [Message]ACK: index=2 false
+17/02/2016 05:20:38:192  [Error]Missing acks should be true true
+17/02/2016 05:20:38:193  [Error]Timeout
+17/02/2016 05:20:38:193  [Error]false 2
+17/02/2016 05:20:38:193  [Message]ACK: index=3 false
+17/02/2016 05:20:38:193  [Error]Missing acks should be true true
+17/02/2016 05:20:38:194  [Error]Timeout
+17/02/2016 05:20:38:194  [Error]false 3
+17/02/2016 05:20:38:194  [Message]ACK: index=0 false
+17/02/2016 05:20:38:194  [Error]Missing acks should be true true
+17/02/2016 05:20:39:200  [Error]Timeout
+17/02/2016 05:20:39:200  [Error]false 0
+17/02/2016 05:20:39:200  [Message]ACK: index=1 false
+17/02/2016 05:20:39:200  [Error]Missing acks should be true true
+17/02/2016 05:20:39:201  [Error]Timeout
+17/02/2016 05:20:39:201  [Error]false 1
+17/02/2016 05:20:39:201  [Message]ACK: index=2 false
+17/02/2016 05:20:39:202  [Error]Missing acks should be true true
+17/02/2016 05:20:39:202  [Error]Timeout
+17/02/2016 05:20:39:202  [Error]false 2
+17/02/2016 05:20:39:203  [Message]ACK: index=3 false
+17/02/2016 05:20:39:203  [Error]Missing acks should be true true
+17/02/2016 05:20:39:204  [Error]Timeout
+17/02/2016 05:20:39:204  [Error]false 3
+17/02/2016 05:20:39:204  [Message]ACK: index=0 false
+17/02/2016 05:20:39:204  [Error]Missing acks should be true true
+17/02/2016 05:20:40:210  [Error]Timeout
+17/02/2016 05:20:40:210  [Error]false 0
+17/02/2016 05:20:40:210  [Message]ACK: index=1 false
+17/02/2016 05:20:40:211  [Error]Missing acks should be true true
+17/02/2016 05:20:40:211  [Error]Timeout
+17/02/2016 05:20:40:211  [Error]false 1
+17/02/2016 05:20:40:211  [Message]ACK: index=2 false
+17/02/2016 05:20:40:212  [Error]Missing acks should be true true
+17/02/2016 05:20:40:212  [Error]Timeout
+17/02/2016 05:20:40:212  [Error]false 2
+17/02/2016 05:20:40:212  [Message]ACK: index=3 false
+17/02/2016 05:20:40:212  [Error]Missing acks should be true true
+17/02/2016 05:20:40:213  [Error]Timeout
+17/02/2016 05:20:40:213  [Error]false 3
+17/02/2016 05:20:40:213  [Message]ACK: index=0 false
+17/02/2016 05:20:40:213  [Error]Missing acks should be true true
+17/02/2016 05:20:41:217  [Error]Timeout
+17/02/2016 05:20:41:218  [Error]false 0
+17/02/2016 05:20:41:218  [Message]ACK: index=1 false
+17/02/2016 05:20:41:218  [Error]Missing acks should be true true
+17/02/2016 05:20:41:219  [Error]Timeout
+17/02/2016 05:20:41:219  [Error]false 1
+17/02/2016 05:20:41:219  [Message]ACK: index=2 false
+17/02/2016 05:20:41:220  [Error]Missing acks should be true true
+17/02/2016 05:20:41:222  [Error]Timeout
+17/02/2016 05:20:41:222  [Error]false 2
+17/02/2016 05:20:41:222  [Message]ACK: index=3 false
+17/02/2016 05:20:41:222  [Error]Missing acks should be true true
+17/02/2016 05:20:41:223  [Error]Timeout
+17/02/2016 05:20:41:223  [Error]false 3
+17/02/2016 05:20:41:223  [Message]Is ACK: truemissing?
+17/02/2016 05:20:41:224  [Error]Can not delet the key: one because two face commit failed
+17/02/2016 05:20:41:224  [Message]{}
+17/02/2016 05:20:42:233  [Error]Timeout
+17/02/2016 05:20:42:233  [Error]false 0
+17/02/2016 05:20:42:234  [Message]ACK: index=0 false
+17/02/2016 05:20:42:234  [Error]Missing acks should be true true
+17/02/2016 05:20:43:238  [Error]Timeout
+17/02/2016 05:20:43:238  [Error]false 0
+17/02/2016 05:20:43:238  [Message]ACK: index=1 false
+17/02/2016 05:20:43:238  [Error]Missing acks should be true true
+17/02/2016 05:20:43:239  [Error]Timeout
+17/02/2016 05:20:43:239  [Error]false 1
+17/02/2016 05:20:43:239  [Message]ACK: index=2 false
+17/02/2016 05:20:43:239  [Error]Missing acks should be true true
+17/02/2016 05:20:43:239  [Error]Timeout
+17/02/2016 05:20:43:240  [Error]false 2
+17/02/2016 05:20:43:240  [Message]ACK: index=3 false
+17/02/2016 05:20:43:240  [Error]Missing acks should be true true
+17/02/2016 05:20:43:241  [Error]Timeout
+17/02/2016 05:20:43:241  [Error]false 3
+17/02/2016 05:20:43:241  [Message]ACK: index=0 false
+17/02/2016 05:20:43:241  [Error]Missing acks should be true true
+17/02/2016 05:20:44:245  [Error]Timeout
+17/02/2016 05:20:44:245  [Error]false 0
+17/02/2016 05:20:44:245  [Message]ACK: index=1 false
+17/02/2016 05:20:44:245  [Error]Missing acks should be true true
+17/02/2016 05:20:44:246  [Error]Timeout
+17/02/2016 05:20:44:246  [Error]false 1
+17/02/2016 05:20:44:246  [Message]ACK: index=2 false
+17/02/2016 05:20:44:246  [Error]Missing acks should be true true
+17/02/2016 05:20:44:247  [Error]Timeout
+17/02/2016 05:20:44:247  [Error]false 2
+17/02/2016 05:20:44:247  [Message]ACK: index=3 false
+17/02/2016 05:20:44:247  [Error]Missing acks should be true true
+17/02/2016 05:20:44:248  [Error]Timeout
+17/02/2016 05:20:44:248  [Error]false 3
+17/02/2016 05:20:44:248  [Message]ACK: index=0 false
+17/02/2016 05:20:44:248  [Error]Missing acks should be true true
+17/02/2016 05:20:45:254  [Error]Timeout
+17/02/2016 05:20:45:254  [Error]false 0
+17/02/2016 05:20:45:254  [Message]ACK: index=1 false
+17/02/2016 05:20:45:254  [Error]Missing acks should be true true
+17/02/2016 05:20:45:255  [Error]Timeout
+17/02/2016 05:20:45:255  [Error]false 1
+17/02/2016 05:20:45:255  [Message]ACK: index=2 false
+17/02/2016 05:20:45:255  [Error]Missing acks should be true true
+17/02/2016 05:20:45:255  [Error]Timeout
+17/02/2016 05:20:45:256  [Error]false 2
+17/02/2016 05:20:45:256  [Message]ACK: index=3 false
+17/02/2016 05:20:45:256  [Error]Missing acks should be true true
+17/02/2016 05:20:45:256  [Error]Timeout
+17/02/2016 05:20:45:256  [Error]false 3
+17/02/2016 05:20:45:257  [Message]ACK: index=0 false
+17/02/2016 05:20:45:257  [Error]Missing acks should be true true
+17/02/2016 05:20:46:261  [Error]Timeout
+17/02/2016 05:20:46:261  [Error]false 0
+17/02/2016 05:20:46:261  [Message]ACK: index=1 false
+17/02/2016 05:20:46:261  [Error]Missing acks should be true true
+17/02/2016 05:20:46:262  [Error]Timeout
+17/02/2016 05:20:46:262  [Error]false 1
+17/02/2016 05:20:46:262  [Message]ACK: index=2 false
+17/02/2016 05:20:46:262  [Error]Missing acks should be true true
+17/02/2016 05:20:46:262  [Error]Timeout
+17/02/2016 05:20:46:262  [Error]false 2
+17/02/2016 05:20:46:262  [Message]ACK: index=3 false
+17/02/2016 05:20:46:263  [Error]Missing acks should be true true
+17/02/2016 05:20:46:263  [Error]Timeout
+17/02/2016 05:20:46:263  [Error]false 3
+17/02/2016 05:20:46:263  [Message]ACK: index=0 false
+17/02/2016 05:20:46:263  [Error]Missing acks should be true true
+17/02/2016 05:20:47:268  [Error]Timeout
+17/02/2016 05:20:47:269  [Error]false 0
+17/02/2016 05:20:47:269  [Message]ACK: index=1 false
+17/02/2016 05:20:47:269  [Error]Missing acks should be true true
+17/02/2016 05:20:47:269  [Error]Timeout
+17/02/2016 05:20:47:270  [Error]false 1
+17/02/2016 05:20:47:270  [Message]ACK: index=2 false
+17/02/2016 05:20:47:270  [Error]Missing acks should be true true
+17/02/2016 05:20:47:270  [Error]Timeout
+17/02/2016 05:20:47:270  [Error]false 2
+17/02/2016 05:20:47:271  [Message]ACK: index=3 false
+17/02/2016 05:20:47:271  [Error]Missing acks should be true true
+17/02/2016 05:20:47:271  [Error]Timeout
+17/02/2016 05:20:47:271  [Error]false 3
+17/02/2016 05:20:47:271  [Message]Is ACK: truemissing?
+17/02/2016 05:20:47:271  [Error]Server call: failed to do two phase commit
+17/02/2016 05:20:47:271  [Message]{}
+17/02/2016 05:20:47:274  [Error]Get Key: two does not exist in KeySet
+17/02/2016 05:20:47:275  [Error]Get Key: two does not exist in KeySet
+17/02/2016 05:20:48:282  [Error]Timeout
+17/02/2016 05:20:48:283  [Error]false 0
+17/02/2016 05:20:48:283  [Message]ACK: index=0 false
+17/02/2016 05:20:48:283  [Error]Missing acks should be true true
+17/02/2016 05:20:49:289  [Error]Timeout
+17/02/2016 05:20:49:289  [Error]false 0
+17/02/2016 05:20:49:289  [Message]ACK: index=1 false
+17/02/2016 05:20:49:289  [Error]Missing acks should be true true
+17/02/2016 05:20:49:293  [Error]Timeout
+17/02/2016 05:20:49:293  [Error]false 1
+17/02/2016 05:20:49:293  [Message]ACK: index=2 false
+17/02/2016 05:20:49:293  [Error]Missing acks should be true true
+17/02/2016 05:20:49:293  [Error]Timeout
+17/02/2016 05:20:49:294  [Error]false 2
+17/02/2016 05:20:49:294  [Message]ACK: index=3 false
+17/02/2016 05:20:49:294  [Error]Missing acks should be true true
+17/02/2016 05:20:49:294  [Error]Timeout
+17/02/2016 05:20:49:294  [Error]false 3
+17/02/2016 05:20:49:294  [Message]ACK: index=0 false
+17/02/2016 05:20:49:294  [Error]Missing acks should be true true
+17/02/2016 05:20:50:299  [Error]Timeout
+17/02/2016 05:20:50:299  [Error]false 0
+17/02/2016 05:20:50:300  [Message]ACK: index=1 false
+17/02/2016 05:20:50:300  [Error]Missing acks should be true true
+17/02/2016 05:20:50:300  [Error]Timeout
+17/02/2016 05:20:50:300  [Error]false 1
+17/02/2016 05:20:50:300  [Message]ACK: index=2 false
+17/02/2016 05:20:50:300  [Error]Missing acks should be true true
+17/02/2016 05:20:50:301  [Error]Timeout
+17/02/2016 05:20:50:301  [Error]false 2
+17/02/2016 05:20:50:301  [Message]ACK: index=3 false
+17/02/2016 05:20:50:301  [Error]Missing acks should be true true
+17/02/2016 05:20:50:302  [Error]Timeout
+17/02/2016 05:20:50:302  [Error]false 3
+17/02/2016 05:20:50:302  [Message]ACK: index=0 false
+17/02/2016 05:20:50:302  [Error]Missing acks should be true true
+17/02/2016 05:20:51:306  [Error]Timeout
+17/02/2016 05:20:51:306  [Error]false 0
+17/02/2016 05:20:51:307  [Message]ACK: index=1 false
+17/02/2016 05:20:51:307  [Error]Missing acks should be true true
+17/02/2016 05:20:51:307  [Error]Timeout
+17/02/2016 05:20:51:307  [Error]false 1
+17/02/2016 05:20:51:307  [Message]ACK: index=2 false
+17/02/2016 05:20:51:308  [Error]Missing acks should be true true
+17/02/2016 05:20:51:308  [Error]Timeout
+17/02/2016 05:20:51:308  [Error]false 2
+17/02/2016 05:20:51:308  [Message]ACK: index=3 false
+17/02/2016 05:20:51:309  [Error]Missing acks should be true true
+17/02/2016 05:20:51:314  [Error]Timeout
+17/02/2016 05:20:51:314  [Error]false 3
+17/02/2016 05:20:51:314  [Message]ACK: index=0 false
+17/02/2016 05:20:51:314  [Error]Missing acks should be true true
+17/02/2016 05:20:52:319  [Error]Timeout
+17/02/2016 05:20:52:319  [Error]false 0
+17/02/2016 05:20:52:319  [Message]ACK: index=1 false
+17/02/2016 05:20:52:319  [Error]Missing acks should be true true
+17/02/2016 05:20:52:320  [Error]Timeout
+17/02/2016 05:20:52:320  [Error]false 1
+17/02/2016 05:20:52:320  [Message]ACK: index=2 false
+17/02/2016 05:20:52:320  [Error]Missing acks should be true true
+17/02/2016 05:20:52:320  [Error]Timeout
+17/02/2016 05:20:52:321  [Error]false 2
+17/02/2016 05:20:52:321  [Message]ACK: index=3 false
+17/02/2016 05:20:52:321  [Error]Missing acks should be true true
+17/02/2016 05:20:52:321  [Error]Timeout
+17/02/2016 05:20:52:321  [Error]false 3
+17/02/2016 05:20:52:321  [Message]ACK: index=0 false
+17/02/2016 05:20:52:322  [Error]Missing acks should be true true
+17/02/2016 05:20:53:326  [Error]Timeout
+17/02/2016 05:20:53:327  [Error]false 0
+17/02/2016 05:20:53:327  [Message]ACK: index=1 false
+17/02/2016 05:20:53:327  [Error]Missing acks should be true true
+17/02/2016 05:20:53:327  [Error]Timeout
+17/02/2016 05:20:53:328  [Error]false 1
+17/02/2016 05:20:53:328  [Message]ACK: index=2 false
+17/02/2016 05:20:53:328  [Error]Missing acks should be true true
+17/02/2016 05:20:53:328  [Error]Timeout
+17/02/2016 05:20:53:329  [Error]false 2
+17/02/2016 05:20:53:329  [Message]ACK: index=3 false
+17/02/2016 05:20:53:329  [Error]Missing acks should be true true
+17/02/2016 05:20:53:329  [Error]Timeout
+17/02/2016 05:20:53:329  [Error]false 3
+17/02/2016 05:20:53:329  [Message]Is ACK: truemissing?
+17/02/2016 05:20:53:330  [Error]Can not delet the key: two because two face commit failed
+17/02/2016 05:20:53:330  [Message]{}
+17/02/2016 05:20:54:339  [Error]Timeout
+17/02/2016 05:20:54:339  [Error]false 0
+17/02/2016 05:20:54:339  [Message]ACK: index=0 false
+17/02/2016 05:20:54:339  [Error]Missing acks should be true true
+17/02/2016 05:20:55:342  [Error]Timeout
+17/02/2016 05:20:55:342  [Error]false 0
+17/02/2016 05:20:55:343  [Message]ACK: index=1 false
+17/02/2016 05:20:55:343  [Error]Missing acks should be true true
+17/02/2016 05:20:55:343  [Error]Timeout
+17/02/2016 05:20:55:343  [Error]false 1
+17/02/2016 05:20:55:343  [Message]ACK: index=2 false
+17/02/2016 05:20:55:343  [Error]Missing acks should be true true
+17/02/2016 05:20:55:344  [Error]Timeout
+17/02/2016 05:20:55:344  [Error]false 2
+17/02/2016 05:20:55:344  [Message]ACK: index=3 false
+17/02/2016 05:20:55:344  [Error]Missing acks should be true true
+17/02/2016 05:20:55:345  [Error]Timeout
+17/02/2016 05:20:55:345  [Error]false 3
+17/02/2016 05:20:55:345  [Message]ACK: index=0 false
+17/02/2016 05:20:55:345  [Error]Missing acks should be true true
+17/02/2016 05:20:56:350  [Error]Timeout
+17/02/2016 05:20:56:350  [Error]false 0
+17/02/2016 05:20:56:350  [Message]ACK: index=1 false
+17/02/2016 05:20:56:350  [Error]Missing acks should be true true
+17/02/2016 05:20:56:350  [Error]Timeout
+17/02/2016 05:20:56:350  [Error]false 1
+17/02/2016 05:20:56:350  [Message]ACK: index=2 false
+17/02/2016 05:20:56:350  [Error]Missing acks should be true true
+17/02/2016 05:20:56:351  [Error]Timeout
+17/02/2016 05:20:56:351  [Error]false 2
+17/02/2016 05:20:56:351  [Message]ACK: index=3 false
+17/02/2016 05:20:56:351  [Error]Missing acks should be true true
+17/02/2016 05:20:56:352  [Error]Timeout
+17/02/2016 05:20:56:352  [Error]false 3
+17/02/2016 05:20:56:352  [Message]ACK: index=0 false
+17/02/2016 05:20:56:352  [Error]Missing acks should be true true
+17/02/2016 05:20:57:357  [Error]Timeout
+17/02/2016 05:20:57:357  [Error]false 0
+17/02/2016 05:20:57:358  [Message]ACK: index=1 false
+17/02/2016 05:20:57:358  [Error]Missing acks should be true true
+17/02/2016 05:20:57:359  [Error]Timeout
+17/02/2016 05:20:57:359  [Error]false 1
+17/02/2016 05:20:57:359  [Message]ACK: index=2 false
+17/02/2016 05:20:57:359  [Error]Missing acks should be true true
+17/02/2016 05:20:57:359  [Error]Timeout
+17/02/2016 05:20:57:359  [Error]false 2
+17/02/2016 05:20:57:359  [Message]ACK: index=3 false
+17/02/2016 05:20:57:360  [Error]Missing acks should be true true
+17/02/2016 05:20:57:360  [Error]Timeout
+17/02/2016 05:20:57:360  [Error]false 3
+17/02/2016 05:20:57:360  [Message]ACK: index=0 false
+17/02/2016 05:20:57:360  [Error]Missing acks should be true true
+17/02/2016 05:20:58:364  [Error]Timeout
+17/02/2016 05:20:58:364  [Error]false 0
+17/02/2016 05:20:58:364  [Message]ACK: index=1 false
+17/02/2016 05:20:58:365  [Error]Missing acks should be true true
+17/02/2016 05:20:58:365  [Error]Timeout
+17/02/2016 05:20:58:365  [Error]false 1
+17/02/2016 05:20:58:365  [Message]ACK: index=2 false
+17/02/2016 05:20:58:365  [Error]Missing acks should be true true
+17/02/2016 05:20:58:366  [Error]Timeout
+17/02/2016 05:20:58:366  [Error]false 2
+17/02/2016 05:20:58:366  [Message]ACK: index=3 false
+17/02/2016 05:20:58:366  [Error]Missing acks should be true true
+17/02/2016 05:20:58:366  [Error]Timeout
+17/02/2016 05:20:58:366  [Error]false 3
+17/02/2016 05:20:58:367  [Message]ACK: index=0 false
+17/02/2016 05:20:58:367  [Error]Missing acks should be true true
+17/02/2016 05:20:59:371  [Error]Timeout
+17/02/2016 05:20:59:372  [Error]false 0
+17/02/2016 05:20:59:372  [Message]ACK: index=1 false
+17/02/2016 05:20:59:372  [Error]Missing acks should be true true
+17/02/2016 05:20:59:372  [Error]Timeout
+17/02/2016 05:20:59:372  [Error]false 1
+17/02/2016 05:20:59:372  [Message]ACK: index=2 false
+17/02/2016 05:20:59:372  [Error]Missing acks should be true true
+17/02/2016 05:20:59:373  [Error]Timeout
+17/02/2016 05:20:59:373  [Error]false 2
+17/02/2016 05:20:59:373  [Message]ACK: index=3 false
+17/02/2016 05:20:59:373  [Error]Missing acks should be true true
+17/02/2016 05:20:59:373  [Error]Timeout
+17/02/2016 05:20:59:373  [Error]false 3
+17/02/2016 05:20:59:374  [Message]Is ACK: truemissing?
+17/02/2016 05:20:59:374  [Error]Server call: failed to do two phase commit
+17/02/2016 05:20:59:374  [Message]{}
+17/02/2016 05:20:59:379  [Error]Get Key: three does not exist in KeySet
+17/02/2016 05:20:59:380  [Error]Get Key: three does not exist in KeySet
+17/02/2016 05:21:00:388  [Error]Timeout
+17/02/2016 05:21:00:388  [Error]false 0
+17/02/2016 05:21:00:388  [Message]ACK: index=0 false
+17/02/2016 05:21:00:388  [Error]Missing acks should be true true
+17/02/2016 05:21:01:391  [Error]Timeout
+17/02/2016 05:21:01:391  [Error]false 0
+17/02/2016 05:21:01:392  [Message]ACK: index=1 false
+17/02/2016 05:21:01:392  [Error]Missing acks should be true true
+17/02/2016 05:21:01:392  [Error]Timeout
+17/02/2016 05:21:01:392  [Error]false 1
+17/02/2016 05:21:01:392  [Message]ACK: index=2 false
+17/02/2016 05:21:01:392  [Error]Missing acks should be true true
+17/02/2016 05:21:01:393  [Error]Timeout
+17/02/2016 05:21:01:393  [Error]false 2
+17/02/2016 05:21:01:393  [Message]ACK: index=3 false
+17/02/2016 05:21:01:393  [Error]Missing acks should be true true
+17/02/2016 05:21:01:393  [Error]Timeout
+17/02/2016 05:21:01:393  [Error]false 3
+17/02/2016 05:21:01:393  [Message]ACK: index=0 false
+17/02/2016 05:21:01:394  [Error]Missing acks should be true true
+17/02/2016 05:21:02:400  [Error]Timeout
+17/02/2016 05:21:02:400  [Error]false 0
+17/02/2016 05:21:02:400  [Message]ACK: index=1 false
+17/02/2016 05:21:02:400  [Error]Missing acks should be true true
+17/02/2016 05:21:02:401  [Error]Timeout
+17/02/2016 05:21:02:401  [Error]false 1
+17/02/2016 05:21:02:401  [Message]ACK: index=2 false
+17/02/2016 05:21:02:401  [Error]Missing acks should be true true
+17/02/2016 05:21:02:402  [Error]Timeout
+17/02/2016 05:21:02:402  [Error]false 2
+17/02/2016 05:21:02:402  [Message]ACK: index=3 false
+17/02/2016 05:21:02:402  [Error]Missing acks should be true true
+17/02/2016 05:21:02:403  [Error]Timeout
+17/02/2016 05:21:02:403  [Error]false 3
+17/02/2016 05:21:02:403  [Message]ACK: index=0 false
+17/02/2016 05:21:02:403  [Error]Missing acks should be true true
+17/02/2016 05:21:03:407  [Error]Timeout
+17/02/2016 05:21:03:407  [Error]false 0
+17/02/2016 05:21:03:407  [Message]ACK: index=1 false
+17/02/2016 05:21:03:408  [Error]Missing acks should be true true
+17/02/2016 05:21:03:408  [Error]Timeout
+17/02/2016 05:21:03:408  [Error]false 1
+17/02/2016 05:21:03:408  [Message]ACK: index=2 false
+17/02/2016 05:21:03:408  [Error]Missing acks should be true true
+17/02/2016 05:21:03:409  [Error]Timeout
+17/02/2016 05:21:03:409  [Error]false 2
+17/02/2016 05:21:03:409  [Message]ACK: index=3 false
+17/02/2016 05:21:03:409  [Error]Missing acks should be true true
+17/02/2016 05:21:03:409  [Error]Timeout
+17/02/2016 05:21:03:409  [Error]false 3
+17/02/2016 05:21:03:409  [Message]ACK: index=0 false
+17/02/2016 05:21:03:410  [Error]Missing acks should be true true
+17/02/2016 05:21:04:413  [Error]Timeout
+17/02/2016 05:21:04:413  [Error]false 0
+17/02/2016 05:21:04:413  [Message]ACK: index=1 false
+17/02/2016 05:21:04:413  [Error]Missing acks should be true true
+17/02/2016 05:21:04:413  [Error]Timeout
+17/02/2016 05:21:04:413  [Error]false 1
+17/02/2016 05:21:04:413  [Message]ACK: index=2 false
+17/02/2016 05:21:04:414  [Error]Missing acks should be true true
+17/02/2016 05:21:04:414  [Error]Timeout
+17/02/2016 05:21:04:414  [Error]false 2
+17/02/2016 05:21:04:414  [Message]ACK: index=3 false
+17/02/2016 05:21:04:414  [Error]Missing acks should be true true
+17/02/2016 05:21:04:414  [Error]Timeout
+17/02/2016 05:21:04:415  [Error]false 3
+17/02/2016 05:21:04:415  [Message]ACK: index=0 false
+17/02/2016 05:21:04:415  [Error]Missing acks should be true true
+17/02/2016 05:21:05:419  [Error]Timeout
+17/02/2016 05:21:05:419  [Error]false 0
+17/02/2016 05:21:05:420  [Message]ACK: index=1 false
+17/02/2016 05:21:05:420  [Error]Missing acks should be true true
+17/02/2016 05:21:05:420  [Error]Timeout
+17/02/2016 05:21:05:420  [Error]false 1
+17/02/2016 05:21:05:420  [Message]ACK: index=2 false
+17/02/2016 05:21:05:420  [Error]Missing acks should be true true
+17/02/2016 05:21:05:421  [Error]Timeout
+17/02/2016 05:21:05:421  [Error]false 2
+17/02/2016 05:21:05:421  [Message]ACK: index=3 false
+17/02/2016 05:21:05:421  [Error]Missing acks should be true true
+17/02/2016 05:21:05:421  [Error]Timeout
+17/02/2016 05:21:05:421  [Error]false 3
+17/02/2016 05:21:05:421  [Message]Is ACK: truemissing?
+17/02/2016 05:21:05:422  [Error]Can not delet the key: three because two face commit failed
+17/02/2016 05:21:05:422  [Message]{}
+17/02/2016 05:21:06:428  [Error]Timeout
+17/02/2016 05:21:06:428  [Error]false 0
+17/02/2016 05:21:06:428  [Message]ACK: index=0 false
+17/02/2016 05:21:06:429  [Error]Missing acks should be true true
+17/02/2016 05:21:07:432  [Error]Timeout
+17/02/2016 05:21:07:432  [Error]false 0
+17/02/2016 05:21:07:432  [Message]ACK: index=1 false
+17/02/2016 05:21:07:433  [Error]Missing acks should be true true
+17/02/2016 05:21:07:433  [Error]Timeout
+17/02/2016 05:21:07:433  [Error]false 1
+17/02/2016 05:21:07:433  [Message]ACK: index=2 false
+17/02/2016 05:21:07:433  [Error]Missing acks should be true true
+17/02/2016 05:21:07:434  [Error]Timeout
+17/02/2016 05:21:07:434  [Error]false 2
+17/02/2016 05:21:07:434  [Message]ACK: index=3 false
+17/02/2016 05:21:07:434  [Error]Missing acks should be true true
+17/02/2016 05:21:07:434  [Error]Timeout
+17/02/2016 05:21:07:434  [Error]false 3
+17/02/2016 05:21:07:434  [Message]ACK: index=0 false
+17/02/2016 05:21:07:434  [Error]Missing acks should be true true
+17/02/2016 05:21:08:437  [Error]Timeout
+17/02/2016 05:21:08:437  [Error]false 0
+17/02/2016 05:21:08:437  [Message]ACK: index=1 false
+17/02/2016 05:21:08:437  [Error]Missing acks should be true true
+17/02/2016 05:21:08:438  [Error]Timeout
+17/02/2016 05:21:08:438  [Error]false 1
+17/02/2016 05:21:08:438  [Message]ACK: index=2 false
+17/02/2016 05:21:08:438  [Error]Missing acks should be true true
+17/02/2016 05:21:08:438  [Error]Timeout
+17/02/2016 05:21:08:438  [Error]false 2
+17/02/2016 05:21:08:438  [Message]ACK: index=3 false
+17/02/2016 05:21:08:439  [Error]Missing acks should be true true
+17/02/2016 05:21:08:439  [Error]Timeout
+17/02/2016 05:21:08:439  [Error]false 3
+17/02/2016 05:21:08:439  [Message]ACK: index=0 false
+17/02/2016 05:21:08:439  [Error]Missing acks should be true true
+17/02/2016 05:21:09:444  [Error]Timeout
+17/02/2016 05:21:09:444  [Error]false 0
+17/02/2016 05:21:09:444  [Message]ACK: index=1 false
+17/02/2016 05:21:09:444  [Error]Missing acks should be true true
+17/02/2016 05:21:09:444  [Error]Timeout
+17/02/2016 05:21:09:444  [Error]false 1
+17/02/2016 05:21:09:444  [Message]ACK: index=2 false
+17/02/2016 05:21:09:445  [Error]Missing acks should be true true
+17/02/2016 05:21:09:445  [Error]Timeout
+17/02/2016 05:21:09:445  [Error]false 2
+17/02/2016 05:21:09:445  [Message]ACK: index=3 false
+17/02/2016 05:21:09:445  [Error]Missing acks should be true true
+17/02/2016 05:21:09:446  [Error]Timeout
+17/02/2016 05:21:09:446  [Error]false 3
+17/02/2016 05:21:09:446  [Message]ACK: index=0 false
+17/02/2016 05:21:09:446  [Error]Missing acks should be true true
+17/02/2016 05:21:10:451  [Error]Timeout
+17/02/2016 05:21:10:451  [Error]false 0
+17/02/2016 05:21:10:451  [Message]ACK: index=1 false
+17/02/2016 05:21:10:451  [Error]Missing acks should be true true
+17/02/2016 05:21:10:452  [Error]Timeout
+17/02/2016 05:21:10:452  [Error]false 1
+17/02/2016 05:21:10:452  [Message]ACK: index=2 false
+17/02/2016 05:21:10:452  [Error]Missing acks should be true true
+17/02/2016 05:21:10:453  [Error]Timeout
+17/02/2016 05:21:10:453  [Error]false 2
+17/02/2016 05:21:10:453  [Message]ACK: index=3 false
+17/02/2016 05:21:10:453  [Error]Missing acks should be true true
+17/02/2016 05:21:10:454  [Error]Timeout
+17/02/2016 05:21:10:454  [Error]false 3
+17/02/2016 05:21:10:454  [Message]ACK: index=0 false
+17/02/2016 05:21:10:454  [Error]Missing acks should be true true
+17/02/2016 05:21:11:459  [Error]Timeout
+17/02/2016 05:21:11:459  [Error]false 0
+17/02/2016 05:21:11:459  [Message]ACK: index=1 false
+17/02/2016 05:21:11:459  [Error]Missing acks should be true true
+17/02/2016 05:21:11:460  [Error]Timeout
+17/02/2016 05:21:11:460  [Error]false 1
+17/02/2016 05:21:11:460  [Message]ACK: index=2 false
+17/02/2016 05:21:11:460  [Error]Missing acks should be true true
+17/02/2016 05:21:11:460  [Error]Timeout
+17/02/2016 05:21:11:461  [Error]false 2
+17/02/2016 05:21:11:461  [Message]ACK: index=3 false
+17/02/2016 05:21:11:461  [Error]Missing acks should be true true
+17/02/2016 05:21:11:461  [Error]Timeout
+17/02/2016 05:21:11:461  [Error]false 3
+17/02/2016 05:21:11:461  [Message]Is ACK: truemissing?
+17/02/2016 05:21:11:461  [Error]Server call: failed to do two phase commit
+17/02/2016 05:21:11:462  [Message]{}
+17/02/2016 05:21:11:464  [Error]Get Key: a does not exist in KeySet
+17/02/2016 05:21:11:467  [Error]Get Key: a does not exist in KeySet
+17/02/2016 05:21:12:475  [Error]Timeout
+17/02/2016 05:21:12:475  [Error]false 0
+17/02/2016 05:21:12:475  [Message]ACK: index=0 false
+17/02/2016 05:21:12:475  [Error]Missing acks should be true true
+17/02/2016 05:21:13:480  [Error]Timeout
+17/02/2016 05:21:13:480  [Error]false 0
+17/02/2016 05:21:13:480  [Message]ACK: index=1 false
+17/02/2016 05:21:13:480  [Error]Missing acks should be true true
+17/02/2016 05:21:13:480  [Error]Timeout
+17/02/2016 05:21:13:480  [Error]false 1
+17/02/2016 05:21:13:480  [Message]ACK: index=2 false
+17/02/2016 05:21:13:481  [Error]Missing acks should be true true
+17/02/2016 05:21:13:481  [Error]Timeout
+17/02/2016 05:21:13:481  [Error]false 2
+17/02/2016 05:21:13:481  [Message]ACK: index=3 false
+17/02/2016 05:21:13:481  [Error]Missing acks should be true true
+17/02/2016 05:21:13:482  [Error]Timeout
+17/02/2016 05:21:13:482  [Error]false 3
+17/02/2016 05:21:13:482  [Message]ACK: index=0 false
+17/02/2016 05:21:13:482  [Error]Missing acks should be true true
+17/02/2016 05:21:14:486  [Error]Timeout
+17/02/2016 05:21:14:486  [Error]false 0
+17/02/2016 05:21:14:486  [Message]ACK: index=1 false
+17/02/2016 05:21:14:486  [Error]Missing acks should be true true
+17/02/2016 05:21:14:487  [Error]Timeout
+17/02/2016 05:21:14:487  [Error]false 1
+17/02/2016 05:21:14:487  [Message]ACK: index=2 false
+17/02/2016 05:21:14:487  [Error]Missing acks should be true true
+17/02/2016 05:21:14:488  [Error]Timeout
+17/02/2016 05:21:14:488  [Error]false 2
+17/02/2016 05:21:14:488  [Message]ACK: index=3 false
+17/02/2016 05:21:14:488  [Error]Missing acks should be true true
+17/02/2016 05:21:14:488  [Error]Timeout
+17/02/2016 05:21:14:488  [Error]false 3
+17/02/2016 05:21:14:488  [Message]ACK: index=0 false
+17/02/2016 05:21:14:488  [Error]Missing acks should be true true
+17/02/2016 05:21:15:492  [Error]Timeout
+17/02/2016 05:21:15:492  [Error]false 0
+17/02/2016 05:21:15:492  [Message]ACK: index=1 false
+17/02/2016 05:21:15:492  [Error]Missing acks should be true true
+17/02/2016 05:21:15:492  [Error]Timeout
+17/02/2016 05:21:15:492  [Error]false 1
+17/02/2016 05:21:15:493  [Message]ACK: index=2 false
+17/02/2016 05:21:15:493  [Error]Missing acks should be true true
+17/02/2016 05:21:15:493  [Error]Timeout
+17/02/2016 05:21:15:493  [Error]false 2
+17/02/2016 05:21:15:493  [Message]ACK: index=3 false
+17/02/2016 05:21:15:493  [Error]Missing acks should be true true
+17/02/2016 05:21:15:494  [Error]Timeout
+17/02/2016 05:21:15:494  [Error]false 3
+17/02/2016 05:21:15:494  [Message]ACK: index=0 false
+17/02/2016 05:21:15:494  [Error]Missing acks should be true true
+17/02/2016 05:21:16:499  [Error]Timeout
+17/02/2016 05:21:16:499  [Error]false 0
+17/02/2016 05:21:16:499  [Message]ACK: index=1 false
+17/02/2016 05:21:16:499  [Error]Missing acks should be true true
+17/02/2016 05:21:16:500  [Error]Timeout
+17/02/2016 05:21:16:500  [Error]false 1
+17/02/2016 05:21:16:500  [Message]ACK: index=2 false
+17/02/2016 05:21:16:500  [Error]Missing acks should be true true
+17/02/2016 05:21:16:500  [Error]Timeout
+17/02/2016 05:21:16:500  [Error]false 2
+17/02/2016 05:21:16:500  [Message]ACK: index=3 false
+17/02/2016 05:21:16:500  [Error]Missing acks should be true true
+17/02/2016 05:21:16:501  [Error]Timeout
+17/02/2016 05:21:16:501  [Error]false 3
+17/02/2016 05:21:16:501  [Message]ACK: index=0 false
+17/02/2016 05:21:16:501  [Error]Missing acks should be true true
+17/02/2016 05:21:17:505  [Error]Timeout
+17/02/2016 05:21:17:505  [Error]false 0
+17/02/2016 05:21:17:505  [Message]ACK: index=1 false
+17/02/2016 05:21:17:505  [Error]Missing acks should be true true
+17/02/2016 05:21:17:506  [Error]Timeout
+17/02/2016 05:21:17:506  [Error]false 1
+17/02/2016 05:21:17:506  [Message]ACK: index=2 false
+17/02/2016 05:21:17:506  [Error]Missing acks should be true true
+17/02/2016 05:21:17:506  [Error]Timeout
+17/02/2016 05:21:17:506  [Error]false 2
+17/02/2016 05:21:17:506  [Message]ACK: index=3 false
+17/02/2016 05:21:17:507  [Error]Missing acks should be true true
+17/02/2016 05:21:17:507  [Error]Timeout
+17/02/2016 05:21:17:507  [Error]false 3
+17/02/2016 05:21:17:507  [Message]Is ACK: truemissing?
+17/02/2016 05:21:17:507  [Error]Can not delet the key: a because two face commit failed
+17/02/2016 05:21:17:507  [Message]{}
+17/02/2016 05:21:18:520  [Error]Timeout
+17/02/2016 05:21:18:520  [Error]false 0
+17/02/2016 05:21:18:520  [Message]ACK: index=0 false
+17/02/2016 05:21:18:521  [Error]Missing acks should be true true
+17/02/2016 05:21:19:525  [Error]Timeout
+17/02/2016 05:21:19:525  [Error]false 0
+17/02/2016 05:21:19:525  [Message]ACK: index=1 false
+17/02/2016 05:21:19:525  [Error]Missing acks should be true true
+17/02/2016 05:21:19:526  [Error]Timeout
+17/02/2016 05:21:19:526  [Error]false 1
+17/02/2016 05:21:19:526  [Message]ACK: index=2 false
+17/02/2016 05:21:19:526  [Error]Missing acks should be true true
+17/02/2016 05:21:19:526  [Error]Timeout
+17/02/2016 05:21:19:526  [Error]false 2
+17/02/2016 05:21:19:526  [Message]ACK: index=3 false
+17/02/2016 05:21:19:527  [Error]Missing acks should be true true
+17/02/2016 05:21:19:527  [Error]Timeout
+17/02/2016 05:21:19:527  [Error]false 3
+17/02/2016 05:21:19:527  [Message]ACK: index=0 false
+17/02/2016 05:21:19:527  [Error]Missing acks should be true true
+17/02/2016 05:21:20:530  [Error]Timeout
+17/02/2016 05:21:20:530  [Error]false 0
+17/02/2016 05:21:20:530  [Message]ACK: index=1 false
+17/02/2016 05:21:20:530  [Error]Missing acks should be true true
+17/02/2016 05:21:20:531  [Error]Timeout
+17/02/2016 05:21:20:531  [Error]false 1
+17/02/2016 05:21:20:531  [Message]ACK: index=2 false
+17/02/2016 05:21:20:531  [Error]Missing acks should be true true
+17/02/2016 05:21:20:532  [Error]Timeout
+17/02/2016 05:21:20:532  [Error]false 2
+17/02/2016 05:21:20:532  [Message]ACK: index=3 false
+17/02/2016 05:21:20:532  [Error]Missing acks should be true true
+17/02/2016 05:21:20:532  [Error]Timeout
+17/02/2016 05:21:20:532  [Error]false 3
+17/02/2016 05:21:20:532  [Message]ACK: index=0 false
+17/02/2016 05:21:20:532  [Error]Missing acks should be true true
+17/02/2016 05:21:21:536  [Error]Timeout
+17/02/2016 05:21:21:536  [Error]false 0
+17/02/2016 05:21:21:537  [Message]ACK: index=1 false
+17/02/2016 05:21:21:537  [Error]Missing acks should be true true
+17/02/2016 05:21:21:537  [Error]Timeout
+17/02/2016 05:21:21:537  [Error]false 1
+17/02/2016 05:21:21:537  [Message]ACK: index=2 false
+17/02/2016 05:21:21:538  [Error]Missing acks should be true true
+17/02/2016 05:21:21:538  [Error]Timeout
+17/02/2016 05:21:21:538  [Error]false 2
+17/02/2016 05:21:21:538  [Message]ACK: index=3 false
+17/02/2016 05:21:21:538  [Error]Missing acks should be true true
+17/02/2016 05:21:21:539  [Error]Timeout
+17/02/2016 05:21:21:539  [Error]false 3
+17/02/2016 05:21:21:539  [Message]ACK: index=0 false
+17/02/2016 05:21:21:539  [Error]Missing acks should be true true
+17/02/2016 05:21:22:543  [Error]Timeout
+17/02/2016 05:21:22:543  [Error]false 0
+17/02/2016 05:21:22:543  [Message]ACK: index=1 false
+17/02/2016 05:21:22:543  [Error]Missing acks should be true true
+17/02/2016 05:21:22:543  [Error]Timeout
+17/02/2016 05:21:22:544  [Error]false 1
+17/02/2016 05:21:22:544  [Message]ACK: index=2 false
+17/02/2016 05:21:22:544  [Error]Missing acks should be true true
+17/02/2016 05:21:22:545  [Error]Timeout
+17/02/2016 05:21:22:545  [Error]false 2
+17/02/2016 05:21:22:545  [Message]ACK: index=3 false
+17/02/2016 05:21:22:546  [Error]Missing acks should be true true
+17/02/2016 05:21:22:546  [Error]Timeout
+17/02/2016 05:21:22:546  [Error]false 3
+17/02/2016 05:21:22:546  [Message]ACK: index=0 false
+17/02/2016 05:21:22:546  [Error]Missing acks should be true true
+17/02/2016 05:21:23:550  [Error]Timeout
+17/02/2016 05:21:23:550  [Error]false 0
+17/02/2016 05:21:23:550  [Message]ACK: index=1 false
+17/02/2016 05:21:23:550  [Error]Missing acks should be true true
+17/02/2016 05:21:23:551  [Error]Timeout
+17/02/2016 05:21:23:551  [Error]false 1
+17/02/2016 05:21:23:551  [Message]ACK: index=2 false
+17/02/2016 05:21:23:551  [Error]Missing acks should be true true
+17/02/2016 05:21:23:551  [Error]Timeout
+17/02/2016 05:21:23:551  [Error]false 2
+17/02/2016 05:21:23:552  [Message]ACK: index=3 false
+17/02/2016 05:21:23:552  [Error]Missing acks should be true true
+17/02/2016 05:21:23:552  [Error]Timeout
+17/02/2016 05:21:23:552  [Error]false 3
+17/02/2016 05:21:23:552  [Message]Is ACK: truemissing?
+17/02/2016 05:21:23:552  [Error]Server call: failed to do two phase commit
+17/02/2016 05:21:23:552  [Message]{}
+17/02/2016 05:21:23:554  [Error]Get Key: b does not exist in KeySet
+17/02/2016 05:21:23:555  [Error]Get Key: b does not exist in KeySet
+17/02/2016 05:21:24:562  [Error]Timeout
+17/02/2016 05:21:24:562  [Error]false 0
+17/02/2016 05:21:24:562  [Message]ACK: index=0 false
+17/02/2016 05:21:24:563  [Error]Missing acks should be true true
+17/02/2016 05:21:25:568  [Error]Timeout
+17/02/2016 05:21:25:568  [Error]false 0
+17/02/2016 05:21:25:568  [Message]ACK: index=1 false
+17/02/2016 05:21:25:568  [Error]Missing acks should be true true
+17/02/2016 05:21:25:569  [Error]Timeout
+17/02/2016 05:21:25:569  [Error]false 1
+17/02/2016 05:21:25:569  [Message]ACK: index=2 false
+17/02/2016 05:21:25:569  [Error]Missing acks should be true true
+17/02/2016 05:21:25:570  [Error]Timeout
+17/02/2016 05:21:25:570  [Error]false 2
+17/02/2016 05:21:25:570  [Message]ACK: index=3 false
+17/02/2016 05:21:25:570  [Error]Missing acks should be true true
+17/02/2016 05:21:25:570  [Error]Timeout
+17/02/2016 05:21:25:570  [Error]false 3
+17/02/2016 05:21:25:570  [Message]ACK: index=0 false
+17/02/2016 05:21:25:571  [Error]Missing acks should be true true
+17/02/2016 05:21:26:576  [Error]Timeout
+17/02/2016 05:21:26:576  [Error]false 0
+17/02/2016 05:21:26:576  [Message]ACK: index=1 false
+17/02/2016 05:21:26:576  [Error]Missing acks should be true true
+17/02/2016 05:21:26:577  [Error]Timeout
+17/02/2016 05:21:26:577  [Error]false 1
+17/02/2016 05:21:26:577  [Message]ACK: index=2 false
+17/02/2016 05:21:26:577  [Error]Missing acks should be true true
+17/02/2016 05:21:26:577  [Error]Timeout
+17/02/2016 05:21:26:577  [Error]false 2
+17/02/2016 05:21:26:577  [Message]ACK: index=3 false
+17/02/2016 05:21:26:578  [Error]Missing acks should be true true
+17/02/2016 05:21:26:578  [Error]Timeout
+17/02/2016 05:21:26:578  [Error]false 3
+17/02/2016 05:21:26:578  [Message]ACK: index=0 false
+17/02/2016 05:21:26:578  [Error]Missing acks should be true true
+17/02/2016 05:21:27:585  [Error]Timeout
+17/02/2016 05:21:27:585  [Error]false 0
+17/02/2016 05:21:27:585  [Message]ACK: index=1 false
+17/02/2016 05:21:27:586  [Error]Missing acks should be true true
+17/02/2016 05:21:27:588  [Error]Timeout
+17/02/2016 05:21:27:588  [Error]false 1
+17/02/2016 05:21:27:588  [Message]ACK: index=2 false
+17/02/2016 05:21:27:588  [Error]Missing acks should be true true
+17/02/2016 05:21:27:591  [Error]Timeout
+17/02/2016 05:21:27:591  [Error]false 2
+17/02/2016 05:21:27:591  [Message]ACK: index=3 false
+17/02/2016 05:21:27:591  [Error]Missing acks should be true true
+17/02/2016 05:21:27:592  [Error]Timeout
+17/02/2016 05:21:27:592  [Error]false 3
+17/02/2016 05:21:27:592  [Message]ACK: index=0 false
+17/02/2016 05:21:27:592  [Error]Missing acks should be true true
+17/02/2016 05:21:28:596  [Error]Timeout
+17/02/2016 05:21:28:596  [Error]false 0
+17/02/2016 05:21:28:597  [Message]ACK: index=1 false
+17/02/2016 05:21:28:597  [Error]Missing acks should be true true
+17/02/2016 05:21:28:598  [Error]Timeout
+17/02/2016 05:21:28:598  [Error]false 1
+17/02/2016 05:21:28:599  [Message]ACK: index=2 false
+17/02/2016 05:21:28:599  [Error]Missing acks should be true true
+17/02/2016 05:21:28:605  [Error]Timeout
+17/02/2016 05:21:28:605  [Error]false 2
+17/02/2016 05:21:28:605  [Message]ACK: index=3 false
+17/02/2016 05:21:28:605  [Error]Missing acks should be true true
+17/02/2016 05:21:28:605  [Error]Timeout
+17/02/2016 05:21:28:605  [Error]false 3
+17/02/2016 05:21:28:606  [Message]ACK: index=0 false
+17/02/2016 05:21:28:606  [Error]Missing acks should be true true
+17/02/2016 05:21:29:610  [Error]Timeout
+17/02/2016 05:21:29:610  [Error]false 0
+17/02/2016 05:21:29:610  [Message]ACK: index=1 false
+17/02/2016 05:21:29:610  [Error]Missing acks should be true true
+17/02/2016 05:21:29:610  [Error]Timeout
+17/02/2016 05:21:29:610  [Error]false 1
+17/02/2016 05:21:29:610  [Message]ACK: index=2 false
+17/02/2016 05:21:29:611  [Error]Missing acks should be true true
+17/02/2016 05:21:29:611  [Error]Timeout
+17/02/2016 05:21:29:611  [Error]false 2
+17/02/2016 05:21:29:611  [Message]ACK: index=3 false
+17/02/2016 05:21:29:611  [Error]Missing acks should be true true
+17/02/2016 05:21:29:611  [Error]Timeout
+17/02/2016 05:21:29:611  [Error]false 3
+17/02/2016 05:21:29:612  [Message]Is ACK: truemissing?
+17/02/2016 05:21:29:612  [Error]Can not delet the key: b because two face commit failed
+17/02/2016 05:21:29:612  [Message]{}
+17/02/2016 05:21:30:620  [Error]Timeout
+17/02/2016 05:21:30:620  [Error]false 0
+17/02/2016 05:21:30:620  [Message]ACK: index=0 false
+17/02/2016 05:21:30:620  [Error]Missing acks should be true true
+17/02/2016 05:21:31:622  [Error]Timeout
+17/02/2016 05:21:31:622  [Error]false 0
+17/02/2016 05:21:31:622  [Message]ACK: index=1 false
+17/02/2016 05:21:31:622  [Error]Missing acks should be true true
+17/02/2016 05:21:31:623  [Error]Timeout
+17/02/2016 05:21:31:623  [Error]false 1
+17/02/2016 05:21:31:623  [Message]ACK: index=2 false
+17/02/2016 05:21:31:623  [Error]Missing acks should be true true
+17/02/2016 05:21:31:623  [Error]Timeout
+17/02/2016 05:21:31:624  [Error]false 2
+17/02/2016 05:21:31:624  [Message]ACK: index=3 false
+17/02/2016 05:21:31:624  [Error]Missing acks should be true true
+17/02/2016 05:21:31:624  [Error]Timeout
+17/02/2016 05:21:31:624  [Error]false 3
+17/02/2016 05:21:31:624  [Message]ACK: index=0 false
+17/02/2016 05:21:31:624  [Error]Missing acks should be true true
+17/02/2016 05:21:32:629  [Error]Timeout
+17/02/2016 05:21:32:630  [Error]false 0
+17/02/2016 05:21:32:630  [Message]ACK: index=1 false
+17/02/2016 05:21:32:630  [Error]Missing acks should be true true
+17/02/2016 05:21:32:630  [Error]Timeout
+17/02/2016 05:21:32:630  [Error]false 1
+17/02/2016 05:21:32:631  [Message]ACK: index=2 false
+17/02/2016 05:21:32:631  [Error]Missing acks should be true true
+17/02/2016 05:21:32:631  [Error]Timeout
+17/02/2016 05:21:32:631  [Error]false 2
+17/02/2016 05:21:32:631  [Message]ACK: index=3 false
+17/02/2016 05:21:32:631  [Error]Missing acks should be true true
+17/02/2016 05:21:32:632  [Error]Timeout
+17/02/2016 05:21:32:632  [Error]false 3
+17/02/2016 05:21:32:632  [Message]ACK: index=0 false
+17/02/2016 05:21:32:632  [Error]Missing acks should be true true
+17/02/2016 05:21:33:637  [Error]Timeout
+17/02/2016 05:21:33:637  [Error]false 0
+17/02/2016 05:21:33:637  [Message]ACK: index=1 false
+17/02/2016 05:21:33:637  [Error]Missing acks should be true true
+17/02/2016 05:21:33:637  [Error]Timeout
+17/02/2016 05:21:33:638  [Error]false 1
+17/02/2016 05:21:33:638  [Message]ACK: index=2 false
+17/02/2016 05:21:33:638  [Error]Missing acks should be true true
+17/02/2016 05:21:33:638  [Error]Timeout
+17/02/2016 05:21:33:638  [Error]false 2
+17/02/2016 05:21:33:638  [Message]ACK: index=3 false
+17/02/2016 05:21:33:638  [Error]Missing acks should be true true
+17/02/2016 05:21:33:639  [Error]Timeout
+17/02/2016 05:21:33:639  [Error]false 3
+17/02/2016 05:21:33:639  [Message]ACK: index=0 false
+17/02/2016 05:21:33:639  [Error]Missing acks should be true true
+17/02/2016 05:21:34:643  [Error]Timeout
+17/02/2016 05:21:34:644  [Error]false 0
+17/02/2016 05:21:34:644  [Message]ACK: index=1 false
+17/02/2016 05:21:34:644  [Error]Missing acks should be true true
+17/02/2016 05:21:34:644  [Error]Timeout
+17/02/2016 05:21:34:644  [Error]false 1
+17/02/2016 05:21:34:644  [Message]ACK: index=2 false
+17/02/2016 05:21:34:644  [Error]Missing acks should be true true
+17/02/2016 05:21:34:645  [Error]Timeout
+17/02/2016 05:21:34:645  [Error]false 2
+17/02/2016 05:21:34:645  [Message]ACK: index=3 false
+17/02/2016 05:21:34:645  [Error]Missing acks should be true true
+17/02/2016 05:21:34:646  [Error]Timeout
+17/02/2016 05:21:34:646  [Error]false 3
+17/02/2016 05:21:34:646  [Message]ACK: index=0 false
+17/02/2016 05:21:34:646  [Error]Missing acks should be true true
+17/02/2016 05:21:35:650  [Error]Timeout
+17/02/2016 05:21:35:651  [Error]false 0
+17/02/2016 05:21:35:651  [Message]ACK: index=1 false
+17/02/2016 05:21:35:651  [Error]Missing acks should be true true
+17/02/2016 05:21:35:651  [Error]Timeout
+17/02/2016 05:21:35:651  [Error]false 1
+17/02/2016 05:21:35:651  [Message]ACK: index=2 false
+17/02/2016 05:21:35:651  [Error]Missing acks should be true true
+17/02/2016 05:21:35:652  [Error]Timeout
+17/02/2016 05:21:35:652  [Error]false 2
+17/02/2016 05:21:35:652  [Message]ACK: index=3 false
+17/02/2016 05:21:35:652  [Error]Missing acks should be true true
+17/02/2016 05:21:35:652  [Error]Timeout
+17/02/2016 05:21:35:652  [Error]false 3
+17/02/2016 05:21:35:652  [Message]Is ACK: truemissing?
+17/02/2016 05:21:35:652  [Error]Server call: failed to do two phase commit
+17/02/2016 05:21:35:652  [Message]{}
+17/02/2016 05:21:35:655  [Error]Get Key: c does not exist in KeySet
+17/02/2016 05:21:35:656  [Error]Get Key: c does not exist in KeySet
+17/02/2016 05:21:36:662  [Error]Timeout
+17/02/2016 05:21:36:662  [Error]false 0
+17/02/2016 05:21:36:662  [Message]ACK: index=0 false
+17/02/2016 05:21:36:662  [Error]Missing acks should be true true
+17/02/2016 05:21:37:666  [Error]Timeout
+17/02/2016 05:21:37:666  [Error]false 0
+17/02/2016 05:21:37:666  [Message]ACK: index=1 false
+17/02/2016 05:21:37:666  [Error]Missing acks should be true true
+17/02/2016 05:21:37:667  [Error]Timeout
+17/02/2016 05:21:37:667  [Error]false 1
+17/02/2016 05:21:37:667  [Message]ACK: index=2 false
+17/02/2016 05:21:37:667  [Error]Missing acks should be true true
+17/02/2016 05:21:37:668  [Error]Timeout
+17/02/2016 05:21:37:668  [Error]false 2
+17/02/2016 05:21:37:668  [Message]ACK: index=3 false
+17/02/2016 05:21:37:668  [Error]Missing acks should be true true
+17/02/2016 05:21:37:669  [Error]Timeout
+17/02/2016 05:21:37:669  [Error]false 3
+17/02/2016 05:21:37:669  [Message]ACK: index=0 false
+17/02/2016 05:21:37:669  [Error]Missing acks should be true true
+17/02/2016 05:21:38:674  [Error]Timeout
+17/02/2016 05:21:38:674  [Error]false 0
+17/02/2016 05:21:38:675  [Message]ACK: index=1 false
+17/02/2016 05:21:38:675  [Error]Missing acks should be true true
+17/02/2016 05:21:38:675  [Error]Timeout
+17/02/2016 05:21:38:675  [Error]false 1
+17/02/2016 05:21:38:675  [Message]ACK: index=2 false
+17/02/2016 05:21:38:675  [Error]Missing acks should be true true
+17/02/2016 05:21:38:676  [Error]Timeout
+17/02/2016 05:21:38:677  [Error]false 2
+17/02/2016 05:21:38:677  [Message]ACK: index=3 false
+17/02/2016 05:21:38:677  [Error]Missing acks should be true true
+17/02/2016 05:21:38:678  [Error]Timeout
+17/02/2016 05:21:38:678  [Error]false 3
+17/02/2016 05:21:38:678  [Message]ACK: index=0 false
+17/02/2016 05:21:38:678  [Error]Missing acks should be true true
+17/02/2016 05:21:39:683  [Error]Timeout
+17/02/2016 05:21:39:684  [Error]false 0
+17/02/2016 05:21:39:684  [Message]ACK: index=1 false
+17/02/2016 05:21:39:684  [Error]Missing acks should be true true
+17/02/2016 05:21:39:684  [Error]Timeout
+17/02/2016 05:21:39:684  [Error]false 1
+17/02/2016 05:21:39:684  [Message]ACK: index=2 false
+17/02/2016 05:21:39:685  [Error]Missing acks should be true true
+17/02/2016 05:21:39:685  [Error]Timeout
+17/02/2016 05:21:39:685  [Error]false 2
+17/02/2016 05:21:39:685  [Message]ACK: index=3 false
+17/02/2016 05:21:39:685  [Error]Missing acks should be true true
+17/02/2016 05:21:39:689  [Error]Timeout
+17/02/2016 05:21:39:689  [Error]false 3
+17/02/2016 05:21:39:689  [Message]ACK: index=0 false
+17/02/2016 05:21:39:689  [Error]Missing acks should be true true
+17/02/2016 05:21:40:690  [Error]Timeout
+17/02/2016 05:21:40:690  [Error]false 0
+17/02/2016 05:21:40:690  [Message]ACK: index=1 false
+17/02/2016 05:21:40:691  [Error]Missing acks should be true true
+17/02/2016 05:21:40:691  [Error]Timeout
+17/02/2016 05:21:40:691  [Error]false 1
+17/02/2016 05:21:40:691  [Message]ACK: index=2 false
+17/02/2016 05:21:40:691  [Error]Missing acks should be true true
+17/02/2016 05:21:40:691  [Error]Timeout
+17/02/2016 05:21:40:692  [Error]false 2
+17/02/2016 05:21:40:692  [Message]ACK: index=3 false
+17/02/2016 05:21:40:692  [Error]Missing acks should be true true
+17/02/2016 05:21:40:692  [Error]Timeout
+17/02/2016 05:21:40:692  [Error]false 3
+17/02/2016 05:21:40:692  [Message]ACK: index=0 false
+17/02/2016 05:21:40:692  [Error]Missing acks should be true true
+17/02/2016 05:21:41:697  [Error]Timeout
+17/02/2016 05:21:41:698  [Error]false 0
+17/02/2016 05:21:41:698  [Message]ACK: index=1 false
+17/02/2016 05:21:41:698  [Error]Missing acks should be true true
+17/02/2016 05:21:41:698  [Error]Timeout
+17/02/2016 05:21:41:698  [Error]false 1
+17/02/2016 05:21:41:699  [Message]ACK: index=2 false
+17/02/2016 05:21:41:699  [Error]Missing acks should be true true
+17/02/2016 05:21:41:702  [Error]Timeout
+17/02/2016 05:21:41:702  [Error]false 2
+17/02/2016 05:21:41:703  [Message]ACK: index=3 false
+17/02/2016 05:21:41:703  [Error]Missing acks should be true true
+17/02/2016 05:21:41:703  [Error]Timeout
+17/02/2016 05:21:41:703  [Error]false 3
+17/02/2016 05:21:41:703  [Message]Is ACK: truemissing?
+17/02/2016 05:21:41:703  [Error]Can not delet the key: c because two face commit failed
+17/02/2016 05:21:41:703  [Message]{}
+17/02/2016 05:49:53:292  [Message]RPC Server start running on : Yaquns-MacBook-Pro.local/10.0.0.4
+17/02/2016 05:49:53:493  [Message]Server bind......
+17/02/2016 05:49:53:496  [Message]Sync......
+17/02/2016 05:49:53:497  [Message]Server is ready!

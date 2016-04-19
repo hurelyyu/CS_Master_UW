@@ -1,0 +1,61 @@
+package paxosServer;
+
+
+import java.rmi.Naming;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
+import java.rmi.server.UnicastRemoteObject;
+import java.util.*;
+
+public class RMIServer {
+
+	public static void main(String[] args) {
+
+		try{
+			String name = "KVService";
+			KVStore kvs = new KVStore();
+			KVService stub = (KVService)UnicastRemoteObject.exportObject(kvs,0);
+			Registry reg = LocateRegistry.createRegistry(1099);
+			reg.bind(name, stub);
+
+			String name2 = "KVSync";
+			Paxos stub2 = (Paxos)UnicastRemoteObject.toStub(kvs);
+			//			Registry reg2 = LocateRegistry.createRegistry(1088);
+			reg.bind(name2, stub2);
+
+			List<Paxos> my_replicated_servers = new ArrayList<Paxos>();
+
+			int i = 0;
+			ArrayList<String> missingServers = new ArrayList<String>(Arrays.asList(args));
+			//			System.out.println(args[0]);
+			//			System.out.println(missingServers.size());
+			//			for(String s:missingServers){
+			//				System.out.println(s);
+			//			}
+			Paxos tpc;
+			while(!missingServers.isEmpty()){
+				System.out.println("Trying server: " +missingServers.get(0));
+				try{
+					tpc = (Paxos) Naming.lookup("//"+ missingServers.get(0) +"/"+name2);
+					if(tpc != null){
+						my_replicated_servers.add(tpc);
+						missingServers.remove(i);
+						System.out.println(missingServers.isEmpty());
+
+					}
+				}catch(Exception ex){
+					System.out.println("Failed to connect to " + missingServers.get(0));
+				}
+			}
+
+			kvs.setMy_replicated_servers(my_replicated_servers);
+
+			System.out.println("Server ready");
+		}catch(Exception e){
+			//			System.out.println("RMIServer error: "+e.getMessage());
+			e.printStackTrace();
+			System.exit(0);
+		}
+	}
+
+}

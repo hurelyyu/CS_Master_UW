@@ -1,0 +1,47 @@
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Date;
+import java.text.SimpleDateFormat;
+import java.text.DateFormat;
+
+public class myLog{
+   private static FileWriter fw;
+	private static String logTimer(){
+		SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy hh:mm:ss:SSS");
+		Date currentTime = new Date(System.currentTimeMillis());
+		String currentTimeString = formatter.format(currentTime);
+		return currentTimeString;	
+	}
+public static createLog(String path) throws IOException{
+	fw = new FileWriter(path, true);
+}
+public static void error(String logContent) {
+	System.out.println(logTimer() + " " + logContent);
+	try {
+		fw.write(logTimer() + "  " + "[Error]" + logContent + "\r\n");
+		fw.flush();
+	} catch (IOException e) {
+	}
+}
+public static void normal(String logContent, boolean verbose) {
+	System.out.println(logTimer() + " " + logContent);
+	try {
+		fw.write(logTimer() + "  " + "[Message]" +  logContent + "\r\n");
+		fw.flush();
+		if(verbose){
+            System.out.println(logTimer() + " " + logContent);
+        }
+	} catch (IOException e) {
+	}
+}
+
+//function to return the current timestamp 
+public static String getTimestamp(){  
+   DateFormat dateformatter = new SimpleDateFormat("dd/MM/yyyy hh:mm:ss:SSS");
+   Date date = new Date();
+   return dateformatter.format(date);
+
+}
+
+}
+

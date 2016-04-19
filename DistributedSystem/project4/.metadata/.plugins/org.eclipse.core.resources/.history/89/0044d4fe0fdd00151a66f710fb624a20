@@ -1,0 +1,36 @@
+import java.rmi.RemoteException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ConcurrentMap;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.FutureTask;
+import java.util.concurrent.RunnableFuture;
+import java.util.concurrent.TimeUnit;
+
+public class Proposer implement Runnable{
+	private static final int QUORUM_SIZE = 3;
+	private List<Paxos> replicated_server;
+	private BlockingQueue<String> requests_queue;
+	private int server_id;
+	private int proposal_number = 0;
+	private ConcurrentMap<int, String> my_log;
+	List<String> replies;
+	
+	public Proposer(int server_id, final List<Paxos> replicated_server, BlockingQueue<String> requests_queue,
+			ConcurrentMap<int, String> the_log) {
+		this.server_id = server_id;
+		proposal_number = ((int)server_id) / 10;
+		this.replicated_server = replicated_server;
+		this.requests_queue = requests_queue;
+		my_log = the_log;
+		replies = new ArrayList<String>();
+		
+	}
+	
+	public enum Phase {
+		PREPARE, ACCEPT
+	}
+
+}

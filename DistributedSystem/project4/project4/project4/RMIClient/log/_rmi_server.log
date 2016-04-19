@@ -1,0 +1,4 @@
+2016-03-06 14:37:35,971 INFO  [RMIServer] Enter hostname
+2016-03-06 14:37:35,974 INFO  [RMIServer] Enter hostname
+2016-03-06 14:37:55,837 INFO  [RMIServer] Enter port
+2016-03-06 14:37:55,838 FATAL [RMIServer] Fatal error : Usage - port#, error caused due to null

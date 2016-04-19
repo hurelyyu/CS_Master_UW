@@ -1,0 +1,40 @@
+[2016/02/17 20:17:51] Client 1 is running on : Yaquns-MacBook-Pro.local/10.0.0.4
+[2016/02/17 20:17:58] Client 1 has issued request: put(key1,value1)
+[2016/02/17 20:18:07] Client 1 has issued request: put(key2,value2)
+[2016/02/17 20:18:16] Client 1 has issued request: put(key3,value3)
+[2016/02/17 20:18:25] Client 1 has issued request: put(key4,value4)
+[2016/02/17 20:18:34] Client 1 has issued request: put(key5,value5)
+[2016/02/17 20:18:37] Client 1 has issued request: get(key1)
+[2016/02/17 20:18:37] Client 1 has got--> key = key1 , value = null
+[2016/02/17 20:18:40] Client 1 has issued request: get(key2)
+[2016/02/17 20:18:40] Client 1 has got--> key = key2 , value = null
+[2016/02/17 20:18:43] Client 1 has issued request: get(key3)
+[2016/02/17 20:18:43] Client 1 has got--> key = key3 , value = null
+[2016/02/17 20:18:46] Client 1 has issued request: get(key4)
+[2016/02/17 20:18:46] Client 1 has got--> key = key4 , value = null
+[2016/02/17 20:18:49] Client 1 has issued request: get(key5)
+[2016/02/17 20:18:49] Client 1 has got--> key = key5 , value = null
+[2016/02/17 20:18:58] Client 1 has issued request: delete(key1)
+[2016/02/17 20:19:07] Client 1 has issued request: delete(key2)
+[2016/02/17 20:19:16] Client 1 has issued request: delete(key3)
+[2016/02/17 20:19:25] Client 1 has issued request: delete(key4)
+[2016/02/17 20:19:34] Client 1 has issued request: delete(key5)
+[2016/02/17 20:19:37] Client 1 has issued request: get(key1)
+[2016/02/17 20:19:37] Client 1 has got--> key = key1 , value = null
+[2016/02/17 20:19:46] Client 1 has issued request: put(key1,value1)
+[2016/02/17 20:19:55] Client 1 has issued request: put(key2,value2)
+[2016/02/17 20:20:04] Client 1 has issued request: put(key3,value3)
+[2016/02/17 20:20:13] Client 1 has issued request: put(key4,value4)
+[2016/02/17 20:20:22] Client 1 has issued request: put(key5,value5)
+[2016/02/17 20:20:25] Client 1 has issued request: get(key1)
+[2016/02/17 20:20:25] Client 1 has got--> key = key1 , value = null
+[2016/02/17 20:20:28] Client 1 has issued request: get(key2)
+[2016/02/17 20:20:28] Client 1 has got--> key = key2 , value = null
+[2016/02/17 20:20:31] Client 1 has issued request: get(key3)
+[2016/02/17 20:20:31] Client 1 has got--> key = key3 , value = null
+[2016/02/17 20:20:34] Client 1 has issued request: get(key4)
+[2016/02/17 20:20:34] Client 1 has got--> key = key4 , value = null
+[2016/02/17 20:20:37] Client 1 has issued request: get(key5)
+[2016/02/17 20:20:37] Client 1 has got--> key = key5 , value = null
+[2016/02/17 20:20:46] Client 1 has issued request: delete(key1)
+[2016/02/17 20:20:55] Client 1 has issued request: delete(key2)
